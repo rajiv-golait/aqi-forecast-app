@@ -1,0 +1,30 @@
+# Files to move to BIN (not part of current pipeline)
+
+# Top-level
+force_run_pipeline.py
+run_once_pipeline.py
+automated_pipeline.py
+run_complete_pipeline.py
+demo_api.py
+hackathon_pipeline.py
+demo_for_judges.py
+test_hackathon_system.py
+analyze_data.py
+debug_forecast_cache.py
+debug_forecast_data.py
+fix_forecast_file.py
+test_forecast_stations.py
+test_station_mapping.py
+test_station_service.py
+test_station_loading.py
+
+# Scripts
+scripts/train_ensemble_model_simple.py
+scripts/train_3day_forecast.py
+scripts/predict_3day_aqi_fast.py
+scripts/patch_forecast_station_ids.py
+
+# Automation
+automation/optimized_pipeline.py
+
+# (Add more if found unnecessary) 

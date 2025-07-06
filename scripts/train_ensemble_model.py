@@ -56,7 +56,7 @@ class AQIModelTrainer:
         
         # Model parameters - reduced for available data
         self.sequence_length = 24  # 1 day of hourly data (reduced from 48)
-        self.forecast_horizon = 12  # 12 hours ahead (reduced from 24)
+        self.forecast_horizon = self.config.FORECAST_HOURS  # Use config value for forecast horizon
         self.batch_size = 32
         self.epochs = 100
         
@@ -358,64 +358,73 @@ class AQIModelTrainer:
         # Train LSTM model
         logger.info("Training LSTM model...")
         lstm_model = self.build_lstm_model()
-        
+        lstm_checkpoint_path = str(self.models_dir / 'lstm_model.h5')
+        initial_epoch = 0
+        if os.path.exists(lstm_checkpoint_path):
+            lstm_model.load_weights(lstm_checkpoint_path)
+            logger.info(f"Resuming LSTM model from checkpoint: {lstm_checkpoint_path}")
         lstm_checkpoint = ModelCheckpoint(
-            str(self.models_dir / 'lstm_model.h5'),
+            lstm_checkpoint_path,
             monitor='val_loss',
             save_best_only=True
         )
-        
         lstm_history = lstm_model.fit(
             X_train, y_train,
             validation_data=(X_val, y_val),
             epochs=self.epochs,
             batch_size=self.batch_size,
             callbacks=[early_stop, reduce_lr, lstm_checkpoint],
-            verbose=1
+            verbose=1,
+            initial_epoch=initial_epoch
         )
-        
         self.models['lstm'] = lstm_model
         
         # Train GRU model
         logger.info("Training GRU model...")
         gru_model = self.build_gru_model()
-        
+        gru_checkpoint_path = str(self.models_dir / 'gru_model.h5')
+        initial_epoch = 0
+        if os.path.exists(gru_checkpoint_path):
+            gru_model.load_weights(gru_checkpoint_path)
+            logger.info(f"Resuming GRU model from checkpoint: {gru_checkpoint_path}")
         gru_checkpoint = ModelCheckpoint(
-            str(self.models_dir / 'gru_model.h5'),
+            gru_checkpoint_path,
             monitor='val_loss',
             save_best_only=True
         )
-        
         gru_history = gru_model.fit(
             X_train, y_train,
             validation_data=(X_val, y_val),
             epochs=self.epochs,
             batch_size=self.batch_size,
             callbacks=[early_stop, reduce_lr, gru_checkpoint],
-            verbose=1
+            verbose=1,
+            initial_epoch=initial_epoch
         )
-        
         self.models['gru'] = gru_model
         
         # Train Transformer model
         logger.info("Training Transformer model...")
         transformer_model = self.build_transformer_model()
-        
+        transformer_checkpoint_path = str(self.models_dir / 'transformer_model.h5')
+        initial_epoch = 0
+        if os.path.exists(transformer_checkpoint_path):
+            transformer_model.load_weights(transformer_checkpoint_path)
+            logger.info(f"Resuming Transformer model from checkpoint: {transformer_checkpoint_path}")
         transformer_checkpoint = ModelCheckpoint(
-            str(self.models_dir / 'transformer_model.h5'),
+            transformer_checkpoint_path,
             monitor='val_loss',
             save_best_only=True
         )
-        
         transformer_history = transformer_model.fit(
             X_train, y_train,
             validation_data=(X_val, y_val),
-                        epochs=self.epochs,
+            epochs=self.epochs,
             batch_size=self.batch_size,
             callbacks=[early_stop, reduce_lr, transformer_checkpoint],
-            verbose=1
+            verbose=1,
+            initial_epoch=initial_epoch
         )
-        
         self.models['transformer'] = transformer_model
         
         # Train gradient boosting models for residual correction
@@ -583,7 +592,8 @@ class AQIModelTrainer:
         logger.info(f"R²: {r2:.4f}")
         
         logger.info(f"\nMAE by forecast hour:")
-        for h in [0, 11, 23, 47, 71]:  # Sample hours
+        logger.info(f"hourly_mae length: {len(hourly_mae)}, forecast_horizon: {self.forecast_horizon}")
+        for h in range(min(len(hourly_mae), self.forecast_horizon)):
             logger.info(f"Hour {h+1}: {hourly_mae[h]:.2f}")
         
         # Save evaluation results

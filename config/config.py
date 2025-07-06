@@ -17,6 +17,14 @@ class Config:
     OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
     DATA_GOV_API_KEY = os.getenv("DATA_GOV_API_KEY")
     
+    # Supabase configuration (optional)
+    SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+    SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
+    SUPABASE_BUCKET = os.getenv("SUPABASE_BUCKET", "aqi-forecast")
+    
+    # Admin key for API key generation
+    ADMIN_KEY = os.getenv("ADMIN_KEY", "admin_key_123")
+    
     # Data retention
     DATA_RETENTION_DAYS = 7  # Keep only last 7 days
     
@@ -43,6 +51,11 @@ class Config:
         'pm25', 'pm10', 'no', 'no2', 'nox', 'nh3', 'co', 'so2', 'o3',
         'temperature', 'humidity', 'wind_speed', 'wind_deg'
     ]
+    
+    # Model version
+    MODEL_VERSION = "3day_ensemble_v1.0"
+    
+    FORECAST_HORIZON = FORECAST_HOURS
 
 # Create a settings instance for easy importing
 settings = Config()

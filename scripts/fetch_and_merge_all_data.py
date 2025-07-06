@@ -20,6 +20,8 @@ logger = logging.getLogger(__name__)
 
 POLLUTANT_COLS = ['pm25', 'pm10', 'aqi', 'no2', 'so2', 'o3', 'co']
 
+FETCH_LOG_PATH = 'data/fetch_merge_log.csv'
+
 class DataPipeline:
     def __init__(self):
         self.config = Config()
@@ -34,10 +36,12 @@ class DataPipeline:
         try:
             df_city = pd.read_csv('data/address.csv')
             for _, row in df_city.iterrows():
-                    key = (str(row['City']).strip().lower(), str(row['State']).strip().lower())
+                key = (str(row['City']).strip().lower(), str(row['State']).strip().lower())
                 city_coords[key] = (row['Latitude'], row['Longitude'])
+        except FileNotFoundError:
+            logger.info("address.csv not found (optional, skipping city-level coordinates).")
         except Exception as e:
-            logger.warning(f"Could not load address.csv: {e}")
+            logger.info(f"Could not load address.csv (optional): {e}")
         return city_coords
 
     def engineer_features(self, df):
@@ -69,34 +73,34 @@ class DataPipeline:
         # Load current coords
         df_coords = pd.read_csv('data/stations_with_coords.csv')
         existing_keys = set((str(row['StationName']).strip().lower(), str(row['City']).strip().lower(), str(row['State']).strip().lower()) for _, row in df_coords.iterrows())
-            # Load valid locations
-            with open('data/valid_locations.json', 'r') as f:
-                valid_locations = json.load(f)
-            missing = []
-            for state, cities in valid_locations.items():
-                for city, stations in cities.items():
-                    for station in stations:
-                        key = (str(station).strip().lower(), str(city).strip().lower(), str(state).strip().lower())
-                        if key not in existing_keys:
-                            missing.append({'StationName': station, 'City': city, 'State': state})
-            if not missing:
-                logger.info("No missing stations for coordinates.")
-                return
+        # Load valid locations
+        with open('data/valid_locations.json', 'r') as f:
+            valid_locations = json.load(f)
+        missing = []
+        for state, cities in valid_locations.items():
+            for city, stations in cities.items():
+                for station in stations:
+                    key = (str(station).strip().lower(), str(city).strip().lower(), str(state).strip().lower())
+                    if key not in existing_keys:
+                        missing.append({'StationName': station, 'City': city, 'State': state})
+        if not missing:
+            logger.info("No missing stations for coordinates.")
+            return
         logger.info(f"Found {len(missing)} stations missing coordinates. Attempting to geocode...")
         # Geocode using Nominatim
         for entry in missing:
-                query = f"{entry['StationName']}, {entry['City']}, {entry['State']}, India"
-                try:
+            query = f"{entry['StationName']}, {entry['City']}, {entry['State']}, India"
+            try:
                 url = f"https://nominatim.openstreetmap.org/search"
-                    params = {'q': query, 'format': 'json', 'limit': 1}
+                params = {'q': query, 'format': 'json', 'limit': 1}
                 resp = requests.get(url, params=params, headers={'User-Agent': 'aqi-forecast-app'})
-                    resp.raise_for_status()
-                    results = resp.json()
-                    if results:
+                resp.raise_for_status()
+                results = resp.json()
+                if results:
                     entry['Latitude'] = float(results[0]['lat'])
                     entry['Longitude'] = float(results[0]['lon'])
                     logger.info(f"Geocoded {query} -> ({entry['Latitude']}, {entry['Longitude']})")
-                        else:
+                else:
                     entry['Latitude'] = None
                     entry['Longitude'] = None
                     logger.warning(f"Could not geocode {query}")
@@ -117,7 +121,7 @@ class DataPipeline:
 
     def print_missing_station_addresses(self):
         """Print all (station, city, state) addresses missing from stations_with_coords.csv for manual geocoding."""
-    logger.info("Listing all stations missing coordinates...")
+        logger.info("Listing all stations missing coordinates...")
         df_coords = pd.read_csv('data/stations_with_coords.csv')
         existing_keys = set((str(row['StationName']).strip().lower(), str(row['City']).strip().lower(), str(row['State']).strip().lower()) for _, row in df_coords.iterrows())
         with open('data/valid_locations.json', 'r') as f:
@@ -157,7 +161,7 @@ class DataPipeline:
                 for row in reader:
                     key = (row['StationName'].strip().lower(), row['City'].strip().lower(), row['State'].strip().lower())
                     station_coords[key] = (row['Latitude'], row['Longitude'])
-    except Exception as e:
+        except Exception as e:
             logger.warning(f"Could not load stations_with_coords.csv: {e}")
         # Load city-level coords
         city_coords = {}
@@ -167,11 +171,13 @@ class DataPipeline:
                 for row in reader:
                     key = (row['City'].strip().lower(), row['State'].strip().lower())
                     city_coords[key] = (row['Latitude'], row['Longitude'])
+        except FileNotFoundError:
+            logger.info("address.csv not found (optional, skipping city-level coordinates).")
         except Exception as e:
-            logger.warning(f"Could not load address.csv: {e}")
+            logger.info(f"Could not load address.csv (optional): {e}")
         # Load all stations from valid_locations.json
         with open('data/valid_locations.json', 'r', encoding='utf-8') as f:
-                    valid_locations = json.load(f)
+            valid_locations = json.load(f)
         merged = []
         for state, cities in valid_locations.items():
             for city, stations in cities.items():
@@ -206,7 +212,7 @@ class DataPipeline:
             for _, row in df.iterrows():
                 key = (str(row['StationName']).strip().lower(), str(row['City']).strip().lower(), str(row['State']).strip().lower())
                 coords[key] = (row['Latitude'], row['Longitude'])
-    except Exception as e:
+        except Exception as e:
             logger.warning(f"Could not load merged_coords.csv: {e}")
         return coords
 
@@ -215,17 +221,29 @@ class DataPipeline:
         try:
             logger.info("Starting data pipeline for ALL valid India stations (AQI + weather only, no satellite)...")
             end_date = datetime.now()
-        start_date = end_date - timedelta(days=1)
+            start_date = end_date - timedelta(days=1)
+            
             # Load valid locations
             with open('data/valid_locations.json', 'r') as f:
                 valid_locations = json.load(f)
+            
+            # Count total stations in valid_locations.json
+            total_valid_stations = sum(len(stations) for cities in valid_locations.values() for stations in cities.values())
+            logger.info(f"Total valid stations to check: {total_valid_stations}")
+            
             all_data = []
             # Load coordinates from merged_coords.csv
             coords_df = pd.read_csv('data/merged_coords.csv')
             city_coords = {(str(row['City']).strip().lower(), str(row['State']).strip().lower()): (row['Latitude'], row['Longitude']) for _, row in coords_df.iterrows()}
+            
             # Fetch all-India AQI data once
             aqi_df = self.aqi_fetcher.fetch_all_india_data(start_date, end_date)
-            logger.info(f"Fetched {len(aqi_df)} AQI records for all India.")
+            total_api_stations = len(aqi_df) if not aqi_df.empty else 0
+            logger.info(f"Fetched {total_api_stations} AQI records for all India.")
+            
+            stations_with_data = 0
+            stations_processed = 0
+            
             for state, cities in valid_locations.items():
                 for city, stations in cities.items():
                     key = (city.strip().lower(), state.strip().lower())
@@ -234,11 +252,15 @@ class DataPipeline:
                         logger.warning(f"No coordinates for {city}, {state}. Skipping.")
                         continue
                     for station in stations:
+                        stations_processed += 1
                         # Filter AQI records for this station
                         station_aqi = aqi_df[(aqi_df['city'].str.strip().str.lower() == city.strip().lower()) & (aqi_df['state'].str.strip().str.lower() == state.strip().lower()) & (aqi_df['station'].str.strip().str.lower() == station.strip().lower())]
                         if station_aqi.empty:
                             logger.info(f"No AQI data for {station}, {city}, {state} in last 24h.")
                             continue
+                        
+                        stations_with_data += 1
+                        
                         # Validate coordinates
                         if lat is None or lon is None or str(lat).strip() == '' or str(lon).strip() == '':
                             logger.warning(f"Missing coordinates for {city}, {state}. Skipping weather fetch.")
@@ -271,9 +293,15 @@ class DataPipeline:
                                         merged[col] = prev.iloc[-1]
                             merged.update(weather.iloc[0].to_dict())
                             all_data.append(merged)
+            
             if not all_data:
                 logger.error("No data collected from any station.")
-                return
+                return {
+                    'total_api_stations': total_api_stations,
+                    'stations_with_data': 0,
+                    'stations_appended': 0
+                }
+            
             df = pd.DataFrame(all_data)
             # Drop rows where all AQI pollutant columns are NaN
             pollutant_cols = ['pm25', 'pm10', 'no2', 'so2', 'o3', 'co']
@@ -286,23 +314,48 @@ class DataPipeline:
             logger.info(f"Final merged data shape: {df.shape}")
             print("\n--- DATA PREVIEW ---")
             print(df.head(10))
+            
             # Save to CSV (append new data, avoid duplicates)
             output_path = 'data/latest_aqi_weather.csv'
+            old_df = None
             if os.path.exists(output_path):
                 old_df = pd.read_csv(output_path)
                 combined = pd.concat([old_df, df], ignore_index=True)
                 # Drop duplicates based on station, city, state, datetime
                 if combined is not None and not combined.empty:
                     combined = combined.drop_duplicates(subset=['station', 'city', 'state', 'datetime'], keep='last')
+                    # Keep only last 14 days of data
+                    combined['datetime'] = pd.to_datetime(combined['datetime'])
+                    cutoff = combined['datetime'].max() - pd.Timedelta(days=14)
+                    combined = combined[combined['datetime'] >= cutoff]
                     combined.to_csv(output_path, index=False)
-                    logger.info(f"Appended new data. Combined shape: {combined.shape}")
+                    logger.info(f"Appended new data. Combined shape: {combined.shape}. Kept only last 14 days.")
                 else:
                     logger.warning("No combined data to save")
-        else:
+            else:
                 df.to_csv(output_path, index=False)
                 logger.info("Saved merged AQI + weather data to data/latest_aqi_weather.csv")
-    except Exception as e:
+            
+            # Calculate stations appended (new unique stations in this run)
+            stations_appended = len(df['station'].unique()) if not df.empty else 0
+            
+            # Log station metrics
+            logger.info(f"📊 Station Metrics:")
+            logger.info(f"   Total API stations: {total_api_stations}")
+            logger.info(f"   Stations with data: {stations_with_data}")
+            logger.info(f"   Stations appended: {stations_appended}")
+            logger.info(f"   Inactive stations: {total_api_stations - stations_with_data}")
+            logger.info(f"   Data coverage: {(stations_with_data/total_api_stations*100):.1f}%" if total_api_stations > 0 else "0%")
+            
+            return {
+                'total_api_stations': total_api_stations,
+                'stations_with_data': stations_with_data,
+                'stations_appended': stations_appended
+            }
+            
+        except Exception as e:
             logger.error(f"Pipeline failed: {e}")
+            return None
 
     def _get_station_coordinates(self, station, city, state):
         """Get coordinates for a station (you can expand this mapping)"""
@@ -332,25 +385,104 @@ class DataPipeline:
         print(df.head(20))
         if df.empty:
             print("No AQI data returned by API for the last 24 hours.")
-    else:
+        else:
             print(f"Returned {len(df)} records from AQI API.")
+
+def log_fetch_merge(run_time, latest_dt, new_records, total_records, status, error_msg=None, 
+                   total_api_stations=0, stations_with_data=0, stations_appended=0):
+    """Append a row to the fetch/merge log CSV."""
+    log_exists = os.path.exists(FETCH_LOG_PATH)
+    with open(FETCH_LOG_PATH, 'a', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        if not log_exists:
+            writer.writerow([
+                'run_time', 'latest_data_datetime', 'new_records', 'total_records', 'status', 'error_msg',
+                'total_api_stations', 'stations_with_data', 'stations_appended', 'inactive_stations', 'data_coverage_pct'
+            ])
+        
+        inactive_stations = total_api_stations - stations_with_data if total_api_stations > 0 else 0
+        data_coverage_pct = (stations_with_data / total_api_stations * 100) if total_api_stations > 0 else 0
+        
+        writer.writerow([
+            run_time.strftime('%Y-%m-%d %H:%M:%S'),
+            latest_dt.strftime('%Y-%m-%d %H:%M:%S') if latest_dt is not None else '',
+            new_records,
+            total_records,
+            status,
+            error_msg or '',
+            total_api_stations,
+            stations_with_data,
+            stations_appended,
+            inactive_stations,
+            f"{data_coverage_pct:.1f}%"
+        ])
 
 def main():
     output_path = 'data/latest_aqi_weather.csv'
     now = datetime.now()
+    run_time = now
+    latest_dt = None
+    new_records = 0
+    total_records = 0
+    status = 'skipped'
+    error_msg = None
+    total_api_stations = 0
+    stations_with_data = 0
+    stations_appended = 0
+    
     if os.path.exists(output_path):
         try:
             df = pd.read_csv(output_path, parse_dates=['datetime'])
             if not df.empty:
                 latest_dt = pd.to_datetime(df['datetime'].max())
-                # If latest_dt is within the current hour, exit early
-                if latest_dt >= now.replace(minute=0, second=0, microsecond=0):
-                    print(f"Data for the current hour ({latest_dt:%Y-%m-%d %H}:00) already exists. Skipping run.")
+                # Only run if at least 1 hour has passed since the latest data
+                if latest_dt + timedelta(hours=1) > now:
+                    print(f"Latest data is {latest_dt:%Y-%m-%d %H:%M}. Next fetch allowed after {(latest_dt + timedelta(hours=1)):%Y-%m-%d %H:%M}.")
+                    log_fetch_merge(run_time, latest_dt, 0, len(df), 'skipped', 'Too soon since last data',
+                                  total_api_stations, stations_with_data, stations_appended)
+                    return
+        except Exception as e:
+            error_msg = f"Warning: Could not check latest timestamp in CSV: {e}"
+            print(error_msg)
+            log_fetch_merge(run_time, latest_dt, 0, 0, 'error', error_msg,
+                          total_api_stations, stations_with_data, stations_appended)
             return
+    
+    try:
+        pipeline = DataPipeline()
+        before_count = 0
+        if os.path.exists(output_path):
+            try:
+                before_count = pd.read_csv(output_path).shape[0]
+            except Exception:
+                before_count = 0
+        
+        # Run pipeline and get station metrics
+        station_metrics = pipeline.run_pipeline()
+        if station_metrics:
+            total_api_stations = station_metrics.get('total_api_stations', 0)
+            stations_with_data = station_metrics.get('stations_with_data', 0)
+            stations_appended = station_metrics.get('stations_appended', 0)
+        
+        # After run, check new record count
+        if os.path.exists(output_path):
+            df = pd.read_csv(output_path, parse_dates=['datetime'])
+            latest_dt = pd.to_datetime(df['datetime'].max()) if not df.empty else None
+            total_records = len(df)
+            new_records = total_records - before_count
+            status = 'success'
+        else:
+            status = 'error'
+            error_msg = 'Output file missing after pipeline run.'
+        
+        log_fetch_merge(run_time, latest_dt, new_records, total_records, status, error_msg,
+                       total_api_stations, stations_with_data, stations_appended)
+        
     except Exception as e:
-            print(f"Warning: Could not check latest timestamp in CSV: {e}")
-    pipeline = DataPipeline()
-    pipeline.run_pipeline()
+        error_msg = str(e)
+        print(f"Pipeline failed: {e}")
+        log_fetch_merge(run_time, latest_dt, 0, 0, 'error', error_msg,
+                       total_api_stations, stations_with_data, stations_appended)
 
 # Add a utility entry point for geocoding
 if __name__ == "__main__":

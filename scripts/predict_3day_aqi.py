@@ -23,23 +23,67 @@ logger = logging.getLogger(__name__)
 
 class AQI3DayPredictor:
     def __init__(self):
+        """Initialize the predictor with trained models."""
         self.models_dir = Path('models/trained')
+        self.data_dir = Path('data')
+        self.forecast_horizon = 72  # 3 days
+        self.sequence_length = 48   # Match trained model
         
-        # Load model metadata
-        with open(self.models_dir / 'model_metadata_3day.json', 'r') as f:
-            self.metadata = json.load(f)
+        # Load model metadata (create if missing)
+        self.metadata_file = self.models_dir / 'model_metadata_3day.json'
+        if not self.metadata_file.exists():
+            logger.warning("model_metadata_3day.json not found, creating default metadata...")
+            self._create_default_metadata()
         
-        self.sequence_length = self.metadata['sequence_length']
-        self.forecast_horizon = self.metadata['forecast_horizon']
-        self.all_features = self.metadata['features']
+        with open(self.metadata_file, 'r') as f:
+            self.model_metadata = json.load(f)
         
-        # Load models and scalers
-        self.model = load_model(str(self.models_dir / 'lstm_3day_model.h5'))
-        self.feature_scaler = joblib.load(self.models_dir / 'feature_scaler_3day.pkl')
-        self.target_scaler = joblib.load(self.models_dir / 'target_scaler_3day.pkl')
+        # Load trained models
+        self._load_models()
+        
+    def _create_default_metadata(self):
+        """Create default model metadata if missing."""
+        default_metadata = {
+            "model_version": "3day_ensemble_v1.0",
+            "training_date": datetime.now().isoformat(),
+            "features": ["pm25", "pm10", "no2", "so2", "co", "o3", "temperature", "humidity", "wind_speed"],
+            "target": "aqi",
+            "forecast_horizon": 72,
+            "model_files": {
+                "lstm": "lstm_3day_model.h5",
+                "feature_scaler": "feature_scaler_3day.pkl",
+                "target_scaler": "target_scaler_3day.pkl"
+            }
+        }
+        
+        # Ensure models directory exists
+        self.models_dir.mkdir(parents=True, exist_ok=True)
+        
+        with open(self.metadata_file, 'w') as f:
+            json.dump(default_metadata, f, indent=2)
+        
+        logger.info(f"Created default model metadata: {self.metadata_file}")
+    
+    def _load_models(self):
+        """Load models and scalers"""
+        # Handle both old and new metadata formats
+        if 'model_files' in self.model_metadata:
+            # Old format with model_files key
+            model_file = self.model_metadata['model_files']['lstm']
+            feature_scaler_file = self.model_metadata['model_files']['feature_scaler']
+            target_scaler_file = self.model_metadata['model_files']['target_scaler']
+        else:
+            # New format - use default file names
+            model_file = 'lstm_3day_model.h5'
+            feature_scaler_file = 'feature_scaler_3day.pkl'
+            target_scaler_file = 'target_scaler_3day.pkl'
+        
+        self.model = load_model(str(self.models_dir / model_file))
+        self.feature_scaler = joblib.load(self.models_dir / feature_scaler_file)
+        self.target_scaler = joblib.load(self.models_dir / target_scaler_file)
         
         logger.info(f"Loaded model for {self.forecast_horizon}-hour forecasting")
-        logger.info(f"Features: {len(self.all_features)}")
+        logger.info(f"Features: {len(self.model_metadata['features'])}")
     
     def prepare_latest_data(self):
         """Prepare the most recent data for prediction"""
@@ -67,7 +111,7 @@ class AQI3DayPredictor:
             df['wind_speed_squared'] = df['wind_speed'] ** 2
         
         # Handle missing values
-        for col in self.all_features:
+        for col in self.model_metadata['features']:
             if col in df.columns:
                 df[col] = df.groupby(['city', 'station'])[col].fillna(method='ffill', limit=3)
                 df[col] = df.groupby(['city', 'datetime'])[col].transform(
@@ -80,33 +124,26 @@ class AQI3DayPredictor:
         """Create sequences for prediction from latest data"""
         sequences = []
         metadata = []
-        
         for (city, station), group in df.groupby(['city', 'station']):
             group = group.sort_values('datetime')
-            
             # Skip if not enough data
             if len(group) < self.sequence_length:
                 logger.debug(f"Skipping {station}, {city}: insufficient data")
                 continue
-            
             # Get the most recent sequence
-            latest_sequence = group.iloc[-self.sequence_length:][self.all_features].values
-            
+            latest_sequence = group.iloc[-self.sequence_length:][self.model_metadata['features']].values
             # Check for too many NaN values
             if np.isnan(latest_sequence).sum() > latest_sequence.size * 0.8:
                 logger.debug(f"Skipping {station}, {city}: too many NaN values")
                 continue
-            
             # Fill NaN values
             latest_sequence = np.nan_to_num(latest_sequence, nan=0.0)
-            
             sequences.append(latest_sequence)
             metadata.append({
                 'city': city,
                 'station': station,
                 'last_datetime': group.iloc[-1]['datetime']
             })
-        
         logger.info(f"Created {len(sequences)} prediction sequences")
         return np.array(sequences), metadata
     
@@ -140,23 +177,31 @@ class AQI3DayPredictor:
             # Create forecast timestamps
             start_time = meta['last_datetime'] + timedelta(hours=1)
             forecast_times = [start_time + timedelta(hours=h) for h in range(self.forecast_horizon)]
-            
+
+            # Compute station_id as in API (matching station_service.py logic)
+            station_id = f"{meta['city']}_{meta['station']}".replace(" ", "_").replace("-", "_").replace(",", "_")
+
             # Create result for this station
             station_result = {
+                'station_id': station_id,
                 'city': meta['city'],
                 'station': meta['station'],
                 'last_known_time': meta['last_datetime'].isoformat(),
                 'forecasts': []
             }
-            
+
             # Add hourly forecasts
-            for hour, (timestamp, aqi_pred) in enumerate(zip(forecast_times, pred)):
-                station_result['forecasts'].append({
+            for j, (timestamp, aqi_pred) in enumerate(zip(forecast_times, pred)):
+                # Determine AQI category
+                aqi_category = self._get_aqi_category(aqi_pred)
+                
+                forecast_point = {
                     'timestamp': timestamp.isoformat(),
-                    'hour_ahead': hour + 1,
+                    'hour_ahead': j + 1,
                     'aqi_predicted': float(aqi_pred),
-                    'aqi_category': self._get_aqi_category(aqi_pred)
-                })
+                    'aqi_category': aqi_category
+                }
+                station_result['forecasts'].append(forecast_point)
             
             results.append(station_result)
         
