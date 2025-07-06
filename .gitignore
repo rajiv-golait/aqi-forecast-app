@@ -25,3 +25,6 @@ Thumbs.db
 .pytest_cache/
 coverage.xml
 htmlcov/
+
+# Ignore environment variable files
+.env
