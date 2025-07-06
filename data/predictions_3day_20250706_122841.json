@@ -1,0 +1,4986 @@
+[
+  {
+    "station_id": "Agartala_Bardowali__Agartala___Tripura_SPCB",
+    "city": "Agartala",
+    "station": "Bardowali, Agartala - Tripura SPCB",
+    "last_known_time": "2025-07-06T00:13:43.115770",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.115770",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.310791015625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Agra_Shastripuram__Agra___UPPCB",
+    "city": "Agra",
+    "station": "Shastripuram, Agra - UPPCB",
+    "last_known_time": "2025-07-06T00:13:42.126091",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:42.126091",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.46175384521484,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_Chandkheda__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "Chandkheda, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T11:25:31.068207",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:31.068207",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.04440307617188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_Gyaspur__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "Gyaspur, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T11:25:31.245675",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:31.245675",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.86518859863281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_Maninagar__Ahmedabad___GPCB",
+    "city": "Ahmedabad",
+    "station": "Maninagar, Ahmedabad - GPCB",
+    "last_known_time": "2025-07-06T11:25:31.411901",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:31.411901",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.27542114257812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_Rakhial__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "Rakhial, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T02:39:38.889262",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:38.889262",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.40621185302734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_SAC_ISRO_Bopal__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "SAC ISRO Bopal, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T11:25:31.751280",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:31.751280",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.37328338623047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_SVPI_Airport_Hansol__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "SVPI Airport Hansol, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T11:25:31.917726",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:31.917726",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2958984375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmedabad_Sardar_Vallabhbhai_Patel_Stadium__Ahmedabad___IITM",
+    "city": "Ahmedabad",
+    "station": "Sardar Vallabhbhai Patel Stadium, Ahmedabad - IITM",
+    "last_known_time": "2025-07-06T11:25:32.107017",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.107017",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.92498779296875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ahmednagar_Tarakpur__Ahmednagar___MPCB",
+    "city": "Ahmednagar",
+    "station": "Tarakpur, Ahmednagar - MPCB",
+    "last_known_time": "2025-07-06T11:25:42.445692",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.445692",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.12678527832031,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Aizawl_Sikulpuikawn__Aizawl___Mizoram_PCB",
+    "city": "Aizawl",
+    "station": "Sikulpuikawn, Aizawl - Mizoram PCB",
+    "last_known_time": "2025-07-06T11:25:54.586634",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:54.586634",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.60029602050781,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ajmer_Civil_Lines___Ajmer___RSPCB",
+    "city": "Ajmer",
+    "station": "Civil Lines,  Ajmer - RSPCB",
+    "last_known_time": "2025-07-06T11:25:57.517303",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:57.517303",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.00682830810547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Akola_Ramdaspeth__Akola___MPCB",
+    "city": "Akola",
+    "station": "Ramdaspeth, Akola - MPCB",
+    "last_known_time": "2025-07-06T11:25:42.626894",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.626894",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.48983001708984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Alwar_Moti_Doongri__Alwar___RSPCB",
+    "city": "Alwar",
+    "station": "Moti Doongri, Alwar - RSPCB",
+    "last_known_time": "2025-07-06T11:25:57.700047",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:57.700047",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.50756072998047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Amaravati_Secretariat__Amaravati___APPCB",
+    "city": "Amaravati",
+    "station": "Secretariat, Amaravati - APPCB",
+    "last_known_time": "2025-07-06T11:25:15.084300",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:15.084300",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.20252227783203,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Amravati_Shri_Shivaji_Science_College__Amravati___MPCB",
+    "city": "Amravati",
+    "station": "Shri Shivaji Science College, Amravati - MPCB",
+    "last_known_time": "2025-07-06T11:25:42.793157",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.793157",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.25437927246094,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Amritsar_Golden_Temple__Amritsar___PPCB",
+    "city": "Amritsar",
+    "station": "Golden Temple, Amritsar - PPCB",
+    "last_known_time": "2025-07-06T00:13:41.103226",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:41.103226",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.40663146972656,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Angul_Hakimapada__Angul___OSPCB",
+    "city": "Angul",
+    "station": "Hakimapada, Angul - OSPCB",
+    "last_known_time": "2025-07-06T11:25:54.932498",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:54.932498",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2979965209961,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ankleshwar_GIDC__Ankleshwar___GPCB",
+    "city": "Ankleshwar",
+    "station": "GIDC, Ankleshwar - GPCB",
+    "last_known_time": "2025-07-06T11:25:32.277916",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.277916",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.82696533203125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Araria_Kharahiya_Basti__Araria___BSPCB",
+    "city": "Araria",
+    "station": "Kharahiya Basti, Araria - BSPCB",
+    "last_known_time": "2025-07-06T11:25:18.243527",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:18.243527",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.25924682617188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Asansol_Asansol_Court_Area__Asansol___WBPCB",
+    "city": "Asansol",
+    "station": "Asansol Court Area, Asansol - WBPCB",
+    "last_known_time": "2025-07-06T11:26:17.404073",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:17.404073",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.4334487915039,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Asansol_Evelyn_Lodge__Asansol___WBPCB",
+    "city": "Asansol",
+    "station": "Evelyn Lodge, Asansol - WBPCB",
+    "last_known_time": "2025-07-06T11:26:17.629110",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:17.629110",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.69751739501953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Asansol_Mahabir_Colliery__Asansol___WBPCB",
+    "city": "Asansol",
+    "station": "Mahabir Colliery, Asansol - WBPCB",
+    "last_known_time": "2025-07-06T02:40:17.334256",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:17.334256",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.5967788696289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Aurangabad_MIDC_Chilkalthana__Aurangabad___MPCB",
+    "city": "Aurangabad",
+    "station": "MIDC Chilkalthana, Aurangabad - MPCB",
+    "last_known_time": "2025-07-06T11:25:42.971063",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.971063",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.8662109375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Aurangabad_More_Chowk_Waluj__Aurangabad___MPCB",
+    "city": "Aurangabad",
+    "station": "More Chowk Waluj, Aurangabad - MPCB",
+    "last_known_time": "2025-07-06T11:25:43.159456",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:43.159456",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.16934204101562,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Aurangabad_Rachnakar_Colony__Aurangabad___MPCB",
+    "city": "Aurangabad",
+    "station": "Rachnakar Colony, Aurangabad - MPCB",
+    "last_known_time": "2025-07-06T11:25:43.330152",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:43.330152",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.42684173583984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Badlapur_Katrap__Badlapur___MPCB",
+    "city": "Badlapur",
+    "station": "Katrap, Badlapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:43.522039",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:43.522039",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.63926696777344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bagalkot_Vidayagiri__Bagalkot___KSPCB",
+    "city": "Bagalkot",
+    "station": "Vidayagiri, Bagalkot - KSPCB",
+    "last_known_time": "2025-07-06T11:25:33.970367",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:33.970367",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2837142944336,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Baghpat_Sardar_Patel_Inter_College__Baghpat___UPPCB",
+    "city": "Baghpat",
+    "station": "Sardar Patel Inter College, Baghpat - UPPCB",
+    "last_known_time": "2025-07-06T00:13:41.907440",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:41.907440",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.43692779541016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Balasore_Kalidaspur__Balasore___OSPCB",
+    "city": "Balasore",
+    "station": "Kalidaspur, Balasore - OSPCB",
+    "last_known_time": "2025-07-06T11:25:55.103181",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:55.103181",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.27737426757812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Banswara_Rati_Talai__Banswara___RSPCB",
+    "city": "Banswara",
+    "station": "Rati Talai, Banswara - RSPCB",
+    "last_known_time": "2025-07-06T11:25:57.875569",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:57.875569",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.21038818359375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Baran_Bamboliya__Baran___RSPCB",
+    "city": "Baran",
+    "station": "Bamboliya, Baran - RSPCB",
+    "last_known_time": "2025-07-06T11:25:58.060352",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:58.060352",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.51606750488281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Barbil_Forest_Office__Barbil___OSPCB",
+    "city": "Barbil",
+    "station": "Forest Office, Barbil - OSPCB",
+    "last_known_time": "2025-07-06T02:40:01.378144",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:01.378144",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.05508422851562,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bareilly_Rajendra_Nagar__Bareilly___UPPCB",
+    "city": "Bareilly",
+    "station": "Rajendra Nagar, Bareilly - UPPCB",
+    "last_known_time": "2025-07-06T02:40:11.203443",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:11.203443",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.66766357421875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Barrackpore_SVSPA_Campus__Barrackpore___WBPCB",
+    "city": "Barrackpore",
+    "station": "SVSPA Campus, Barrackpore - WBPCB",
+    "last_known_time": "2025-07-06T11:26:17.994287",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:17.994287",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.39275360107422,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bathinda_Hardev_Nagar__Bathinda___PPCB",
+    "city": "Bathinda",
+    "station": "Hardev Nagar, Bathinda - PPCB",
+    "last_known_time": "2025-07-06T02:40:03.450051",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:03.450051",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.69042205810547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Belapur_CBD_Belapur__Belapur___MPCB",
+    "city": "Belapur",
+    "station": "CBD Belapur, Belapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:43.703877",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:43.703877",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.26836395263672,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_BTM_Layout__Bengaluru___CPCB",
+    "city": "Bengaluru",
+    "station": "BTM Layout, Bengaluru - CPCB",
+    "last_known_time": "2025-07-06T11:25:34.143668",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:34.143668",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.34640502929688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Bapuji_Nagar__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Bapuji Nagar, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:34.323696",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:34.323696",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.38768768310547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Hebbal__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Hebbal, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:34.501147",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:34.501147",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.11933898925781,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Hombegowda_Nagar__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Hombegowda Nagar, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:34.667538",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:34.667538",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.63766479492188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Jayanagar_5th_Block__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Jayanagar 5th Block, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:34.836447",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:34.836447",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.13443756103516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Jigani__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Jigani, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.008968",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.008968",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.5328369140625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Sanegurava_Halli__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Sanegurava Halli, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.208101",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.208101",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.01842498779297,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bengaluru_Silk_Board__Bengaluru___KSPCB",
+    "city": "Bengaluru",
+    "station": "Silk Board, Bengaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.376526",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.376526",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.34230041503906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhagalpur_DM_Office_Kachari_Chowk__Bhagalpur___BSPCB",
+    "city": "Bhagalpur",
+    "station": "DM Office_Kachari Chowk, Bhagalpur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:18.425714",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:18.425714",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.36994934082031,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhagalpur_Mayaganj__Bhagalpur___BSPCB",
+    "city": "Bhagalpur",
+    "station": "Mayaganj, Bhagalpur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:18.592157",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:18.592157",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.83855438232422,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhilai_32Bungalows__Bhilai___CECB",
+    "city": "Bhilai",
+    "station": "32Bungalows, Bhilai - CECB",
+    "last_known_time": "2025-07-06T11:25:23.170523",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:23.170523",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.04302215576172,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhilai_Hathkhoj__Bhilai___CECB",
+    "city": "Bhilai",
+    "station": "Hathkhoj, Bhilai - CECB",
+    "last_known_time": "2025-07-06T11:25:23.348330",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:23.348330",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.63777923583984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhilwara_Pratap_Nagar__Bhilwara___RSPCB",
+    "city": "Bhilwara",
+    "station": "Pratap Nagar, Bhilwara - RSPCB",
+    "last_known_time": "2025-07-06T00:13:40.160303",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:40.160303",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.37924194335938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhiwadi_RIICO_Ind._Area_III__Bhiwadi___RSPCB",
+    "city": "Bhiwadi",
+    "station": "RIICO Ind. Area III, Bhiwadi - RSPCB",
+    "last_known_time": "2025-07-06T11:25:58.403216",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:58.403216",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.80308532714844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhiwadi_Vasundhara_Nagar_UIT__Bhiwadi___RSPCB",
+    "city": "Bhiwadi",
+    "station": "Vasundhara Nagar_UIT, Bhiwadi - RSPCB",
+    "last_known_time": "2025-07-06T11:25:58.574917",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:58.574917",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.51725006103516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhiwandi_Gokul_Nagar__Bhiwandi___MPCB",
+    "city": "Bhiwandi",
+    "station": "Gokul Nagar, Bhiwandi - MPCB",
+    "last_known_time": "2025-07-06T11:25:43.889229",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:43.889229",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2549819946289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhopal_Idgah_Hills__Bhopal___MPPCB",
+    "city": "Bhopal",
+    "station": "Idgah Hills, Bhopal - MPPCB",
+    "last_known_time": "2025-07-06T11:25:39.090921",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:39.090921",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.90080261230469,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhopal_Paryavaran_Parisar__Bhopal___MPPCB",
+    "city": "Bhopal",
+    "station": "Paryavaran Parisar, Bhopal - MPPCB",
+    "last_known_time": "2025-07-06T11:25:39.270433",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:39.270433",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.86129760742188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhopal_T_T_Nagar__Bhopal___MPPCB",
+    "city": "Bhopal",
+    "station": "T T Nagar, Bhopal - MPPCB",
+    "last_known_time": "2025-07-06T11:25:39.443927",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:39.443927",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.81620788574219,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhubaneswar_Lingraj_Mandir__Bhubaneswar___OSPCB",
+    "city": "Bhubaneswar",
+    "station": "Lingraj Mandir, Bhubaneswar - OSPCB",
+    "last_known_time": "2025-07-06T11:25:55.457080",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:55.457080",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.1496810913086,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bhubaneswar_Patia__Bhubaneswar___OSPCB",
+    "city": "Bhubaneswar",
+    "station": "Patia, Bhubaneswar - OSPCB",
+    "last_known_time": "2025-07-06T11:25:55.623636",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:55.623636",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.02584838867188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bihar_Sharif_D_M_Colony__Bihar_Sharif___BSPCB",
+    "city": "Bihar Sharif",
+    "station": "D M Colony, Bihar Sharif - BSPCB",
+    "last_known_time": "2025-07-06T00:13:33.740875",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:33.740875",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.28901672363281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bilaspur_Mangala__Bilaspur___NTPC",
+    "city": "Bilaspur",
+    "station": "Mangala, Bilaspur - NTPC",
+    "last_known_time": "2025-07-06T11:25:23.530482",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:23.530482",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.21345520019531,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bileipada_Tata_Township__Bileipada___OSPCB",
+    "city": "Bileipada",
+    "station": "Tata Township, Bileipada - OSPCB",
+    "last_known_time": "2025-07-06T11:25:55.792855",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:55.792855",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.11103057861328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Boisar_Khaira__Boisar___MPCB",
+    "city": "Boisar",
+    "station": "Khaira, Boisar - MPCB",
+    "last_known_time": "2025-07-06T11:25:44.078477",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:44.078477",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.30696868896484,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Brajrajnagar_GM_Office__Brajrajnagar___OSPCB",
+    "city": "Brajrajnagar",
+    "station": "GM Office, Brajrajnagar - OSPCB",
+    "last_known_time": "2025-07-06T11:25:55.965291",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:55.965291",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.69915771484375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bulandshahr_Yamunapuram__Bulandshahr___UPPCB",
+    "city": "Bulandshahr",
+    "station": "Yamunapuram, Bulandshahr - UPPCB",
+    "last_known_time": "2025-07-06T11:26:12.760038",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:12.760038",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.66993713378906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Bundi_New_Colony__Bundi___RSPCB",
+    "city": "Bundi",
+    "station": "New Colony, Bundi - RSPCB",
+    "last_known_time": "2025-07-06T11:22:16.677538",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:22:16.677538",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.66011810302734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Buxar_Charitra_Van__Buxar___BSPCB",
+    "city": "Buxar",
+    "station": "Charitra Van, Buxar - BSPCB",
+    "last_known_time": "2025-07-06T11:25:18.944128",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:18.944128",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.33778381347656,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Byasanagar_Ferro_Chrome_Colony__Byasanagar___OSPCB",
+    "city": "Byasanagar",
+    "station": "Ferro Chrome Colony, Byasanagar - OSPCB",
+    "last_known_time": "2025-07-06T00:13:40.665862",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:40.665862",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.61334228515625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Byrnihat_Central_Academy_for_SFS__Byrnihat___PCBA",
+    "city": "Byrnihat",
+    "station": "Central Academy for SFS, Byrnihat - PCBA",
+    "last_known_time": "2025-07-06T11:25:16.691176",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:16.691176",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.7975845336914,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chamarajanagar_Urban__Chamarajanagar___KSPCB",
+    "city": "Chamarajanagar",
+    "station": "Urban, Chamarajanagar - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.550865",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.550865",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.34745025634766,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chandigarh_Sector_25__Chandigarh___CPCC",
+    "city": "Chandigarh",
+    "station": "Sector-25, Chandigarh - CPCC",
+    "last_known_time": "2025-07-06T11:25:22.974399",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.974399",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.14452362060547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chandigarh_Sector_53__Chandigarh___CPCC",
+    "city": "Chandigarh",
+    "station": "Sector-53, Chandigarh - CPCC",
+    "last_known_time": "2025-07-06T02:39:30.317179",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:30.317179",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.10235595703125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chandrapur_Chauhan_Colony__Chandrapur___MPCB",
+    "city": "Chandrapur",
+    "station": "Chauhan Colony, Chandrapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:44.297899",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:44.297899",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.15943145751953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chandrapur_MIDC_Khutala__Chandrapur___MPCB",
+    "city": "Chandrapur",
+    "station": "MIDC Khutala, Chandrapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:44.467319",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:44.467319",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.3487777709961,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chengalpattu_Crescent_University__Chengalpattu___TNPCB",
+    "city": "Chengalpattu",
+    "station": "Crescent University, Chengalpattu - TNPCB",
+    "last_known_time": "2025-07-06T11:26:01.621576",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:01.621576",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.34937286376953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Alandur_Bus_Depot__Chennai___CPCB",
+    "city": "Chennai",
+    "station": "Alandur Bus Depot, Chennai - CPCB",
+    "last_known_time": "2025-07-06T11:26:01.800698",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:01.800698",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.32247924804688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Arumbakkam__Chennai___TNPCB",
+    "city": "Chennai",
+    "station": "Arumbakkam, Chennai - TNPCB",
+    "last_known_time": "2025-07-06T02:40:08.034652",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:08.034652",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.28509521484375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Kodungaiyur__Chennai___TNPCB",
+    "city": "Chennai",
+    "station": "Kodungaiyur, Chennai - TNPCB",
+    "last_known_time": "2025-07-06T11:26:01.982960",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:01.982960",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.5574951171875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Manali__Chennai___CPCB",
+    "city": "Chennai",
+    "station": "Manali, Chennai - CPCB",
+    "last_known_time": "2025-07-06T11:26:02.161618",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:02.161618",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.26006317138672,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Perungudi__Chennai___TNPCB",
+    "city": "Chennai",
+    "station": "Perungudi, Chennai - TNPCB",
+    "last_known_time": "2025-07-06T11:26:02.347915",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:02.347915",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.44994354248047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chennai_Royapuram__Chennai___TNPCB",
+    "city": "Chennai",
+    "station": "Royapuram, Chennai - TNPCB",
+    "last_known_time": "2025-07-06T11:26:02.524342",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:02.524342",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.44602966308594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chhal_Nawapara_SECL_Colony__Chhal___CECB",
+    "city": "Chhal",
+    "station": "Nawapara SECL Colony, Chhal - CECB",
+    "last_known_time": "2025-07-06T11:25:23.688076",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:23.688076",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.44144439697266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chhapra_Darshan_Nagar__Chhapra___BSPCB",
+    "city": "Chhapra",
+    "station": "Darshan Nagar, Chhapra - BSPCB",
+    "last_known_time": "2025-07-06T02:39:26.478568",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:26.478568",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.79480743408203,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chikkaballapur_Chikkaballapur_Rural__Chikkaballapur___KSPCB",
+    "city": "Chikkaballapur",
+    "station": "Chikkaballapur Rural, Chikkaballapur - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.716349",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.716349",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.59173583984375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chikkamagaluru_Kalyana_Nagara__Chikkamagaluru___KSPCB",
+    "city": "Chikkamagaluru",
+    "station": "Kalyana Nagara, Chikkamagaluru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:35.880238",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:35.880238",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.13099670410156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chittoor_Gangineni_Cheruvu__Chittoor___APPCB",
+    "city": "Chittoor",
+    "station": "Gangineni Cheruvu, Chittoor - APPCB",
+    "last_known_time": "2025-07-06T11:25:15.296617",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:15.296617",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.20606994628906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Chittorgarh_Shastri_Nagar__Chittorgarh___RSPCB",
+    "city": "Chittorgarh",
+    "station": "Shastri Nagar, Chittorgarh - RSPCB",
+    "last_known_time": "2025-07-06T11:22:16.852428",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:22:16.852428",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.07315063476562,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Churu_Subash_Chowk__Churu___RSPCB",
+    "city": "Churu",
+    "station": "Subash Chowk, Churu - RSPCB",
+    "last_known_time": "2025-07-06T11:25:58.931633",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:58.931633",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.42137908935547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Coimbatore_PSG_College_of_Arts_and_Science__Coimbatore___TNPCB",
+    "city": "Coimbatore",
+    "station": "PSG College of Arts and Science, Coimbatore - TNPCB",
+    "last_known_time": "2025-07-06T11:26:02.711598",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:02.711598",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.06844329833984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Cuddalore_Kudikadu__Cuddalore___TNPCB",
+    "city": "Cuddalore",
+    "station": "Kudikadu, Cuddalore - TNPCB",
+    "last_known_time": "2025-07-06T11:26:02.919246",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:02.919246",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.22772979736328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Cuttack_CDA_Area__Cuttack___OSPCB",
+    "city": "Cuttack",
+    "station": "CDA Area, Cuttack - OSPCB",
+    "last_known_time": "2025-07-06T11:25:56.143856",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:56.143856",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.80973815917969,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Damoh_Shrivastav_Colony__Damoh___MPPCB",
+    "city": "Damoh",
+    "station": "Shrivastav Colony, Damoh - MPPCB",
+    "last_known_time": "2025-07-06T02:39:45.881030",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:45.881030",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.5034408569336,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dehradun_Doon_University__Dehradun___UKPCB",
+    "city": "Dehradun",
+    "station": "Doon University, Dehradun - UKPCB",
+    "last_known_time": "2025-07-06T11:26:17.017877",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:17.017877",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.94479370117188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Alipur__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Alipur, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:25.372487",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.372487",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.5772705078125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Anand_Vihar__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Anand Vihar, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:25.550491",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.550491",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.12559509277344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Ashok_Vihar__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Ashok Vihar, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:25.729225",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.729225",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.14002990722656,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Aya_Nagar__Delhi___IMD",
+    "city": "Delhi",
+    "station": "Aya Nagar, Delhi - IMD",
+    "last_known_time": "2025-07-06T11:25:25.946477",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.946477",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.58573913574219,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Bawana__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Bawana, Delhi - DPCC",
+    "last_known_time": "2025-07-06T02:39:33.430025",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:33.430025",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.45384216308594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_CRRI_Mathura_Road__Delhi___IMD",
+    "city": "Delhi",
+    "station": "CRRI Mathura Road, Delhi - IMD",
+    "last_known_time": "2025-07-06T11:25:26.300801",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:26.300801",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.98088836669922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_DTU__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "DTU, Delhi - CPCB",
+    "last_known_time": "2025-07-06T02:39:33.771544",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:33.771544",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.29035186767578,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Dr._Karni_Singh_Shooting_Range__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+    "last_known_time": "2025-07-06T02:39:33.938172",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:33.938172",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.86410522460938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Dwarka_Sector_8__Delhi___DPCC_",
+    "city": "Delhi",
+    "station": "Dwarka-Sector 8, Delhi - DPCC ",
+    "last_known_time": "2025-07-06T11:25:26.652777",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:26.652777",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.52853393554688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_IHBAS__Dilshad_Garden__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "IHBAS, Dilshad Garden, Delhi - CPCB",
+    "last_known_time": "2025-07-06T11:25:26.816882",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:26.816882",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.48401641845703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_ITO__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "ITO, Delhi - CPCB",
+    "last_known_time": "2025-07-06T11:25:26.999910",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:26.999910",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.96331024169922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Jahangirpuri__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Jahangirpuri, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:27.178390",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:27.178390",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.38232421875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Jawaharlal_Nehru_Stadium__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Jawaharlal Nehru Stadium, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:27.360450",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:27.360450",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.22866821289062,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Lodhi_Road__Delhi___IMD",
+    "city": "Delhi",
+    "station": "Lodhi Road, Delhi - IMD",
+    "last_known_time": "2025-07-06T11:25:27.534411",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:27.534411",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.02173614501953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Major_Dhyan_Chand_National_Stadium__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Major Dhyan Chand National Stadium, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:27.698127",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:27.698127",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.15738677978516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Mandir_Marg__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Mandir Marg, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:27.877658",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:27.877658",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.74252319335938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Mundka__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Mundka, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:28.043789",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.043789",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.66014862060547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_NSIT_Dwarka__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "NSIT Dwarka, Delhi - CPCB",
+    "last_known_time": "2025-07-06T11:25:28.212822",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.212822",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.66798400878906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Najafgarh__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Najafgarh, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:28.380298",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.380298",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.44864654541016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Narela__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Narela, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:28.552923",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.552923",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.20819091796875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Nehru_Nagar__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Nehru Nagar, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:28.734289",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.734289",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.03636932373047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_North_Campus__DU__Delhi___IMD",
+    "city": "Delhi",
+    "station": "North Campus, DU, Delhi - IMD",
+    "last_known_time": "2025-07-06T11:25:28.903826",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:28.903826",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.10842895507812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Patparganj__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Patparganj, Delhi - DPCC",
+    "last_known_time": "2025-07-06T00:13:35.737179",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:35.737179",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.5540542602539,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Punjabi_Bagh__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Punjabi Bagh, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:29.291084",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:29.291084",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.21974182128906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Pusa__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Pusa, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:29.483073",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:29.483073",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.22589874267578,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Pusa__Delhi___IMD",
+    "city": "Delhi",
+    "station": "Pusa, Delhi - IMD",
+    "last_known_time": "2025-07-06T11:25:29.656719",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:29.656719",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.5385513305664,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_R_K_Puram__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "R K Puram, Delhi - DPCC",
+    "last_known_time": "2025-07-06T02:39:36.990638",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:36.990638",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.81069946289062,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Rohini__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Rohini, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:29.838311",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:29.838311",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.45329284667969,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Shadipur__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "Shadipur, Delhi - CPCB",
+    "last_known_time": "2025-07-06T11:25:30.011277",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.011277",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.63079833984375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Sirifort__Delhi___CPCB",
+    "city": "Delhi",
+    "station": "Sirifort, Delhi - CPCB",
+    "last_known_time": "2025-07-06T11:25:30.183268",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.183268",
+        "hour_ahead": 1,
+        "aqi_predicted": 118.79793548583984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Sonia_Vihar__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Sonia Vihar, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:30.368986",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.368986",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.58097076416016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Sri_Aurobindo_Marg__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Sri Aurobindo Marg, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:30.537263",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.537263",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.52387237548828,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Vivek_Vihar__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Vivek Vihar, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:30.704080",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.704080",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.22471618652344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Delhi_Wazirpur__Delhi___DPCC",
+    "city": "Delhi",
+    "station": "Wazirpur, Delhi - DPCC",
+    "last_known_time": "2025-07-06T11:25:30.889883",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:30.889883",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.4294662475586,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dewas_Bhopal_Chauraha__Dewas___MPPCB",
+    "city": "Dewas",
+    "station": "Bhopal Chauraha, Dewas - MPPCB",
+    "last_known_time": "2025-07-06T11:25:39.779292",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:39.779292",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.74319458007812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dhanbad_Sardar_Patel_Nagar__Dhanbad___JSPCB",
+    "city": "Dhanbad",
+    "station": "Sardar Patel Nagar, Dhanbad - JSPCB",
+    "last_known_time": "2025-07-06T11:25:33.765180",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:33.765180",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.24665069580078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dharwad_Kalabhavan__Dharwad___KSPCB",
+    "city": "Dharwad",
+    "station": "Kalabhavan, Dharwad - KSPCB",
+    "last_known_time": "2025-07-06T11:25:36.060927",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:36.060927",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.3243179321289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dhule_Deopur__Dhule___MPCB",
+    "city": "Dhule",
+    "station": "Deopur, Dhule - MPCB",
+    "last_known_time": "2025-07-06T11:25:44.659406",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:44.659406",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.80341339111328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dindigul_Mendonsa_Colony__Dindigul___TNPCB",
+    "city": "Dindigul",
+    "station": "Mendonsa Colony, Dindigul - TNPCB",
+    "last_known_time": "2025-07-06T11:26:03.259225",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:03.259225",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.24768829345703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Dungarpur_Bhoiwada__Dungarpur___RSPCB",
+    "city": "Dungarpur",
+    "station": "Bhoiwada, Dungarpur - RSPCB",
+    "last_known_time": "2025-07-06T11:25:59.098939",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:59.098939",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.08324432373047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Durgapur_Mahishkapur_Road_B_Zone__Durgapur___WBPCB",
+    "city": "Durgapur",
+    "station": "Mahishkapur Road_B-Zone, Durgapur - WBPCB",
+    "last_known_time": "2025-07-06T00:13:43.243486",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.243486",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.09982299804688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Durgapur_PCBL_Residential_Complex__Durgapur___WBPCB",
+    "city": "Durgapur",
+    "station": "PCBL Residential Complex, Durgapur - WBPCB",
+    "last_known_time": "2025-07-06T02:40:17.794952",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:17.794952",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.84004974365234,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Durgapur_Womens_College_City_Center__Durgapur___WBPCB_(Formerly_known_as_Sidhu_Kanhu_Indoor_Stadium)",
+    "city": "Durgapur",
+    "station": "Womens College_City Center, Durgapur - WBPCB (Formerly known as Sidhu Kanhu Indoor Stadium)",
+    "last_known_time": "2025-07-06T11:26:18.372772",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:18.372772",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.669921875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Firozabad_Nagla_Bhau__Firozabad___UPPCB",
+    "city": "Firozabad",
+    "station": "Nagla Bhau, Firozabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:13.076049",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:13.076049",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.28136444091797,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gandhinagar_GIFT_City__Gandhinagar___IITM",
+    "city": "Gandhinagar",
+    "station": "GIFT City, Gandhinagar - IITM",
+    "last_known_time": "2025-07-06T11:25:32.450115",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.450115",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.93621063232422,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gandhinagar_IIPHG_Lekawada__Gandhinagar___IITM",
+    "city": "Gandhinagar",
+    "station": "IIPHG Lekawada, Gandhinagar - IITM",
+    "last_known_time": "2025-07-06T11:25:32.626715",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.626715",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.8574447631836,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gandhinagar_Sector_10__Gandhinagar___GPCB",
+    "city": "Gandhinagar",
+    "station": "Sector-10, Gandhinagar - GPCB",
+    "last_known_time": "2025-07-06T11:25:32.803481",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.803481",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.47733306884766,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gaya_Kareemganj__Gaya___BSPCB",
+    "city": "Gaya",
+    "station": "Kareemganj, Gaya - BSPCB",
+    "last_known_time": "2025-07-06T11:25:19.115848",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:19.115848",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.16117095947266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gaya_SFTI_Kusdihra__Gaya___BSPCB",
+    "city": "Gaya",
+    "station": "SFTI Kusdihra, Gaya - BSPCB",
+    "last_known_time": "2025-07-06T11:25:19.272167",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:19.272167",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.35746002197266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ghaziabad_Indirapuram__Ghaziabad___UPPCB",
+    "city": "Ghaziabad",
+    "station": "Indirapuram, Ghaziabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:13.324798",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:13.324798",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.63619232177734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ghaziabad_Loni__Ghaziabad___UPPCB",
+    "city": "Ghaziabad",
+    "station": "Loni, Ghaziabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:13.508014",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:13.508014",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.36634826660156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ghaziabad_Sanjay_Nagar__Ghaziabad___UPPCB",
+    "city": "Ghaziabad",
+    "station": "Sanjay Nagar, Ghaziabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:13.712940",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:13.712940",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.39289093017578,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gorakhpur_Madan_Mohan_Malaviya_University_of_Technology__Gorakhpur___UPPCB",
+    "city": "Gorakhpur",
+    "station": "Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB",
+    "last_known_time": "2025-07-06T02:40:11.830853",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:11.830853",
+        "hour_ahead": 1,
+        "aqi_predicted": 118.95848846435547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Greater_Noida_Knowledge_Park___III__Greater_Noida___UPPCB",
+    "city": "Greater Noida",
+    "station": "Knowledge Park - III, Greater Noida - UPPCB",
+    "last_known_time": "2025-07-06T00:13:42.331776",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:42.331776",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.36439514160156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gummidipoondi_Anthoni_Pillai_Nagar__Gummidipoondi___TNPCB",
+    "city": "Gummidipoondi",
+    "station": "Anthoni Pillai Nagar, Gummidipoondi - TNPCB",
+    "last_known_time": "2025-07-06T11:26:03.730910",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:03.730910",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.41400146484375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Guwahati_IITG__Guwahati___PCBA",
+    "city": "Guwahati",
+    "station": "IITG, Guwahati - PCBA",
+    "last_known_time": "2025-07-06T11:25:16.863871",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:16.863871",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.2507553100586,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Guwahati_LGBI_Airport__Guwahati___PCBA",
+    "city": "Guwahati",
+    "station": "LGBI Airport, Guwahati - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.041321",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.041321",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.79471588134766,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Guwahati_Pan_Bazaar__Guwahati___PCBA",
+    "city": "Guwahati",
+    "station": "Pan Bazaar, Guwahati - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.215717",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.215717",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.5438232421875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Guwahati_Railway_Colony__Guwahati___PCBA",
+    "city": "Guwahati",
+    "station": "Railway Colony, Guwahati - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.388562",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.388562",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.3802490234375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gwalior_Deen_Dayal_Nagar__Gwalior___MPPCB",
+    "city": "Gwalior",
+    "station": "Deen Dayal Nagar, Gwalior - MPPCB",
+    "last_known_time": "2025-07-06T02:39:46.239992",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:46.239992",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.14273834228516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Gwalior_Maharaj_Bada__Gwalior___MPPCB",
+    "city": "Gwalior",
+    "station": "Maharaj Bada, Gwalior - MPPCB",
+    "last_known_time": "2025-07-06T11:25:40.142187",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:40.142187",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.28111267089844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hajipur_Industrial_Area__Hajipur___BSPCB",
+    "city": "Hajipur",
+    "station": "Industrial Area, Hajipur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:19.452422",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:19.452422",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.13294982910156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Haldia_Priyambada_Housing_Estate__Haldia___WBPCB",
+    "city": "Haldia",
+    "station": "Priyambada Housing Estate, Haldia - WBPCB",
+    "last_known_time": "2025-07-06T11:26:18.557273",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:18.557273",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.86685180664062,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hapur_Anand_Vihar__Hapur___UPPCB",
+    "city": "Hapur",
+    "station": "Anand Vihar, Hapur - UPPCB",
+    "last_known_time": "2025-07-06T11:26:13.921942",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:13.921942",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.9146728515625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hosur_SIPCOT_Phase_1__Hosur___TNPCB",
+    "city": "Hosur",
+    "station": "SIPCOT Phase-1, Hosur - TNPCB",
+    "last_known_time": "2025-07-06T11:26:04.140156",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:04.140156",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.91881561279297,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Howrah_Belur_Math__Howrah___WBPCB",
+    "city": "Howrah",
+    "station": "Belur Math, Howrah - WBPCB",
+    "last_known_time": "2025-07-06T00:13:43.501527",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.501527",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.06905364990234,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Howrah_Botanical_Garden__Howrah___WBPCB",
+    "city": "Howrah",
+    "station": "Botanical Garden, Howrah - WBPCB",
+    "last_known_time": "2025-07-06T11:26:18.752783",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:18.752783",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.7497787475586,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Howrah_Dasnagar__Howrah___WBPCB",
+    "city": "Howrah",
+    "station": "Dasnagar, Howrah - WBPCB",
+    "last_known_time": "2025-07-06T11:26:18.937467",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:18.937467",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.25453186035156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Howrah_Ghusuri__Howrah___WBPCB",
+    "city": "Howrah",
+    "station": "Ghusuri, Howrah - WBPCB",
+    "last_known_time": "2025-07-06T11:26:19.109685",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:19.109685",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.17574310302734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hubballi_Lingaraj_Nagar__Hubballi___KSPCB",
+    "city": "Hubballi",
+    "station": "Lingaraj Nagar, Hubballi - KSPCB",
+    "last_known_time": "2025-07-06T11:25:36.222263",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:36.222263",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.01091766357422,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hyderabad_Bollaram_Industrial_Area__Hyderabad___TSPCB",
+    "city": "Hyderabad",
+    "station": "Bollaram Industrial Area, Hyderabad - TSPCB",
+    "last_known_time": "2025-07-06T11:26:10.035838",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:10.035838",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.79484558105469,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hyderabad_IDA_Pashamylaram__Hyderabad___TSPCB",
+    "city": "Hyderabad",
+    "station": "IDA Pashamylaram, Hyderabad - TSPCB",
+    "last_known_time": "2025-07-06T00:13:43.053147",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.053147",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.86628723144531,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hyderabad_IITH_Kandi__Hyderabad___TSPCB",
+    "city": "Hyderabad",
+    "station": "IITH Kandi, Hyderabad - TSPCB",
+    "last_known_time": "2025-07-06T11:26:10.795179",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:10.795179",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.44976806640625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hyderabad_Kokapet__Hyderabad___TSPCB",
+    "city": "Hyderabad",
+    "station": "Kokapet, Hyderabad - TSPCB",
+    "last_known_time": "2025-07-06T11:26:11.155484",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:11.155484",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.10198211669922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Hyderabad_Kompally_Municipal_Office__Hyderabad___TSPCB",
+    "city": "Hyderabad",
+    "station": "Kompally Municipal Office, Hyderabad - TSPCB",
+    "last_known_time": "2025-07-06T02:40:10.587921",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:10.587921",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.81155395507812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Imphal_DM_College_of_Science__Imphal___Manipur_PCB",
+    "city": "Imphal",
+    "station": "DM College of Science, Imphal - Manipur PCB",
+    "last_known_time": "2025-07-06T00:13:43.692139",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.692139",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.73684692382812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Indore_Chhoti_Gwaltoli__Indore___MPPCB",
+    "city": "Indore",
+    "station": "Chhoti Gwaltoli, Indore - MPPCB",
+    "last_known_time": "2025-07-06T11:25:40.336610",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:40.336610",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.13533782958984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Indore_Maguda_Nagar__Indore___IMC",
+    "city": "Indore",
+    "station": "Maguda Nagar, Indore - IMC",
+    "last_known_time": "2025-07-06T11:25:40.507030",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:40.507030",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.91399383544922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jabalpur_Govindh_Bhavan_Colony__Jabalpur___JMC",
+    "city": "Jabalpur",
+    "station": "Govindh Bhavan Colony, Jabalpur - JMC",
+    "last_known_time": "2025-07-06T11:25:40.685489",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:40.685489",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.4286117553711,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jabalpur_Gupteshwar__Jabalpur___JMC",
+    "city": "Jabalpur",
+    "station": "Gupteshwar, Jabalpur - JMC",
+    "last_known_time": "2025-07-06T11:25:40.867328",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:40.867328",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.95087432861328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jabalpur_Marhatal__Jabalpur___MPPCB",
+    "city": "Jabalpur",
+    "station": "Marhatal, Jabalpur - MPPCB",
+    "last_known_time": "2025-07-06T11:25:41.029823",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.029823",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.4863510131836,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jaipur_Mansarovar_Sector_12__Jaipur___RSPCB",
+    "city": "Jaipur",
+    "station": "Mansarovar Sector-12, Jaipur - RSPCB",
+    "last_known_time": "2025-07-06T02:40:05.386084",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:05.386084",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.3296890258789,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jaipur_RIICO_Sitapura__Jaipur___RSPCB",
+    "city": "Jaipur",
+    "station": "RIICO Sitapura, Jaipur - RSPCB",
+    "last_known_time": "2025-07-06T11:25:59.438375",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:59.438375",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.50352478027344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jaipur_Sector_2_Murlipura__Jaipur___RSPCB",
+    "city": "Jaipur",
+    "station": "Sector-2 Murlipura, Jaipur - RSPCB",
+    "last_known_time": "2025-07-06T02:40:05.692682",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:05.692682",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.081298828125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jaipur_Shastri_Nagar__Jaipur___RSPCB",
+    "city": "Jaipur",
+    "station": "Shastri Nagar, Jaipur - RSPCB",
+    "last_known_time": "2025-07-06T11:25:59.611814",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:59.611814",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.9607162475586,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jaisalmer_Sadar_Bazar__Jaisalmer___RSPCB",
+    "city": "Jaisalmer",
+    "station": "Sadar Bazar, Jaisalmer - RSPCB",
+    "last_known_time": "2025-07-06T11:25:59.790397",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:59.790397",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.32431030273438,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jalgaon_Prabhat_Colony__Jalgaon___MPCB",
+    "city": "Jalgaon",
+    "station": "Prabhat Colony, Jalgaon - MPCB",
+    "last_known_time": "2025-07-06T02:39:50.711229",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:50.711229",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.22621154785156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jalna_Old_MIDC__Jalna___MPCB",
+    "city": "Jalna",
+    "station": "Old MIDC, Jalna - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.016687",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.016687",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.3582992553711,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jhalawar_Rajlaxmi_Nagar__Jhalawar___RSPCB",
+    "city": "Jhalawar",
+    "station": "Rajlaxmi Nagar, Jhalawar - RSPCB",
+    "last_known_time": "2025-07-06T11:25:59.966491",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:59.966491",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.97441864013672,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jhansi_Shivaji_Nagar__Jhansi___UPPCB",
+    "city": "Jhansi",
+    "station": "Shivaji Nagar, Jhansi - UPPCB",
+    "last_known_time": "2025-07-06T11:26:14.118969",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:14.118969",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.86949157714844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jodhpur_Collectorate__Jodhpur___RSPCB",
+    "city": "Jodhpur",
+    "station": "Collectorate, Jodhpur - RSPCB",
+    "last_known_time": "2025-07-06T00:13:40.073433",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:40.073433",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.7408676147461,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jodhpur_Digari_Kalan__Jodhpur___RSPCB",
+    "city": "Jodhpur",
+    "station": "Digari Kalan, Jodhpur - RSPCB",
+    "last_known_time": "2025-07-06T11:26:00.158366",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:00.158366",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.81787872314453,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Jodhpur_Jhalamand__Jodhpur___RSPCB",
+    "city": "Jodhpur",
+    "station": "Jhalamand, Jodhpur - RSPCB",
+    "last_known_time": "2025-07-06T11:26:00.322143",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:00.322143",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.94068145751953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kalaburagi_Lal_Bahadur_Shastri_Nagar__Kalaburagi___KSPCB",
+    "city": "Kalaburagi",
+    "station": "Lal Bahadur Shastri Nagar, Kalaburagi - KSPCB",
+    "last_known_time": "2025-07-06T11:25:36.405700",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:36.405700",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.07554626464844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kalaburagi_Mahatma_Basaveswar_Colony__Kalaburgi___KSPCB",
+    "city": "Kalaburagi",
+    "station": "Mahatma Basaveswar Colony, Kalaburgi - KSPCB",
+    "last_known_time": "2025-07-06T11:25:36.597510",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:36.597510",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.9476089477539,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kalyan_Pimpleshwar_Mandir__Kalyan___MPCB",
+    "city": "Kalyan",
+    "station": "Pimpleshwar Mandir, Kalyan - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.192928",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.192928",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.10850524902344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kanchipuram_Kilambi__Kanchipuram___TNPCB",
+    "city": "Kanchipuram",
+    "station": "Kilambi, Kanchipuram - TNPCB",
+    "last_known_time": "2025-07-06T11:26:04.936509",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:04.936509",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.28573608398438,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kannur_Thavakkara__Kannur___Kerala_PCB",
+    "city": "Kannur",
+    "station": "Thavakkara, Kannur - Kerala PCB",
+    "last_known_time": "2025-07-06T11:25:38.543782",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:38.543782",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.47760009765625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kanpur_FTI_Kidwai_Nagar__Kanpur___UPPCB",
+    "city": "Kanpur",
+    "station": "FTI Kidwai Nagar, Kanpur - UPPCB",
+    "last_known_time": "2025-07-06T11:26:14.308905",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:14.308905",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.39920043945312,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kanpur_NSI_Kalyanpur__Kanpur___UPPCB",
+    "city": "Kanpur",
+    "station": "NSI Kalyanpur, Kanpur - UPPCB",
+    "last_known_time": "2025-07-06T11:26:14.491695",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:14.491695",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.98416900634766,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kanpur_Nehru_Nagar__Kanpur___UPPCB",
+    "city": "Kanpur",
+    "station": "Nehru Nagar, Kanpur - UPPCB",
+    "last_known_time": "2025-07-06T02:40:12.780549",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:12.780549",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.88370513916016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Karauli_Satyawati_Vihar__Karauli___RSPCB",
+    "city": "Karauli",
+    "station": "Satyawati Vihar, Karauli - RSPCB",
+    "last_known_time": "2025-07-06T02:40:06.376765",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:06.376765",
+        "hour_ahead": 1,
+        "aqi_predicted": 117.71052551269531,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kashipur_Govt._Girls_Inter_College__Kashipur___UKPCB",
+    "city": "Kashipur",
+    "station": "Govt. Girls Inter College, Kashipur - UKPCB",
+    "last_known_time": "2025-07-06T11:26:17.218479",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:17.218479",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.72982788085938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Katihar_Mirchaibari__Katihar___BSPCB",
+    "city": "Katihar",
+    "station": "Mirchaibari, Katihar - BSPCB",
+    "last_known_time": "2025-07-06T11:25:19.618140",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:19.618140",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.15579986572266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Katni_Gole_Bazar__Katni___MPPCB",
+    "city": "Katni",
+    "station": "Gole Bazar, Katni - MPPCB",
+    "last_known_time": "2025-07-06T11:25:41.207384",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.207384",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.80024719238281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Keonjhar_Jagamohanpur__Keonjhar___OSPCB",
+    "city": "Keonjhar",
+    "station": "Jagamohanpur, Keonjhar - OSPCB",
+    "last_known_time": "2025-07-06T11:25:56.306553",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:56.306553",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.01428985595703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Khanna_Kalal_Majra__Khanna___PPCB",
+    "city": "Khanna",
+    "station": "Kalal Majra, Khanna - PPCB",
+    "last_known_time": "2025-07-06T11:25:57.181274",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:57.181274",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.82233428955078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kishanganj_SDM_Office_Khagra__Kishanganj___BSPCB",
+    "city": "Kishanganj",
+    "station": "SDM Office_Khagra, Kishanganj - BSPCB",
+    "last_known_time": "2025-07-06T11:25:19.781079",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:19.781079",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.04141235351562,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kohima_PWD_Junction__Kohima___NPCB",
+    "city": "Kohima",
+    "station": "PWD Junction, Kohima - NPCB",
+    "last_known_time": "2025-07-06T11:25:54.760374",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:54.760374",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.96247100830078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolhapur_Shivaji_University__Kolhapur___MPCB",
+    "city": "Kolhapur",
+    "station": "Shivaji University, Kolhapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.373378",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.373378",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.3797836303711,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolhapur_Sinchan_Bhavan__Kolhapur___MPCB",
+    "city": "Kolhapur",
+    "station": "Sinchan Bhavan, Kolhapur - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.546840",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.546840",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.109619140625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolkata_Ballygunge__Kolkata___WBPCB",
+    "city": "Kolkata",
+    "station": "Ballygunge, Kolkata - WBPCB",
+    "last_known_time": "2025-07-06T11:26:19.290079",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:19.290079",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.11680603027344,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolkata_Bidhannagar__Kolkata___WBPCB",
+    "city": "Kolkata",
+    "station": "Bidhannagar, Kolkata - WBPCB",
+    "last_known_time": "2025-07-06T02:40:18.725082",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:18.725082",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.08863830566406,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolkata_Rabindra_Bharati_University__Kolkata___WBPCB",
+    "city": "Kolkata",
+    "station": "Rabindra Bharati University, Kolkata - WBPCB",
+    "last_known_time": "2025-07-06T11:26:19.647865",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:19.647865",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.60707092285156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolkata_Rabindra_Sarobar__Kolkata___WBPCB",
+    "city": "Kolkata",
+    "station": "Rabindra Sarobar, Kolkata - WBPCB",
+    "last_known_time": "2025-07-06T02:40:19.032158",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:19.032158",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.62284851074219,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kolkata_Victoria__Kolkata___WBPCB",
+    "city": "Kolkata",
+    "station": "Victoria, Kolkata - WBPCB",
+    "last_known_time": "2025-07-06T00:13:43.537245",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:43.537245",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.0801773071289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Korba_Rampur__Korba___CECB",
+    "city": "Korba",
+    "station": "Rampur, Korba - CECB",
+    "last_known_time": "2025-07-06T11:25:23.870822",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:23.870822",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.25930786132812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Korba_Urja_Nagar__Korba___CECB",
+    "city": "Korba",
+    "station": "Urja Nagar, Korba - CECB",
+    "last_known_time": "2025-07-06T11:25:24.034557",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:24.034557",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.5650634765625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kota_Nayapura__Kota___RSPCB",
+    "city": "Kota",
+    "station": "Nayapura, Kota - RSPCB",
+    "last_known_time": "2025-07-06T11:26:00.517819",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:00.517819",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.7143783569336,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kota_Shrinath_Puram__Kota___RSPCB",
+    "city": "Kota",
+    "station": "Shrinath Puram, Kota - RSPCB",
+    "last_known_time": "2025-07-06T00:13:40.131325",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:40.131325",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.60569763183594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Kunjemura_OP_Jindal_School__Kunjemura___CECB",
+    "city": "Kunjemura",
+    "station": "OP Jindal School, Kunjemura - CECB",
+    "last_known_time": "2025-07-06T11:25:24.201975",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:24.201975",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.19666290283203,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Latur_Sawe_Wadi__Latur___MPCB",
+    "city": "Latur",
+    "station": "Sawe Wadi, Latur - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.715645",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.715645",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.6187973022461,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Lucknow_Gomti_Nagar__Lucknow___UPPCB",
+    "city": "Lucknow",
+    "station": "Gomti Nagar, Lucknow - UPPCB",
+    "last_known_time": "2025-07-06T02:40:12.931363",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:12.931363",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.19158935546875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Lucknow_Kendriya_Vidyalaya__Lucknow___CPCB",
+    "city": "Lucknow",
+    "station": "Kendriya Vidyalaya, Lucknow - CPCB",
+    "last_known_time": "2025-07-06T11:26:14.684312",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:14.684312",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.13697052001953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Lucknow_Talkatora_District_Industries_Center__Lucknow___CPCB",
+    "city": "Lucknow",
+    "station": "Talkatora District Industries Center, Lucknow - CPCB",
+    "last_known_time": "2025-07-06T11:26:14.864644",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:14.864644",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.5153579711914,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Madikeri_Stuart_Hill__Madikeri___KSPCB",
+    "city": "Madikeri",
+    "station": "Stuart Hill, Madikeri - KSPCB",
+    "last_known_time": "2025-07-06T02:39:43.941757",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:43.941757",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.05329132080078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mahad_Kamble_Tarf_Birwadi__Mahad___MPCB",
+    "city": "Mahad",
+    "station": "Kamble Tarf Birwadi, Mahad - MPCB",
+    "last_known_time": "2025-07-06T11:25:45.885452",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:45.885452",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.7951431274414,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Maihar_Sahilara__Maihar___KJS_Cements",
+    "city": "Maihar",
+    "station": "Sahilara, Maihar - KJS Cements",
+    "last_known_time": "2025-07-06T11:25:41.397670",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.397670",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.03580474853516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Malegaon_Mahesh_Nagar__Malegaon___MPCB",
+    "city": "Malegaon",
+    "station": "Mahesh Nagar, Malegaon - MPCB",
+    "last_known_time": "2025-07-06T11:25:46.058702",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:46.058702",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.10704803466797,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mandi_Gobindgarh_RIMT_University__Mandi_Gobindgarh___PPCB",
+    "city": "Mandi Gobindgarh",
+    "station": "RIMT University, Mandi Gobindgarh - PPCB",
+    "last_known_time": "2025-07-06T00:13:41.138565",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:41.138565",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.48387908935547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mandideep_Sector_D_Industrial_Area__Mandideep___MPPCB",
+    "city": "Mandideep",
+    "station": "Sector-D Industrial Area, Mandideep - MPPCB",
+    "last_known_time": "2025-07-06T11:25:41.569679",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.569679",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.16097259521484,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mangalore_Kadri__Mangalore___KSPCB",
+    "city": "Mangalore",
+    "station": "Kadri, Mangalore - KSPCB",
+    "last_known_time": "2025-07-06T02:39:44.113942",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:44.113942",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.90448760986328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Manguraha_Forest_Rest_House__Manguraha___BSPCB",
+    "city": "Manguraha",
+    "station": "Forest Rest House, Manguraha - BSPCB",
+    "last_known_time": "2025-07-06T02:39:27.541828",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:27.541828",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.63488006591797,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Meerut_Jai_Bhim_Nagar__Meerut___UPPCB",
+    "city": "Meerut",
+    "station": "Jai Bhim Nagar, Meerut - UPPCB",
+    "last_known_time": "2025-07-06T11:26:15.045057",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:15.045057",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.7793960571289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Meerut_Pallavpuram_Phase_2__Meerut___UPPCB",
+    "city": "Meerut",
+    "station": "Pallavpuram Phase 2, Meerut - UPPCB",
+    "last_known_time": "2025-07-06T02:40:13.584902",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:13.584902",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.3795394897461,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Milupara_Govt._Higher_Secondary_School__Milupara___CECB",
+    "city": "Milupara",
+    "station": "Govt. Higher Secondary School, Milupara - CECB",
+    "last_known_time": "2025-07-06T02:39:31.699612",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:31.699612",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.5146484375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mira_Bhayandar_Bhayandar_West__Mira_Bhayandar___MPCB",
+    "city": "Mira-Bhayandar",
+    "station": "Bhayandar West, Mira-Bhayandar - MPCB",
+    "last_known_time": "2025-07-06T02:39:52.143246",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:52.143246",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.58704376220703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Moradabad_Buddhi_Vihar__Moradabad___UPPCB",
+    "city": "Moradabad",
+    "station": "Buddhi Vihar, Moradabad - UPPCB",
+    "last_known_time": "2025-07-06T02:40:13.789206",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:13.789206",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.29488372802734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Moradabad_Employment_Office__Moradabad___UPPCB",
+    "city": "Moradabad",
+    "station": "Employment Office, Moradabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:15.401345",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:15.401345",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.06819152832031,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Moradabad_Jigar_Colony__Moradabad___UPPCB",
+    "city": "Moradabad",
+    "station": "Jigar Colony, Moradabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:15.567036",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:15.567036",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.65037536621094,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Moradabad_Kashiram_Nagar__Moradabad___UPPCB",
+    "city": "Moradabad",
+    "station": "Kashiram Nagar, Moradabad - UPPCB",
+    "last_known_time": "2025-07-06T02:40:14.390678",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:14.390678",
+        "hour_ahead": 1,
+        "aqi_predicted": 118.89279174804688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Moradabad_Transport_Nagar__Moradabad___UPPCB",
+    "city": "Moradabad",
+    "station": "Transport Nagar, Moradabad - UPPCB",
+    "last_known_time": "2025-07-06T11:26:15.747299",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:15.747299",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.33162689208984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Motihari_Gandak_Colony__Motihari___BSPCB",
+    "city": "Motihari",
+    "station": "Gandak Colony, Motihari - BSPCB",
+    "last_known_time": "2025-07-06T11:25:20.133159",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:20.133159",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.67938232421875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Bandra_Kurla_Complex__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Bandra Kurla Complex, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:46.412541",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:46.412541",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.66429901123047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Bandra_Kurla_Complex__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Bandra Kurla Complex, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:46.587324",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:46.587324",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.9864730834961,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Borivali_East__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Borivali East, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:46.758624",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:46.758624",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.58677673339844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Byculla__Mumbai___BMC",
+    "city": "Mumbai",
+    "station": "Byculla, Mumbai - BMC",
+    "last_known_time": "2025-07-06T11:25:46.940315",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:46.940315",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.68963623046875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Chhatrapati_Shivaji_Intl._Airport_(T2)__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:47.121706",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:47.121706",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.08480072021484,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Colaba__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Colaba, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:47.295232",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:47.295232",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.56436920166016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Deonar__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Deonar, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:47.461321",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:47.461321",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.33987426757812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Ghatkopar__Mumbai___BMC",
+    "city": "Mumbai",
+    "station": "Ghatkopar, Mumbai - BMC",
+    "last_known_time": "2025-07-06T11:25:47.622128",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:47.622128",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.46305084228516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Kandivali_East__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Kandivali East, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T02:39:53.789833",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:53.789833",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.41156768798828,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Kherwadi_Bandra_East__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Kherwadi_Bandra East, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:47.969768",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:47.969768",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.28631591796875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Khindipada_Bhandup_West__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Khindipada-Bhandup West, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:48.148133",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:48.148133",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2733154296875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Kurla__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Kurla, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:48.316461",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:48.316461",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.0528564453125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Malad_West__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Malad West, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:48.499149",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:48.499149",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.60572814941406,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Mazgaon__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Mazgaon, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:48.669671",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:48.669671",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.76846313476562,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Mindspace_Malad_West__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Mindspace-Malad West, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:48.844976",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:48.844976",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.56158447265625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Navy_Nagar_Colaba__Mumbai___IITM",
+    "city": "Mumbai",
+    "station": "Navy Nagar-Colaba, Mumbai - IITM",
+    "last_known_time": "2025-07-06T11:25:49.020526",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.020526",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.90113830566406,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Powai__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Powai, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:49.197135",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.197135",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.53131103515625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Sewri__Mumbai___BMC",
+    "city": "Mumbai",
+    "station": "Sewri, Mumbai - BMC",
+    "last_known_time": "2025-07-06T11:25:49.365582",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.365582",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.86068725585938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Shivaji_Nagar__Mumbai___BMC",
+    "city": "Mumbai",
+    "station": "Shivaji Nagar, Mumbai - BMC",
+    "last_known_time": "2025-07-06T11:25:49.543478",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.543478",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.47083282470703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Sion__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Sion, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:49.716225",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.716225",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.25968933105469,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mumbai_Vasai_West__Mumbai___MPCB",
+    "city": "Mumbai",
+    "station": "Vasai West, Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:49.904264",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:49.904264",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.5248031616211,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Munger_Town_Hall__Munger___BSPCB",
+    "city": "Munger",
+    "station": "Town Hall, Munger - BSPCB",
+    "last_known_time": "2025-07-06T11:25:20.300852",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:20.300852",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.4911880493164,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Muzaffarpur_Buddha_Colony__Muzaffarpur___BSPCB",
+    "city": "Muzaffarpur",
+    "station": "Buddha Colony, Muzaffarpur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:20.464131",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:20.464131",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.15636444091797,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Muzaffarpur_MIT_Daudpur_Kothi__Muzaffarpur___BSPCB",
+    "city": "Muzaffarpur",
+    "station": "MIT-Daudpur Kothi, Muzaffarpur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:20.626996",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:20.626996",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.86693572998047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Muzaffarpur_Muzaffarpur_Collectorate__Muzaffarpur___BSPCB",
+    "city": "Muzaffarpur",
+    "station": "Muzaffarpur Collectorate, Muzaffarpur - BSPCB",
+    "last_known_time": "2025-07-06T02:39:28.405093",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:28.405093",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.18578338623047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Mysuru_Hebbal_1st_Stage__Mysuru___KSPCB",
+    "city": "Mysuru",
+    "station": "Hebbal 1st Stage, Mysuru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:37.209113",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:37.209113",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.70011901855469,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nagaon_Christianpatty__Nagaon___PCBA",
+    "city": "Nagaon",
+    "station": "Christianpatty, Nagaon - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.555091",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.555091",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.6033935546875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nagaur_Karni_Colony__Nagaur___RSPCB",
+    "city": "Nagaur",
+    "station": "Karni Colony, Nagaur - RSPCB",
+    "last_known_time": "2025-07-06T00:13:40.397242",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:40.397242",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.02275848388672,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nagpur_Mahal__Nagpur___MPCB",
+    "city": "Nagpur",
+    "station": "Mahal, Nagpur - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.071243",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.071243",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.0647964477539,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nagpur_Opp_GPO_Civil_Lines__Nagpur___MPCB",
+    "city": "Nagpur",
+    "station": "Opp GPO Civil Lines, Nagpur - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.259129",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.259129",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.32787322998047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nagpur_Ram_Nagar__Nagpur___MPCB",
+    "city": "Nagpur",
+    "station": "Ram Nagar, Nagpur - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.427163",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.427163",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2200927734375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nalbari_Bata_Chowk__Nalbari___PCBA",
+    "city": "Nalbari",
+    "station": "Bata Chowk, Nalbari - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.722217",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.722217",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.79521942138672,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nanded_Sneh_Nagar__Nanded___MPCB",
+    "city": "Nanded",
+    "station": "Sneh Nagar, Nanded - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.613791",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.613791",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.45994567871094,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nandesari_GIDC__Nandesari___Nandesari_Ind._Association",
+    "city": "Nandesari",
+    "station": "GIDC, Nandesari - Nandesari Ind. Association",
+    "last_known_time": "2025-07-06T11:25:32.998890",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:32.998890",
+        "hour_ahead": 1,
+        "aqi_predicted": 118.47583770751953,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nashik_Gangapur_Road__Nashik___MPCB",
+    "city": "Nashik",
+    "station": "Gangapur Road, Nashik - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.800014",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.800014",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.81761932373047,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nashik_Hirawadi__Nashik___MPCB",
+    "city": "Nashik",
+    "station": "Hirawadi, Nashik - MPCB",
+    "last_known_time": "2025-07-06T11:25:50.971160",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:50.971160",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.50102233886719,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nashik_Pandav_Nagari__Nashik___MPCB",
+    "city": "Nashik",
+    "station": "Pandav Nagari, Nashik - MPCB",
+    "last_known_time": "2025-07-06T11:25:51.137399",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:51.137399",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.4981460571289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Navi_Mumbai_Kopripada_Vashi__Navi_Mumbai___MPCB",
+    "city": "Navi Mumbai",
+    "station": "Kopripada-Vashi, Navi Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:51.313499",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:51.313499",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.90230560302734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Navi_Mumbai_Sanpada__Navi_Mumbai___MPCB",
+    "city": "Navi Mumbai",
+    "station": "Sanpada, Navi Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:51.485310",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:51.485310",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.21678161621094,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Navi_Mumbai_Sector_2E_Kalamboli__Navi_Mumbai___MPCB",
+    "city": "Navi Mumbai",
+    "station": "Sector-2E Kalamboli, Navi Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:51.661165",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:51.661165",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.63980865478516,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Navi_Mumbai_Tondare_Taloja__Navi_Mumbai___MPCB",
+    "city": "Navi Mumbai",
+    "station": "Tondare-Taloja, Navi Mumbai - MPCB",
+    "last_known_time": "2025-07-06T11:25:51.846019",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:51.846019",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.15335845947266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Nayagarh_Dabuna__Nayagarh___OSPCB",
+    "city": "Nayagarh",
+    "station": "Dabuna, Nayagarh - OSPCB",
+    "last_known_time": "2025-07-06T11:25:56.474140",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:56.474140",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.73346710205078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Noida_Sector___125__Noida___UPPCB",
+    "city": "Noida",
+    "station": "Sector - 125, Noida - UPPCB",
+    "last_known_time": "2025-07-06T11:26:15.918435",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:15.918435",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.39608764648438,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Noida_Sector___62__Noida___IMD",
+    "city": "Noida",
+    "station": "Sector - 62, Noida - IMD",
+    "last_known_time": "2025-07-06T00:13:42.821392",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:42.821392",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.17242431640625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Noida_Sector_1__Noida___UPPCB",
+    "city": "Noida",
+    "station": "Sector-1, Noida - UPPCB",
+    "last_known_time": "2025-07-06T11:26:16.121804",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:16.121804",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.9018783569336,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Panchgaon_Amity_University__Panchgaon___IITM",
+    "city": "Panchgaon",
+    "station": "Amity University, Panchgaon - IITM",
+    "last_known_time": "2025-07-06T11:25:33.565196",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:33.565196",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.6329345703125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patiala_Model_Town__Patiala___PPCB",
+    "city": "Patiala",
+    "station": "Model Town, Patiala - PPCB",
+    "last_known_time": "2025-07-06T02:40:03.794612",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:03.794612",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.44965362548828,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_DRM_Office_Danapur__Patna___BSPCB",
+    "city": "Patna",
+    "station": "DRM Office Danapur, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:20.963837",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:20.963837",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.7528305053711,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_Govt._High_School_Shikarpur__Patna___BSPCB",
+    "city": "Patna",
+    "station": "Govt. High School Shikarpur, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:21.131537",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:21.131537",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.43195343017578,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_IGSC_Planetarium_Complex__Patna___BSPCB",
+    "city": "Patna",
+    "station": "IGSC Planetarium Complex, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:21.315365",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:21.315365",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.95081329345703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_Muradpur__Patna___BSPCB",
+    "city": "Patna",
+    "station": "Muradpur, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:21.566001",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:21.566001",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.19579315185547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_Rajbansi_Nagar__Patna___BSPCB",
+    "city": "Patna",
+    "station": "Rajbansi Nagar, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:21.730522",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:21.730522",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.39542388916016,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Patna_Samanpura__Patna___BSPCB",
+    "city": "Patna",
+    "station": "Samanpura, Patna - BSPCB",
+    "last_known_time": "2025-07-06T11:25:21.895453",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:21.895453",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.69823455810547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Perundurai_SIPCOT_Industrial_Park__Perundurai___TNPCB",
+    "city": "Perundurai",
+    "station": "SIPCOT Industrial Park, Perundurai - TNPCB",
+    "last_known_time": "2025-07-06T02:40:08.995597",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:08.995597",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.17842102050781,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pimpri_Chinchwad_Gavalinagar__Pimpri_Chinchwad___MPCB",
+    "city": "Pimpri-Chinchwad",
+    "station": "Gavalinagar, Pimpri Chinchwad - MPCB",
+    "last_known_time": "2025-07-06T11:25:52.023047",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.023047",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.66407775878906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pimpri_Chinchwad_Park_Street_Wakad__Pimpri_Chinchwad___MPCB",
+    "city": "Pimpri-Chinchwad",
+    "station": "Park Street Wakad, Pimpri Chinchwad - MPCB",
+    "last_known_time": "2025-07-06T11:25:52.201939",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.201939",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.25438690185547,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pimpri_Chinchwad_Thergaon__Pimpri_Chinchwad___MPCB",
+    "city": "Pimpri-Chinchwad",
+    "station": "Thergaon, Pimpri Chinchwad - MPCB",
+    "last_known_time": "2025-07-06T11:25:52.380228",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.380228",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.6935043334961,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pithampur_Sector_2_Industrial_Area__Pithampur___MPPCB",
+    "city": "Pithampur",
+    "station": "Sector-2 Industrial Area, Pithampur - MPPCB",
+    "last_known_time": "2025-07-06T11:25:41.752848",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.752848",
+        "hour_ahead": 1,
+        "aqi_predicted": 118.81571960449219,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Prayagraj_Jhunsi__Prayagraj___UPPCB",
+    "city": "Prayagraj",
+    "station": "Jhunsi, Prayagraj - UPPCB",
+    "last_known_time": "2025-07-06T11:26:16.312765",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:16.312765",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.06907653808594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Prayagraj_Motilal_Nehru_NIT__Prayagraj___UPPCB",
+    "city": "Prayagraj",
+    "station": "Motilal Nehru NIT, Prayagraj - UPPCB",
+    "last_known_time": "2025-07-06T11:26:16.496574",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:16.496574",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.64250946044922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Prayagraj_Nagar_Nigam__Prayagraj___UPPCB",
+    "city": "Prayagraj",
+    "station": "Nagar Nigam, Prayagraj - UPPCB",
+    "last_known_time": "2025-07-06T11:26:16.661810",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:16.661810",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.81040954589844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Puducherry_Jawahar_Nagar__Puducherry___PPCC",
+    "city": "Puducherry",
+    "station": "Jawahar Nagar, Puducherry - PPCC",
+    "last_known_time": "2025-07-06T11:25:57.003309",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:57.003309",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.52079772949219,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Bhosari__Pune___IITM",
+    "city": "Pune",
+    "station": "Bhosari, Pune - IITM",
+    "last_known_time": "2025-07-06T11:25:52.548850",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.548850",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.21907043457031,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Dhankawadi__Pune___IITM",
+    "city": "Pune",
+    "station": "Dhankawadi, Pune - IITM",
+    "last_known_time": "2025-07-06T11:25:52.717507",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.717507",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.13692474365234,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Katraj_Dairy__Pune___MPCB",
+    "city": "Pune",
+    "station": "Katraj Dairy, Pune - MPCB",
+    "last_known_time": "2025-07-06T11:25:52.889713",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:52.889713",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.58332061767578,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Mhada_Colony__Pune___IITM",
+    "city": "Pune",
+    "station": "Mhada Colony, Pune - IITM",
+    "last_known_time": "2025-07-06T11:25:53.065369",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.065369",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.45823669433594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Panchawati_Pashan__Pune___IITM",
+    "city": "Pune",
+    "station": "Panchawati_Pashan, Pune - IITM",
+    "last_known_time": "2025-07-06T11:25:53.230649",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.230649",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.43938446044922,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Revenue_Colony_Shivajinagar__Pune___IITM",
+    "city": "Pune",
+    "station": "Revenue Colony-Shivajinagar, Pune - IITM",
+    "last_known_time": "2025-07-06T11:25:53.394334",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.394334",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.41401672363281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Pune_Savitribai_Phule_Pune_University__Pune___MPCB",
+    "city": "Pune",
+    "station": "Savitribai Phule Pune University, Pune - MPCB",
+    "last_known_time": "2025-07-06T11:25:53.556837",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.556837",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.6795425415039,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Purnia_Mariam_Nagar__Purnia___BSPCB",
+    "city": "Purnia",
+    "station": "Mariam Nagar, Purnia - BSPCB",
+    "last_known_time": "2025-07-06T11:25:22.060914",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.060914",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.04316711425781,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Raipur_AIIMS__Raipur___CECB",
+    "city": "Raipur",
+    "station": "AIIMS, Raipur - CECB",
+    "last_known_time": "2025-07-06T02:39:31.870905",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:31.870905",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.39553833007812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Raipur_Bhatagaon_New_ISBT__Raipur___CECB",
+    "city": "Raipur",
+    "station": "Bhatagaon New ISBT, Raipur - CECB",
+    "last_known_time": "2025-07-06T00:13:35.204829",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:35.204829",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.4123306274414,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Raipur_Krishak_Nagar__Raipur___CECB",
+    "city": "Raipur",
+    "station": "Krishak Nagar, Raipur - CECB",
+    "last_known_time": "2025-07-06T00:13:35.173276",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:35.173276",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.40424346923828,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Raipur_Siltara_Phase_II__Raipur___CECB",
+    "city": "Raipur",
+    "station": "Siltara Phase-II, Raipur - CECB",
+    "last_known_time": "2025-07-06T11:25:25.049410",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.049410",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.59107971191406,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Rairangpur_Divisional_Forest_Office__Rairangpur___OSPCB",
+    "city": "Rairangpur",
+    "station": "Divisional Forest Office, Rairangpur - OSPCB",
+    "last_known_time": "2025-07-06T11:25:56.637240",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:56.637240",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.47367858886719,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Rajamahendravaram_Anand_Kala_Kshetram__Rajamahendravaram___APPCB",
+    "city": "Rajamahendravaram",
+    "station": "Anand Kala Kshetram, Rajamahendravaram - APPCB",
+    "last_known_time": "2025-07-06T11:25:15.468899",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:15.468899",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.16400146484375,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Rajgir_Dangi_Tola__Rajgir___BSPCB",
+    "city": "Rajgir",
+    "station": "Dangi Tola, Rajgir - BSPCB",
+    "last_known_time": "2025-07-06T11:25:22.242959",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.242959",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.0496597290039,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ramanathapuram_Chalai_Bazaar__Ramanathapuram___TNPCB",
+    "city": "Ramanathapuram",
+    "station": "Chalai Bazaar, Ramanathapuram - TNPCB",
+    "last_known_time": "2025-07-06T11:26:06.754572",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:06.754572",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.52941131591797,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ratlam_Shasthri_Nagar__Ratlam___IPCA_Lab",
+    "city": "Ratlam",
+    "station": "Shasthri Nagar, Ratlam - IPCA Lab",
+    "last_known_time": "2025-07-06T11:25:41.926202",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:41.926202",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.71643829345703,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Rourkela_Fertilizer_Township__Rourkela___OSPCB",
+    "city": "Rourkela",
+    "station": "Fertilizer Township, Rourkela - OSPCB",
+    "last_known_time": "2025-07-06T02:40:02.489669",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:02.489669",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.0698471069336,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Rourkela_Raghunathpali__Rourkela___OSPCB",
+    "city": "Rourkela",
+    "station": "Raghunathpali, Rourkela - OSPCB",
+    "last_known_time": "2025-07-06T02:40:02.670849",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:02.670849",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.64714050292969,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sagar_Civil_Lines__Sagar___MPPCB",
+    "city": "Sagar",
+    "station": "Civil Lines, Sagar - MPPCB",
+    "last_known_time": "2025-07-06T11:25:42.105162",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.105162",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.19608306884766,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Samastipur_DM_Office_Kasipur__Samastipur___BSPCB",
+    "city": "Samastipur",
+    "station": "DM Office_Kasipur, Samastipur - BSPCB",
+    "last_known_time": "2025-07-06T11:25:22.433950",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.433950",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.59478759765625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sasaram_Dada_Peer__Sasaram___BSPCB",
+    "city": "Sasaram",
+    "station": "Dada Peer, Sasaram - BSPCB",
+    "last_known_time": "2025-07-06T11:25:22.613499",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.613499",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.54710388183594,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sawai_Madhopur_Sahu_Nagar__Sawai_Madhopur___RSPCB",
+    "city": "Sawai Madhopur",
+    "station": "Sahu Nagar, Sawai Madhopur - RSPCB",
+    "last_known_time": "2025-07-06T11:26:00.860555",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:00.860555",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.0764389038086,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Shillong_Lumpyngngad__Shillong___Meghalaya_PCB",
+    "city": "Shillong",
+    "station": "Lumpyngngad, Shillong - Meghalaya PCB",
+    "last_known_time": "2025-07-06T11:25:54.414650",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:54.414650",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.56404876708984,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Shivamogga_Vinoba_Nagara__Shivamogga___KSPCB",
+    "city": "Shivamogga",
+    "station": "Vinoba Nagara, Shivamogga - KSPCB",
+    "last_known_time": "2025-07-06T11:25:37.396439",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:37.396439",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.54750061035156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sikar_Radhakishan_Pura__Sikar___RSPCB",
+    "city": "Sikar",
+    "station": "Radhakishan Pura, Sikar - RSPCB",
+    "last_known_time": "2025-07-06T02:40:07.227326",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:07.227326",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.89016723632812,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Silchar_Tarapur__Silchar___PCBA",
+    "city": "Silchar",
+    "station": "Tarapur, Silchar - PCBA",
+    "last_known_time": "2025-07-06T11:25:17.888104",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:17.888104",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.3097915649414,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Siliguri_Ward_32_Bapupara__Siliguri___WBPCB",
+    "city": "Siliguri",
+    "station": "Ward-32 Bapupara, Siliguri - WBPCB",
+    "last_known_time": "2025-07-06T02:40:19.206184",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:19.206184",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.2912826538086,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Singrauli_Suryakiran_Bhawan_NCL__Singrauli___MPPCB",
+    "city": "Singrauli",
+    "station": "Suryakiran Bhawan NCL, Singrauli - MPPCB",
+    "last_known_time": "2025-07-06T11:25:42.272423",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:42.272423",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.78761291503906,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sivasagar_Girls_College__Sivasagar___PCBA",
+    "city": "Sivasagar",
+    "station": "Girls College, Sivasagar - PCBA",
+    "last_known_time": "2025-07-06T11:25:18.069448",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:18.069448",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.1747817993164,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Siwan_Chitragupta_Nagar__Siwan___BSPCB",
+    "city": "Siwan",
+    "station": "Chitragupta Nagar, Siwan - BSPCB",
+    "last_known_time": "2025-07-06T11:25:22.789125",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:22.789125",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.1221694946289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Sri_Ganganagar_Old_City__Sri_Ganganagar___RSPCB",
+    "city": "Sri Ganganagar",
+    "station": "Old City, Sri Ganganagar - RSPCB",
+    "last_known_time": "2025-07-06T11:26:01.257692",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:01.257692",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.48384857177734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Talcher_Talcher_Coalfields_Talcher___OSPCB",
+    "city": "Talcher",
+    "station": "Talcher Coalfields,Talcher - OSPCB",
+    "last_known_time": "2025-07-06T02:40:02.858886",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:02.858886",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.69770050048828,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tensa_Barsua_Iron_Ore_Mines__Tensa___OSPCB",
+    "city": "Tensa",
+    "station": "Barsua Iron Ore Mines, Tensa - OSPCB",
+    "last_known_time": "2025-07-06T11:25:56.826218",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:56.826218",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.56024932861328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Thane_Kasarvadavali__Thane___MPCB",
+    "city": "Thane",
+    "station": "Kasarvadavali, Thane - MPCB",
+    "last_known_time": "2025-07-06T11:25:53.726188",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.726188",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.68034362792969,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Thanjavur_Parisutham_Nagar__Thanjavur___TNPCB",
+    "city": "Thanjavur",
+    "station": "Parisutham Nagar, Thanjavur - TNPCB",
+    "last_known_time": "2025-07-06T11:26:07.321626",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:07.321626",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.6824722290039,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Thiruvananthapuram_Plammoodu__Thiruvananthapuram___Kerala_PCB",
+    "city": "Thiruvananthapuram",
+    "station": "Plammoodu, Thiruvananthapuram - Kerala PCB",
+    "last_known_time": "2025-07-06T11:25:38.714186",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:38.714186",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.3899154663086,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Thoothukudi_Meelavittan__Thoothukudi___TNPCB",
+    "city": "Thoothukudi",
+    "station": "Meelavittan, Thoothukudi - TNPCB",
+    "last_known_time": "2025-07-06T11:26:08.581902",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:08.581902",
+        "hour_ahead": 1,
+        "aqi_predicted": 124.01889038085938,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Thrissur_Corporation_Ground__Thrissur___Kerala_PCB",
+    "city": "Thrissur",
+    "station": "Corporation Ground, Thrissur - Kerala PCB",
+    "last_known_time": "2025-07-06T02:39:45.166442",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:39:45.166442",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.04197692871094,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tirumala_Toll_Gate__Tirumala___APPCB",
+    "city": "Tirumala",
+    "station": "Toll Gate, Tirumala - APPCB",
+    "last_known_time": "2025-07-06T11:25:15.641741",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:15.641741",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.51545715332031,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tirunelveli_Municipal_Corporation_Office__Tirunelveli___TNPCB",
+    "city": "Tirunelveli",
+    "station": "Municipal Corporation Office, Tirunelveli - TNPCB",
+    "last_known_time": "2025-07-06T00:13:41.904309",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:41.904309",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.35419464111328,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tirupati_Vaikuntapuram__Tirupati___APPCB",
+    "city": "Tirupati",
+    "station": "Vaikuntapuram, Tirupati - APPCB",
+    "last_known_time": "2025-07-06T00:13:34.663490",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:34.663490",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.484619140625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tirupur_Kumaran_College__Tirupur___TNPCB",
+    "city": "Tirupur",
+    "station": "Kumaran College, Tirupur - TNPCB",
+    "last_known_time": "2025-07-06T11:26:08.967102",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:08.967102",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.56804656982422,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tonk_Shastri_Nagar__Tonk___RSPCB",
+    "city": "Tonk",
+    "station": "Shastri Nagar, Tonk - RSPCB",
+    "last_known_time": "2025-07-06T11:26:01.434140",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:01.434140",
+        "hour_ahead": 1,
+        "aqi_predicted": 119.12371826171875,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tumakuru_Thimmalapura__Tumakuru___KSPCB",
+    "city": "Tumakuru",
+    "station": "Thimmalapura, Tumakuru - KSPCB",
+    "last_known_time": "2025-07-06T11:25:38.180668",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:38.180668",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.4444351196289,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Tumidih_OP_Jindal_Industrial_Park__Tumidih___CECB",
+    "city": "Tumidih",
+    "station": "OP Jindal Industrial Park, Tumidih - CECB",
+    "last_known_time": "2025-07-06T11:25:25.211845",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:25.211845",
+        "hour_ahead": 1,
+        "aqi_predicted": 120.14683532714844,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Ulhasnagar_Sidhi_Vinayak_Nagar__Ulhasnagar___MPCB",
+    "city": "Ulhasnagar",
+    "station": "Sidhi Vinayak Nagar, Ulhasnagar - MPCB",
+    "last_known_time": "2025-07-06T11:25:53.904035",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:53.904035",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.9814453125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vapi_Phase_1_GIDC__Vapi___GPCB",
+    "city": "Vapi",
+    "station": "Phase-1 GIDC, Vapi - GPCB",
+    "last_known_time": "2025-07-06T11:25:33.174716",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:33.174716",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.31986236572266,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Varanasi_Ardhali_Bazar__Varanasi___UPPCB",
+    "city": "Varanasi",
+    "station": "Ardhali Bazar, Varanasi - UPPCB",
+    "last_known_time": "2025-07-06T02:40:16.687334",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:16.687334",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.1124267578125,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Varanasi_IESD_Banaras_Hindu_University__Varanasi___UPPCB",
+    "city": "Varanasi",
+    "station": "IESD Banaras Hindu University, Varanasi - UPPCB",
+    "last_known_time": "2025-07-06T02:40:16.837444",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T03:40:16.837444",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.21920776367188,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Varanasi_Maldahiya__Varanasi___UPPCB",
+    "city": "Varanasi",
+    "station": "Maldahiya, Varanasi - UPPCB",
+    "last_known_time": "2025-07-06T00:13:42.785712",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T01:13:42.785712",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.8258056640625,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vatva_Phase_4_GIDC__Vatva___GPCB",
+    "city": "Vatva",
+    "station": "Phase-4 GIDC, Vatva - GPCB",
+    "last_known_time": "2025-07-06T11:25:33.385624",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:33.385624",
+        "hour_ahead": 1,
+        "aqi_predicted": 121.10377502441406,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vellore_Vasanthapuram__Vellore___TNPCB",
+    "city": "Vellore",
+    "station": "Vasanthapuram, Vellore - TNPCB",
+    "last_known_time": "2025-07-06T11:26:09.541436",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:26:09.541436",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.18257141113281,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vijayawada_HB_Colony__Vijayawada___APPCB",
+    "city": "Vijayawada",
+    "station": "HB Colony, Vijayawada - APPCB",
+    "last_known_time": "2025-07-06T11:25:15.990222",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:15.990222",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.5307388305664,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vijayawada_Rajiv_Gandhi_Park__Vijayawada___APPCB",
+    "city": "Vijayawada",
+    "station": "Rajiv Gandhi Park, Vijayawada - APPCB",
+    "last_known_time": "2025-07-06T11:25:16.161212",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:16.161212",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.4076156616211,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Vijayawada_Rajiv_Nagar__Vijayawada___APPCB",
+    "city": "Vijayawada",
+    "station": "Rajiv Nagar, Vijayawada - APPCB",
+    "last_known_time": "2025-07-06T11:25:16.333775",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:16.333775",
+        "hour_ahead": 1,
+        "aqi_predicted": 123.37220764160156,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Virar_Bolinj__Virar___MPCB",
+    "city": "Virar",
+    "station": "Bolinj, Virar - MPCB",
+    "last_known_time": "2025-07-06T11:25:54.069373",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:54.069373",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.49117279052734,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Visakhapatnam_GVM_Corporation__Visakhapatnam___APPCB",
+    "city": "Visakhapatnam",
+    "station": "GVM Corporation, Visakhapatnam - APPCB",
+    "last_known_time": "2025-07-06T11:25:16.501652",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:16.501652",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.39669799804688,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  },
+  {
+    "station_id": "Yadgir_Collector_Office__Yadgir___KSPCB",
+    "city": "Yadgir",
+    "station": "Collector Office, Yadgir - KSPCB",
+    "last_known_time": "2025-07-06T11:25:38.365325",
+    "forecasts": [
+      {
+        "timestamp": "2025-07-06T12:25:38.365325",
+        "hour_ahead": 1,
+        "aqi_predicted": 122.39459991455078,
+        "aqi_category": "Unhealthy for Sensitive Groups"
+      }
+    ]
+  }
+]

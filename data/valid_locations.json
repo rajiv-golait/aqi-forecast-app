@@ -1,0 +1,804 @@
+{
+  "Andhra_Pradesh": {
+    "Amaravati": [
+      "Secretariat, Amaravati - APPCB"
+    ],
+    "Chittoor": [
+      "Gangineni Cheruvu, Chittoor - APPCB"
+    ],
+    "Rajamahendravaram": [
+      "Anand Kala Kshetram, Rajamahendravaram - APPCB"
+    ],
+    "Tirumala": [
+      "Toll Gate, Tirumala - APPCB"
+    ],
+    "Tirupati": [
+      "Vaikuntapuram, Tirupati - APPCB"
+    ],
+    "Vijayawada": [
+      "HB Colony, Vijayawada - APPCB",
+      "Rajiv Gandhi Park, Vijayawada - APPCB",
+      "Rajiv Nagar, Vijayawada - APPCB"
+    ],
+    "Visakhapatnam": [
+      "GVM Corporation, Visakhapatnam - APPCB"
+    ]
+  },
+  "Assam": {
+    "Byrnihat": [
+      "Central Academy for SFS, Byrnihat - PCBA"
+    ],
+    "Guwahati": [
+      "IITG, Guwahati - PCBA",
+      "LGBI Airport, Guwahati - PCBA",
+      "Pan Bazaar, Guwahati - PCBA",
+      "Railway Colony, Guwahati - PCBA"
+    ],
+    "Nagaon": [
+      "Christianpatty, Nagaon - PCBA"
+    ],
+    "Nalbari": [
+      "Bata Chowk, Nalbari - PCBA"
+    ],
+    "Silchar": [
+      "Tarapur, Silchar - PCBA"
+    ],
+    "Sivasagar": [
+      "Girls College, Sivasagar - PCBA"
+    ]
+  },
+  "Bihar": {
+    "Araria": [
+      "Kharahiya Basti, Araria - BSPCB"
+    ],
+    "Bhagalpur": [
+      "DM Office_Kachari Chowk, Bhagalpur - BSPCB",
+      "Mayaganj, Bhagalpur - BSPCB"
+    ],
+    "Bihar Sharif": [
+      "D M Colony, Bihar Sharif - BSPCB"
+    ],
+    "Buxar": [
+      "Charitra Van, Buxar - BSPCB"
+    ],
+    "Chhapra": [
+      "Darshan Nagar, Chhapra - BSPCB"
+    ],
+    "Gaya": [
+      "Kareemganj, Gaya - BSPCB",
+      "SFTI Kusdihra, Gaya - BSPCB"
+    ],
+    "Hajipur": [
+      "Industrial Area, Hajipur - BSPCB"
+    ],
+    "Katihar": [
+      "Mirchaibari, Katihar - BSPCB"
+    ],
+    "Kishanganj": [
+      "SDM Office_Khagra, Kishanganj - BSPCB"
+    ],
+    "Manguraha": [
+      "Forest Rest House, Manguraha - BSPCB"
+    ],
+    "Motihari": [
+      "Gandak Colony, Motihari - BSPCB"
+    ],
+    "Munger": [
+      "Town Hall, Munger - BSPCB"
+    ],
+    "Muzaffarpur": [
+      "Buddha Colony, Muzaffarpur - BSPCB",
+      "MIT-Daudpur Kothi, Muzaffarpur - BSPCB",
+      "Muzaffarpur Collectorate, Muzaffarpur - BSPCB"
+    ],
+    "Patna": [
+      "DRM Office Danapur, Patna - BSPCB",
+      "Govt. High School Shikarpur, Patna - BSPCB",
+      "IGSC Planetarium Complex, Patna - BSPCB",
+      "Muradpur, Patna - BSPCB",
+      "Rajbansi Nagar, Patna - BSPCB",
+      "Samanpura, Patna - BSPCB"
+    ],
+    "Purnia": [
+      "Mariam Nagar, Purnia - BSPCB"
+    ],
+    "Rajgir": [
+      "Dangi Tola, Rajgir - BSPCB"
+    ],
+    "Samastipur": [
+      "DM Office_Kasipur, Samastipur - BSPCB"
+    ],
+    "Sasaram": [
+      "Dada Peer, Sasaram - BSPCB"
+    ],
+    "Siwan": [
+      "Chitragupta Nagar, Siwan - BSPCB"
+    ]
+  },
+  "Chandigarh": {
+    "Chandigarh": [
+      "Sector-25, Chandigarh - CPCC",
+      "Sector-53, Chandigarh - CPCC"
+    ]
+  },
+  "Chhattisgarh": {
+    "Bhilai": [
+      "32Bungalows, Bhilai - CECB",
+      "Hathkhoj, Bhilai - CECB"
+    ],
+    "Bilaspur": [
+      "Mangala, Bilaspur - NTPC"
+    ],
+    "Chhal": [
+      "Nawapara SECL Colony, Chhal - CECB"
+    ],
+    "Korba": [
+      "Rampur, Korba - CECB",
+      "Urja Nagar, Korba - CECB"
+    ],
+    "Kunjemura": [
+      "OP Jindal School, Kunjemura - CECB"
+    ],
+    "Milupara": [
+      "Govt. Higher Secondary School, Milupara - CECB"
+    ],
+    "Raipur": [
+      "AIIMS, Raipur - CECB",
+      "Bhatagaon New ISBT, Raipur - CECB",
+      "Krishak Nagar, Raipur - CECB",
+      "Siltara Phase-II, Raipur - CECB"
+    ],
+    "Tumidih": [
+      "OP Jindal Industrial Park, Tumidih - CECB"
+    ]
+  },
+  "Delhi": {
+    "Delhi": [
+      "Alipur, Delhi - DPCC",
+      "Anand Vihar, Delhi - DPCC",
+      "Ashok Vihar, Delhi - DPCC",
+      "Aya Nagar, Delhi - IMD",
+      "Bawana, Delhi - DPCC",
+      "CRRI Mathura Road, Delhi - IMD",
+      "DTU, Delhi - CPCB",
+      "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+      "Dwarka-Sector 8, Delhi - DPCC ",
+      "IHBAS, Dilshad Garden, Delhi - CPCB",
+      "ITO, Delhi - CPCB",
+      "Jahangirpuri, Delhi - DPCC",
+      "Jawaharlal Nehru Stadium, Delhi - DPCC",
+      "Lodhi Road, Delhi - IMD",
+      "Major Dhyan Chand National Stadium, Delhi - DPCC",
+      "Mandir Marg, Delhi - DPCC",
+      "Mundka, Delhi - DPCC",
+      "NSIT Dwarka, Delhi - CPCB",
+      "Najafgarh, Delhi - DPCC",
+      "Narela, Delhi - DPCC",
+      "Nehru Nagar, Delhi - DPCC",
+      "North Campus, DU, Delhi - IMD",
+      "Patparganj, Delhi - DPCC",
+      "Punjabi Bagh, Delhi - DPCC",
+      "Pusa, Delhi - DPCC",
+      "Pusa, Delhi - IMD",
+      "R K Puram, Delhi - DPCC",
+      "Rohini, Delhi - DPCC",
+      "Shadipur, Delhi - CPCB",
+      "Sirifort, Delhi - CPCB",
+      "Sonia Vihar, Delhi - DPCC",
+      "Sri Aurobindo Marg, Delhi - DPCC",
+      "Vivek Vihar, Delhi - DPCC",
+      "Wazirpur, Delhi - DPCC"
+    ]
+  },
+  "Gujarat": {
+    "Ahmedabad": [
+      "Chandkheda, Ahmedabad - IITM",
+      "Gyaspur, Ahmedabad - IITM",
+      "Maninagar, Ahmedabad - GPCB",
+      "Rakhial, Ahmedabad - IITM",
+      "SAC ISRO Bopal, Ahmedabad - IITM",
+      "SVPI Airport Hansol, Ahmedabad - IITM",
+      "Sardar Vallabhbhai Patel Stadium, Ahmedabad - IITM"
+    ],
+    "Ankleshwar": [
+      "GIDC, Ankleshwar - GPCB"
+    ],
+    "Gandhinagar": [
+      "GIFT City, Gandhinagar - IITM",
+      "IIPHG Lekawada, Gandhinagar - IITM",
+      "Sector-10, Gandhinagar - GPCB"
+    ],
+    "Nandesari": [
+      "GIDC, Nandesari - Nandesari Ind. Association"
+    ],
+    "Vapi": [
+      "Phase-1 GIDC, Vapi - GPCB"
+    ],
+    "Vatva": [
+      "Phase-4 GIDC, Vatva - GPCB"
+    ]
+  },
+  "Haryana": {
+    "Panchgaon": [
+      "Amity University, Panchgaon - IITM"
+    ]
+  },
+  "Jharkhand": {
+    "Dhanbad": [
+      "Sardar Patel Nagar, Dhanbad - JSPCB"
+    ]
+  },
+  "Karnataka": {
+    "Bagalkot": [
+      "Vidayagiri, Bagalkot - KSPCB"
+    ],
+    "Bengaluru": [
+      "BTM Layout, Bengaluru - CPCB",
+      "Bapuji Nagar, Bengaluru - KSPCB",
+      "Hebbal, Bengaluru - KSPCB",
+      "Hombegowda Nagar, Bengaluru - KSPCB",
+      "Jayanagar 5th Block, Bengaluru - KSPCB",
+      "Jigani, Bengaluru - KSPCB",
+      "Sanegurava Halli, Bengaluru - KSPCB",
+      "Silk Board, Bengaluru - KSPCB"
+    ],
+    "Chamarajanagar": [
+      "Urban, Chamarajanagar - KSPCB"
+    ],
+    "Chikkaballapur": [
+      "Chikkaballapur Rural, Chikkaballapur - KSPCB"
+    ],
+    "Chikkamagaluru": [
+      "Kalyana Nagara, Chikkamagaluru - KSPCB"
+    ],
+    "Dharwad": [
+      "Kalabhavan, Dharwad - KSPCB"
+    ],
+    "Hubballi": [
+      "Lingaraj Nagar, Hubballi - KSPCB"
+    ],
+    "Kalaburagi": [
+      "Lal Bahadur Shastri Nagar, Kalaburagi - KSPCB",
+      "Mahatma Basaveswar Colony, Kalaburgi - KSPCB"
+    ],
+    "Madikeri": [
+      "Stuart Hill, Madikeri - KSPCB"
+    ],
+    "Mangalore": [
+      "Kadri, Mangalore - KSPCB"
+    ],
+    "Mysuru": [
+      "Hebbal 1st Stage, Mysuru - KSPCB"
+    ],
+    "Shivamogga": [
+      "Vinoba Nagara, Shivamogga - KSPCB"
+    ],
+    "Tumakuru": [
+      "Thimmalapura, Tumakuru - KSPCB"
+    ],
+    "Yadgir": [
+      "Collector Office, Yadgir - KSPCB"
+    ]
+  },
+  "Kerala": {
+    "Kannur": [
+      "Thavakkara, Kannur - Kerala PCB"
+    ],
+    "Thiruvananthapuram": [
+      "Plammoodu, Thiruvananthapuram - Kerala PCB"
+    ],
+    "Thrissur": [
+      "Corporation Ground, Thrissur - Kerala PCB"
+    ]
+  },
+  "Madhya Pradesh": {
+    "Bhopal": [
+      "Idgah Hills, Bhopal - MPPCB",
+      "Paryavaran Parisar, Bhopal - MPPCB",
+      "T T Nagar, Bhopal - MPPCB"
+    ],
+    "Damoh": [
+      "Shrivastav Colony, Damoh - MPPCB"
+    ],
+    "Dewas": [
+      "Bhopal Chauraha, Dewas - MPPCB"
+    ],
+    "Gwalior": [
+      "Deen Dayal Nagar, Gwalior - MPPCB",
+      "Maharaj Bada, Gwalior - MPPCB"
+    ],
+    "Indore": [
+      "Chhoti Gwaltoli, Indore - MPPCB",
+      "Maguda Nagar, Indore - IMC"
+    ],
+    "Jabalpur": [
+      "Govindh Bhavan Colony, Jabalpur - JMC",
+      "Gupteshwar, Jabalpur - JMC",
+      "Marhatal, Jabalpur - MPPCB"
+    ],
+    "Katni": [
+      "Gole Bazar, Katni - MPPCB"
+    ],
+    "Maihar": [
+      "Sahilara, Maihar - KJS Cements"
+    ],
+    "Mandideep": [
+      "Sector-D Industrial Area, Mandideep - MPPCB"
+    ],
+    "Pithampur": [
+      "Sector-2 Industrial Area, Pithampur - MPPCB"
+    ],
+    "Ratlam": [
+      "Shasthri Nagar, Ratlam - IPCA Lab"
+    ],
+    "Sagar": [
+      "Civil Lines, Sagar - MPPCB"
+    ],
+    "Singrauli": [
+      "Suryakiran Bhawan NCL, Singrauli - MPPCB"
+    ]
+  },
+  "Maharashtra": {
+    "Ahmednagar": [
+      "Tarakpur, Ahmednagar - MPCB"
+    ],
+    "Akola": [
+      "Ramdaspeth, Akola - MPCB"
+    ],
+    "Amravati": [
+      "Shri Shivaji Science College, Amravati - MPCB"
+    ],
+    "Aurangabad": [
+      "MIDC Chilkalthana, Aurangabad - MPCB",
+      "More Chowk Waluj, Aurangabad - MPCB",
+      "Rachnakar Colony, Aurangabad - MPCB"
+    ],
+    "Badlapur": [
+      "Katrap, Badlapur - MPCB"
+    ],
+    "Belapur": [
+      "CBD Belapur, Belapur - MPCB"
+    ],
+    "Bhiwandi": [
+      "Gokul Nagar, Bhiwandi - MPCB"
+    ],
+    "Boisar": [
+      "Khaira, Boisar - MPCB"
+    ],
+    "Chandrapur": [
+      "Chauhan Colony, Chandrapur - MPCB",
+      "MIDC Khutala, Chandrapur - MPCB"
+    ],
+    "Dhule": [
+      "Deopur, Dhule - MPCB"
+    ],
+    "Jalgaon": [
+      "Prabhat Colony, Jalgaon - MPCB"
+    ],
+    "Jalna": [
+      "Old MIDC, Jalna - MPCB"
+    ],
+    "Kalyan": [
+      "Pimpleshwar Mandir, Kalyan - MPCB"
+    ],
+    "Kolhapur": [
+      "Shivaji University, Kolhapur - MPCB",
+      "Sinchan Bhavan, Kolhapur - MPCB"
+    ],
+    "Latur": [
+      "Sawe Wadi, Latur - MPCB"
+    ],
+    "Mahad": [
+      "Kamble Tarf Birwadi, Mahad - MPCB"
+    ],
+    "Malegaon": [
+      "Mahesh Nagar, Malegaon - MPCB"
+    ],
+    "Mira-Bhayandar": [
+      "Bhayandar West, Mira-Bhayandar - MPCB"
+    ],
+    "Mumbai": [
+      "Bandra Kurla Complex, Mumbai - IITM",
+      "Bandra Kurla Complex, Mumbai - MPCB",
+      "Borivali East, Mumbai - IITM",
+      "Byculla, Mumbai - BMC",
+      "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+      "Colaba, Mumbai - MPCB",
+      "Deonar, Mumbai - IITM",
+      "Ghatkopar, Mumbai - BMC",
+      "Kandivali East, Mumbai - MPCB",
+      "Kherwadi_Bandra East, Mumbai - MPCB",
+      "Khindipada-Bhandup West, Mumbai - IITM",
+      "Kurla, Mumbai - MPCB",
+      "Malad West, Mumbai - IITM",
+      "Mazgaon, Mumbai - IITM",
+      "Mindspace-Malad West, Mumbai - MPCB",
+      "Navy Nagar-Colaba, Mumbai - IITM",
+      "Powai, Mumbai - MPCB",
+      "Sewri, Mumbai - BMC",
+      "Shivaji Nagar, Mumbai - BMC",
+      "Sion, Mumbai - MPCB",
+      "Vasai West, Mumbai - MPCB"
+    ],
+    "Nagpur": [
+      "Mahal, Nagpur - MPCB",
+      "Opp GPO Civil Lines, Nagpur - MPCB",
+      "Ram Nagar, Nagpur - MPCB"
+    ],
+    "Nanded": [
+      "Sneh Nagar, Nanded - MPCB"
+    ],
+    "Nashik": [
+      "Gangapur Road, Nashik - MPCB",
+      "Hirawadi, Nashik - MPCB",
+      "Pandav Nagari, Nashik - MPCB"
+    ],
+    "Navi Mumbai": [
+      "Kopripada-Vashi, Navi Mumbai - MPCB",
+      "Sanpada, Navi Mumbai - MPCB",
+      "Sector-2E Kalamboli, Navi Mumbai - MPCB",
+      "Tondare-Taloja, Navi Mumbai - MPCB"
+    ],
+    "Pimpri-Chinchwad": [
+      "Gavalinagar, Pimpri Chinchwad - MPCB",
+      "Park Street Wakad, Pimpri Chinchwad - MPCB",
+      "Thergaon, Pimpri Chinchwad - MPCB"
+    ],
+    "Pune": [
+      "Bhosari, Pune - IITM",
+      "Dhankawadi, Pune - IITM",
+      "Katraj Dairy, Pune - MPCB",
+      "Mhada Colony, Pune - IITM",
+      "Panchawati_Pashan, Pune - IITM",
+      "Revenue Colony-Shivajinagar, Pune - IITM",
+      "Savitribai Phule Pune University, Pune - MPCB"
+    ],
+    "Thane": [
+      "Kasarvadavali, Thane - MPCB"
+    ],
+    "Ulhasnagar": [
+      "Sidhi Vinayak Nagar, Ulhasnagar - MPCB"
+    ],
+    "Virar": [
+      "Bolinj, Virar - MPCB"
+    ]
+  },
+  "Manipur": {
+    "Imphal": [
+      "DM College of Science, Imphal - Manipur PCB"
+    ]
+  },
+  "Meghalaya": {
+    "Shillong": [
+      "Lumpyngngad, Shillong - Meghalaya PCB"
+    ]
+  },
+  "Mizoram": {
+    "Aizawl": [
+      "Sikulpuikawn, Aizawl - Mizoram PCB"
+    ]
+  },
+  "Nagaland": {
+    "Kohima": [
+      "PWD Junction, Kohima - NPCB"
+    ]
+  },
+  "Odisha": {
+    "Angul": [
+      "Hakimapada, Angul - OSPCB"
+    ],
+    "Balasore": [
+      "Kalidaspur, Balasore - OSPCB"
+    ],
+    "Barbil": [
+      "Forest Office, Barbil - OSPCB"
+    ],
+    "Bhubaneswar": [
+      "Lingraj Mandir, Bhubaneswar - OSPCB",
+      "Patia, Bhubaneswar - OSPCB"
+    ],
+    "Bileipada": [
+      "Tata Township, Bileipada - OSPCB"
+    ],
+    "Brajrajnagar": [
+      "GM Office, Brajrajnagar - OSPCB"
+    ],
+    "Byasanagar": [
+      "Ferro Chrome Colony, Byasanagar - OSPCB"
+    ],
+    "Cuttack": [
+      "CDA Area, Cuttack - OSPCB"
+    ],
+    "Keonjhar": [
+      "Jagamohanpur, Keonjhar - OSPCB"
+    ],
+    "Nayagarh": [
+      "Dabuna, Nayagarh - OSPCB"
+    ],
+    "Rairangpur": [
+      "Divisional Forest Office, Rairangpur - OSPCB"
+    ],
+    "Rourkela": [
+      "Fertilizer Township, Rourkela - OSPCB",
+      "Raghunathpali, Rourkela - OSPCB"
+    ],
+    "Talcher": [
+      "Talcher Coalfields,Talcher - OSPCB"
+    ],
+    "Tensa": [
+      "Barsua Iron Ore Mines, Tensa - OSPCB"
+    ]
+  },
+  "Puducherry": {
+    "Puducherry": [
+      "Jawahar Nagar, Puducherry - PPCC"
+    ]
+  },
+  "Punjab": {
+    "Amritsar": [
+      "Golden Temple, Amritsar - PPCB"
+    ],
+    "Bathinda": [
+      "Hardev Nagar, Bathinda - PPCB"
+    ],
+    "Khanna": [
+      "Kalal Majra, Khanna - PPCB"
+    ],
+    "Mandi Gobindgarh": [
+      "RIMT University, Mandi Gobindgarh - PPCB"
+    ],
+    "Patiala": [
+      "Model Town, Patiala - PPCB"
+    ]
+  },
+  "Rajasthan": {
+    "Ajmer": [
+      "Civil Lines,  Ajmer - RSPCB"
+    ],
+    "Alwar": [
+      "Moti Doongri, Alwar - RSPCB"
+    ],
+    "Banswara": [
+      "Rati Talai, Banswara - RSPCB"
+    ],
+    "Baran": [
+      "Bamboliya, Baran - RSPCB"
+    ],
+    "Bhilwara": [
+      "Pratap Nagar, Bhilwara - RSPCB"
+    ],
+    "Bhiwadi": [
+      "RIICO Ind. Area III, Bhiwadi - RSPCB",
+      "Vasundhara Nagar_UIT, Bhiwadi - RSPCB"
+    ],
+    "Bundi": [
+      "New Colony, Bundi - RSPCB"
+    ],
+    "Chittorgarh": [
+      "Shastri Nagar, Chittorgarh - RSPCB"
+    ],
+    "Churu": [
+      "Subash Chowk, Churu - RSPCB"
+    ],
+    "Dungarpur": [
+      "Bhoiwada, Dungarpur - RSPCB"
+    ],
+    "Jaipur": [
+      "Mansarovar Sector-12, Jaipur - RSPCB",
+      "RIICO Sitapura, Jaipur - RSPCB",
+      "Sector-2 Murlipura, Jaipur - RSPCB",
+      "Shastri Nagar, Jaipur - RSPCB"
+    ],
+    "Jaisalmer": [
+      "Sadar Bazar, Jaisalmer - RSPCB"
+    ],
+    "Jhalawar": [
+      "Rajlaxmi Nagar, Jhalawar - RSPCB"
+    ],
+    "Jodhpur": [
+      "Collectorate, Jodhpur - RSPCB",
+      "Digari Kalan, Jodhpur - RSPCB",
+      "Jhalamand, Jodhpur - RSPCB"
+    ],
+    "Karauli": [
+      "Satyawati Vihar, Karauli - RSPCB"
+    ],
+    "Kota": [
+      "Nayapura, Kota - RSPCB",
+      "Shrinath Puram, Kota - RSPCB"
+    ],
+    "Nagaur": [
+      "Karni Colony, Nagaur - RSPCB"
+    ],
+    "Sawai Madhopur": [
+      "Sahu Nagar, Sawai Madhopur - RSPCB"
+    ],
+    "Sikar": [
+      "Radhakishan Pura, Sikar - RSPCB"
+    ],
+    "Sri Ganganagar": [
+      "Old City, Sri Ganganagar - RSPCB"
+    ],
+    "Tonk": [
+      "Shastri Nagar, Tonk - RSPCB"
+    ]
+  },
+  "TamilNadu": {
+    "Chengalpattu": [
+      "Crescent University, Chengalpattu - TNPCB"
+    ],
+    "Chennai": [
+      "Alandur Bus Depot, Chennai - CPCB",
+      "Arumbakkam, Chennai - TNPCB",
+      "Kodungaiyur, Chennai - TNPCB",
+      "Manali, Chennai - CPCB",
+      "Perungudi, Chennai - TNPCB",
+      "Royapuram, Chennai - TNPCB"
+    ],
+    "Coimbatore": [
+      "PSG College of Arts and Science, Coimbatore - TNPCB"
+    ],
+    "Cuddalore": [
+      "Kudikadu, Cuddalore - TNPCB"
+    ],
+    "Dindigul": [
+      "Mendonsa Colony, Dindigul - TNPCB"
+    ],
+    "Gummidipoondi": [
+      "Anthoni Pillai Nagar, Gummidipoondi - TNPCB"
+    ],
+    "Hosur": [
+      "SIPCOT Phase-1, Hosur - TNPCB"
+    ],
+    "Kanchipuram": [
+      "Kilambi, Kanchipuram - TNPCB"
+    ],
+    "Perundurai": [
+      "SIPCOT Industrial Park, Perundurai - TNPCB"
+    ],
+    "Ramanathapuram": [
+      "Chalai Bazaar, Ramanathapuram - TNPCB"
+    ],
+    "Thanjavur": [
+      "Parisutham Nagar, Thanjavur - TNPCB"
+    ],
+    "Thoothukudi": [
+      "Meelavittan, Thoothukudi - TNPCB"
+    ],
+    "Tirunelveli": [
+      "Municipal Corporation Office, Tirunelveli - TNPCB"
+    ],
+    "Tirupur": [
+      "Kumaran College, Tirupur - TNPCB"
+    ],
+    "Vellore": [
+      "Vasanthapuram, Vellore - TNPCB"
+    ]
+  },
+  "Telangana": {
+    "Hyderabad": [
+      "Bollaram Industrial Area, Hyderabad - TSPCB",
+      "IDA Pashamylaram, Hyderabad - TSPCB",
+      "IITH Kandi, Hyderabad - TSPCB",
+      "Kokapet, Hyderabad - TSPCB",
+      "Kompally Municipal Office, Hyderabad - TSPCB"
+    ]
+  },
+  "Tripura": {
+    "Agartala": [
+      "Bardowali, Agartala - Tripura SPCB"
+    ]
+  },
+  "Uttar_Pradesh": {
+    "Agra": [
+      "Shastripuram, Agra - UPPCB"
+    ],
+    "Baghpat": [
+      "Sardar Patel Inter College, Baghpat - UPPCB"
+    ],
+    "Bareilly": [
+      "Rajendra Nagar, Bareilly - UPPCB"
+    ],
+    "Bulandshahr": [
+      "Yamunapuram, Bulandshahr - UPPCB"
+    ],
+    "Firozabad": [
+      "Nagla Bhau, Firozabad - UPPCB"
+    ],
+    "Ghaziabad": [
+      "Indirapuram, Ghaziabad - UPPCB",
+      "Loni, Ghaziabad - UPPCB",
+      "Sanjay Nagar, Ghaziabad - UPPCB"
+    ],
+    "Gorakhpur": [
+      "Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB"
+    ],
+    "Greater Noida": [
+      "Knowledge Park - III, Greater Noida - UPPCB"
+    ],
+    "Hapur": [
+      "Anand Vihar, Hapur - UPPCB"
+    ],
+    "Jhansi": [
+      "Shivaji Nagar, Jhansi - UPPCB"
+    ],
+    "Kanpur": [
+      "FTI Kidwai Nagar, Kanpur - UPPCB",
+      "NSI Kalyanpur, Kanpur - UPPCB",
+      "Nehru Nagar, Kanpur - UPPCB"
+    ],
+    "Lucknow": [
+      "Gomti Nagar, Lucknow - UPPCB",
+      "Kendriya Vidyalaya, Lucknow - CPCB",
+      "Talkatora District Industries Center, Lucknow - CPCB"
+    ],
+    "Meerut": [
+      "Jai Bhim Nagar, Meerut - UPPCB",
+      "Pallavpuram Phase 2, Meerut - UPPCB"
+    ],
+    "Moradabad": [
+      "Buddhi Vihar, Moradabad - UPPCB",
+      "Employment Office, Moradabad - UPPCB",
+      "Jigar Colony, Moradabad - UPPCB",
+      "Kashiram Nagar, Moradabad - UPPCB",
+      "Transport Nagar, Moradabad - UPPCB"
+    ],
+    "Noida": [
+      "Sector - 125, Noida - UPPCB",
+      "Sector - 62, Noida - IMD",
+      "Sector-1, Noida - UPPCB"
+    ],
+    "Prayagraj": [
+      "Jhunsi, Prayagraj - UPPCB",
+      "Motilal Nehru NIT, Prayagraj - UPPCB",
+      "Nagar Nigam, Prayagraj - UPPCB"
+    ],
+    "Varanasi": [
+      "Ardhali Bazar, Varanasi - UPPCB",
+      "IESD Banaras Hindu University, Varanasi - UPPCB",
+      "Maldahiya, Varanasi - UPPCB"
+    ]
+  },
+  "Uttarakhand": {
+    "Dehradun": [
+      "Doon University, Dehradun - UKPCB"
+    ],
+    "Kashipur": [
+      "Govt. Girls Inter College, Kashipur - UKPCB"
+    ]
+  },
+  "West_Bengal": {
+    "Asansol": [
+      "Asansol Court Area, Asansol - WBPCB",
+      "Evelyn Lodge, Asansol - WBPCB",
+      "Mahabir Colliery, Asansol - WBPCB"
+    ],
+    "Barrackpore": [
+      "SVSPA Campus, Barrackpore - WBPCB"
+    ],
+    "Durgapur": [
+      "Mahishkapur Road_B-Zone, Durgapur - WBPCB",
+      "PCBL Residential Complex, Durgapur - WBPCB",
+      "Womens College_City Center, Durgapur - WBPCB (Formerly known as Sidhu Kanhu Indoor Stadium)"
+    ],
+    "Haldia": [
+      "Priyambada Housing Estate, Haldia - WBPCB"
+    ],
+    "Howrah": [
+      "Belur Math, Howrah - WBPCB",
+      "Botanical Garden, Howrah - WBPCB",
+      "Dasnagar, Howrah - WBPCB",
+      "Ghusuri, Howrah - WBPCB"
+    ],
+    "Kolkata": [
+      "Ballygunge, Kolkata - WBPCB",
+      "Bidhannagar, Kolkata - WBPCB",
+      "Rabindra Bharati University, Kolkata - WBPCB",
+      "Rabindra Sarobar, Kolkata - WBPCB",
+      "Victoria, Kolkata - WBPCB"
+    ],
+    "Siliguri": [
+      "Ward-32 Bapupara, Siliguri - WBPCB"
+    ]
+  }
+}

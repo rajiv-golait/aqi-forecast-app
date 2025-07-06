@@ -1,0 +1,357 @@
+city,station,timestamp,hour_ahead,aqi_predicted,aqi_category
+Agartala,"Bardowali, Agartala - Tripura SPCB",2025-07-06T01:13:43.115770,1,121.310791015625,Unhealthy for Sensitive Groups
+Agra,"Shastripuram, Agra - UPPCB",2025-07-06T01:13:42.126091,1,124.46175384521484,Unhealthy for Sensitive Groups
+Ahmedabad,"Chandkheda, Ahmedabad - IITM",2025-07-06T12:25:31.068207,1,120.04440307617188,Unhealthy for Sensitive Groups
+Ahmedabad,"Gyaspur, Ahmedabad - IITM",2025-07-06T12:25:31.245675,1,122.86518859863281,Unhealthy for Sensitive Groups
+Ahmedabad,"Maninagar, Ahmedabad - GPCB",2025-07-06T12:25:31.411901,1,120.27542114257812,Unhealthy for Sensitive Groups
+Ahmedabad,"Rakhial, Ahmedabad - IITM",2025-07-06T03:39:38.889262,1,121.40621185302734,Unhealthy for Sensitive Groups
+Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",2025-07-06T12:25:31.751280,1,123.37328338623047,Unhealthy for Sensitive Groups
+Ahmedabad,"SVPI Airport Hansol, Ahmedabad - IITM",2025-07-06T12:25:31.917726,1,122.2958984375,Unhealthy for Sensitive Groups
+Ahmedabad,"Sardar Vallabhbhai Patel Stadium, Ahmedabad - IITM",2025-07-06T12:25:32.107017,1,122.92498779296875,Unhealthy for Sensitive Groups
+Ahmednagar,"Tarakpur, Ahmednagar - MPCB",2025-07-06T12:25:42.445692,1,121.12678527832031,Unhealthy for Sensitive Groups
+Aizawl,"Sikulpuikawn, Aizawl - Mizoram PCB",2025-07-06T12:25:54.586634,1,120.60029602050781,Unhealthy for Sensitive Groups
+Ajmer,"Civil Lines,  Ajmer - RSPCB",2025-07-06T12:25:57.517303,1,123.00682830810547,Unhealthy for Sensitive Groups
+Akola,"Ramdaspeth, Akola - MPCB",2025-07-06T12:25:42.626894,1,121.48983001708984,Unhealthy for Sensitive Groups
+Alwar,"Moti Doongri, Alwar - RSPCB",2025-07-06T12:25:57.700047,1,123.50756072998047,Unhealthy for Sensitive Groups
+Amaravati,"Secretariat, Amaravati - APPCB",2025-07-06T12:25:15.084300,1,122.20252227783203,Unhealthy for Sensitive Groups
+Amravati,"Shri Shivaji Science College, Amravati - MPCB",2025-07-06T12:25:42.793157,1,122.25437927246094,Unhealthy for Sensitive Groups
+Amritsar,"Golden Temple, Amritsar - PPCB",2025-07-06T01:13:41.103226,1,120.40663146972656,Unhealthy for Sensitive Groups
+Angul,"Hakimapada, Angul - OSPCB",2025-07-06T12:25:54.932498,1,122.2979965209961,Unhealthy for Sensitive Groups
+Ankleshwar,"GIDC, Ankleshwar - GPCB",2025-07-06T12:25:32.277916,1,123.82696533203125,Unhealthy for Sensitive Groups
+Araria,"Kharahiya Basti, Araria - BSPCB",2025-07-06T12:25:18.243527,1,121.25924682617188,Unhealthy for Sensitive Groups
+Asansol,"Asansol Court Area, Asansol - WBPCB",2025-07-06T12:26:17.404073,1,123.4334487915039,Unhealthy for Sensitive Groups
+Asansol,"Evelyn Lodge, Asansol - WBPCB",2025-07-06T12:26:17.629110,1,119.69751739501953,Unhealthy for Sensitive Groups
+Asansol,"Mahabir Colliery, Asansol - WBPCB",2025-07-06T03:40:17.334256,1,122.5967788696289,Unhealthy for Sensitive Groups
+Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB",2025-07-06T12:25:42.971063,1,122.8662109375,Unhealthy for Sensitive Groups
+Aurangabad,"More Chowk Waluj, Aurangabad - MPCB",2025-07-06T12:25:43.159456,1,122.16934204101562,Unhealthy for Sensitive Groups
+Aurangabad,"Rachnakar Colony, Aurangabad - MPCB",2025-07-06T12:25:43.330152,1,122.42684173583984,Unhealthy for Sensitive Groups
+Badlapur,"Katrap, Badlapur - MPCB",2025-07-06T12:25:43.522039,1,122.63926696777344,Unhealthy for Sensitive Groups
+Bagalkot,"Vidayagiri, Bagalkot - KSPCB",2025-07-06T12:25:33.970367,1,122.2837142944336,Unhealthy for Sensitive Groups
+Baghpat,"Sardar Patel Inter College, Baghpat - UPPCB",2025-07-06T01:13:41.907440,1,120.43692779541016,Unhealthy for Sensitive Groups
+Balasore,"Kalidaspur, Balasore - OSPCB",2025-07-06T12:25:55.103181,1,121.27737426757812,Unhealthy for Sensitive Groups
+Banswara,"Rati Talai, Banswara - RSPCB",2025-07-06T12:25:57.875569,1,121.21038818359375,Unhealthy for Sensitive Groups
+Baran,"Bamboliya, Baran - RSPCB",2025-07-06T12:25:58.060352,1,120.51606750488281,Unhealthy for Sensitive Groups
+Barbil,"Forest Office, Barbil - OSPCB",2025-07-06T03:40:01.378144,1,123.05508422851562,Unhealthy for Sensitive Groups
+Bareilly,"Rajendra Nagar, Bareilly - UPPCB",2025-07-06T03:40:11.203443,1,121.66766357421875,Unhealthy for Sensitive Groups
+Barrackpore,"SVSPA Campus, Barrackpore - WBPCB",2025-07-06T12:26:17.994287,1,123.39275360107422,Unhealthy for Sensitive Groups
+Bathinda,"Hardev Nagar, Bathinda - PPCB",2025-07-06T03:40:03.450051,1,122.69042205810547,Unhealthy for Sensitive Groups
+Belapur,"CBD Belapur, Belapur - MPCB",2025-07-06T12:25:43.703877,1,122.26836395263672,Unhealthy for Sensitive Groups
+Bengaluru,"BTM Layout, Bengaluru - CPCB",2025-07-06T12:25:34.143668,1,122.34640502929688,Unhealthy for Sensitive Groups
+Bengaluru,"Bapuji Nagar, Bengaluru - KSPCB",2025-07-06T12:25:34.323696,1,123.38768768310547,Unhealthy for Sensitive Groups
+Bengaluru,"Hebbal, Bengaluru - KSPCB",2025-07-06T12:25:34.501147,1,123.11933898925781,Unhealthy for Sensitive Groups
+Bengaluru,"Hombegowda Nagar, Bengaluru - KSPCB",2025-07-06T12:25:34.667538,1,123.63766479492188,Unhealthy for Sensitive Groups
+Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",2025-07-06T12:25:34.836447,1,123.13443756103516,Unhealthy for Sensitive Groups
+Bengaluru,"Jigani, Bengaluru - KSPCB",2025-07-06T12:25:35.008968,1,121.5328369140625,Unhealthy for Sensitive Groups
+Bengaluru,"Sanegurava Halli, Bengaluru - KSPCB",2025-07-06T12:25:35.208101,1,123.01842498779297,Unhealthy for Sensitive Groups
+Bengaluru,"Silk Board, Bengaluru - KSPCB",2025-07-06T12:25:35.376526,1,122.34230041503906,Unhealthy for Sensitive Groups
+Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",2025-07-06T12:25:18.425714,1,122.36994934082031,Unhealthy for Sensitive Groups
+Bhagalpur,"Mayaganj, Bhagalpur - BSPCB",2025-07-06T12:25:18.592157,1,122.83855438232422,Unhealthy for Sensitive Groups
+Bhilai,"32Bungalows, Bhilai - CECB",2025-07-06T12:25:23.170523,1,122.04302215576172,Unhealthy for Sensitive Groups
+Bhilai,"Hathkhoj, Bhilai - CECB",2025-07-06T12:25:23.348330,1,123.63777923583984,Unhealthy for Sensitive Groups
+Bhilwara,"Pratap Nagar, Bhilwara - RSPCB",2025-07-06T01:13:40.160303,1,122.37924194335938,Unhealthy for Sensitive Groups
+Bhiwadi,"RIICO Ind. Area III, Bhiwadi - RSPCB",2025-07-06T12:25:58.403216,1,123.80308532714844,Unhealthy for Sensitive Groups
+Bhiwadi,"Vasundhara Nagar_UIT, Bhiwadi - RSPCB",2025-07-06T12:25:58.574917,1,121.51725006103516,Unhealthy for Sensitive Groups
+Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",2025-07-06T12:25:43.889229,1,122.2549819946289,Unhealthy for Sensitive Groups
+Bhopal,"Idgah Hills, Bhopal - MPPCB",2025-07-06T12:25:39.090921,1,123.90080261230469,Unhealthy for Sensitive Groups
+Bhopal,"Paryavaran Parisar, Bhopal - MPPCB",2025-07-06T12:25:39.270433,1,122.86129760742188,Unhealthy for Sensitive Groups
+Bhopal,"T T Nagar, Bhopal - MPPCB",2025-07-06T12:25:39.443927,1,122.81620788574219,Unhealthy for Sensitive Groups
+Bhubaneswar,"Lingraj Mandir, Bhubaneswar - OSPCB",2025-07-06T12:25:55.457080,1,123.1496810913086,Unhealthy for Sensitive Groups
+Bhubaneswar,"Patia, Bhubaneswar - OSPCB",2025-07-06T12:25:55.623636,1,120.02584838867188,Unhealthy for Sensitive Groups
+Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",2025-07-06T01:13:33.740875,1,123.28901672363281,Unhealthy for Sensitive Groups
+Bilaspur,"Mangala, Bilaspur - NTPC",2025-07-06T12:25:23.530482,1,121.21345520019531,Unhealthy for Sensitive Groups
+Bileipada,"Tata Township, Bileipada - OSPCB",2025-07-06T12:25:55.792855,1,120.11103057861328,Unhealthy for Sensitive Groups
+Boisar,"Khaira, Boisar - MPCB",2025-07-06T12:25:44.078477,1,123.30696868896484,Unhealthy for Sensitive Groups
+Brajrajnagar,"GM Office, Brajrajnagar - OSPCB",2025-07-06T12:25:55.965291,1,123.69915771484375,Unhealthy for Sensitive Groups
+Bulandshahr,"Yamunapuram, Bulandshahr - UPPCB",2025-07-06T12:26:12.760038,1,122.66993713378906,Unhealthy for Sensitive Groups
+Bundi,"New Colony, Bundi - RSPCB",2025-07-06T12:22:16.677538,1,121.66011810302734,Unhealthy for Sensitive Groups
+Buxar,"Charitra Van, Buxar - BSPCB",2025-07-06T12:25:18.944128,1,123.33778381347656,Unhealthy for Sensitive Groups
+Byasanagar,"Ferro Chrome Colony, Byasanagar - OSPCB",2025-07-06T01:13:40.665862,1,123.61334228515625,Unhealthy for Sensitive Groups
+Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",2025-07-06T12:25:16.691176,1,122.7975845336914,Unhealthy for Sensitive Groups
+Chamarajanagar,"Urban, Chamarajanagar - KSPCB",2025-07-06T12:25:35.550865,1,122.34745025634766,Unhealthy for Sensitive Groups
+Chandigarh,"Sector-25, Chandigarh - CPCC",2025-07-06T12:25:22.974399,1,122.14452362060547,Unhealthy for Sensitive Groups
+Chandigarh,"Sector-53, Chandigarh - CPCC",2025-07-06T03:39:30.317179,1,122.10235595703125,Unhealthy for Sensitive Groups
+Chandrapur,"Chauhan Colony, Chandrapur - MPCB",2025-07-06T12:25:44.297899,1,121.15943145751953,Unhealthy for Sensitive Groups
+Chandrapur,"MIDC Khutala, Chandrapur - MPCB",2025-07-06T12:25:44.467319,1,123.3487777709961,Unhealthy for Sensitive Groups
+Chengalpattu,"Crescent University, Chengalpattu - TNPCB",2025-07-06T12:26:01.621576,1,122.34937286376953,Unhealthy for Sensitive Groups
+Chennai,"Alandur Bus Depot, Chennai - CPCB",2025-07-06T12:26:01.800698,1,123.32247924804688,Unhealthy for Sensitive Groups
+Chennai,"Arumbakkam, Chennai - TNPCB",2025-07-06T03:40:08.034652,1,124.28509521484375,Unhealthy for Sensitive Groups
+Chennai,"Kodungaiyur, Chennai - TNPCB",2025-07-06T12:26:01.982960,1,122.5574951171875,Unhealthy for Sensitive Groups
+Chennai,"Manali, Chennai - CPCB",2025-07-06T12:26:02.161618,1,123.26006317138672,Unhealthy for Sensitive Groups
+Chennai,"Perungudi, Chennai - TNPCB",2025-07-06T12:26:02.347915,1,123.44994354248047,Unhealthy for Sensitive Groups
+Chennai,"Royapuram, Chennai - TNPCB",2025-07-06T12:26:02.524342,1,122.44602966308594,Unhealthy for Sensitive Groups
+Chhal,"Nawapara SECL Colony, Chhal - CECB",2025-07-06T12:25:23.688076,1,121.44144439697266,Unhealthy for Sensitive Groups
+Chhapra,"Darshan Nagar, Chhapra - BSPCB",2025-07-06T03:39:26.478568,1,122.79480743408203,Unhealthy for Sensitive Groups
+Chikkaballapur,"Chikkaballapur Rural, Chikkaballapur - KSPCB",2025-07-06T12:25:35.716349,1,121.59173583984375,Unhealthy for Sensitive Groups
+Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",2025-07-06T12:25:35.880238,1,121.13099670410156,Unhealthy for Sensitive Groups
+Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",2025-07-06T12:25:15.296617,1,123.20606994628906,Unhealthy for Sensitive Groups
+Chittorgarh,"Shastri Nagar, Chittorgarh - RSPCB",2025-07-06T12:22:16.852428,1,122.07315063476562,Unhealthy for Sensitive Groups
+Churu,"Subash Chowk, Churu - RSPCB",2025-07-06T12:25:58.931633,1,122.42137908935547,Unhealthy for Sensitive Groups
+Coimbatore,"PSG College of Arts and Science, Coimbatore - TNPCB",2025-07-06T12:26:02.711598,1,123.06844329833984,Unhealthy for Sensitive Groups
+Cuddalore,"Kudikadu, Cuddalore - TNPCB",2025-07-06T12:26:02.919246,1,123.22772979736328,Unhealthy for Sensitive Groups
+Cuttack,"CDA Area, Cuttack - OSPCB",2025-07-06T12:25:56.143856,1,123.80973815917969,Unhealthy for Sensitive Groups
+Damoh,"Shrivastav Colony, Damoh - MPPCB",2025-07-06T03:39:45.881030,1,122.5034408569336,Unhealthy for Sensitive Groups
+Dehradun,"Doon University, Dehradun - UKPCB",2025-07-06T12:26:17.017877,1,121.94479370117188,Unhealthy for Sensitive Groups
+Delhi,"Alipur, Delhi - DPCC",2025-07-06T12:25:25.372487,1,122.5772705078125,Unhealthy for Sensitive Groups
+Delhi,"Anand Vihar, Delhi - DPCC",2025-07-06T12:25:25.550491,1,123.12559509277344,Unhealthy for Sensitive Groups
+Delhi,"Ashok Vihar, Delhi - DPCC",2025-07-06T12:25:25.729225,1,120.14002990722656,Unhealthy for Sensitive Groups
+Delhi,"Aya Nagar, Delhi - IMD",2025-07-06T12:25:25.946477,1,123.58573913574219,Unhealthy for Sensitive Groups
+Delhi,"Bawana, Delhi - DPCC",2025-07-06T03:39:33.430025,1,119.45384216308594,Unhealthy for Sensitive Groups
+Delhi,"CRRI Mathura Road, Delhi - IMD",2025-07-06T12:25:26.300801,1,120.98088836669922,Unhealthy for Sensitive Groups
+Delhi,"DTU, Delhi - CPCB",2025-07-06T03:39:33.771544,1,121.29035186767578,Unhealthy for Sensitive Groups
+Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",2025-07-06T03:39:33.938172,1,122.86410522460938,Unhealthy for Sensitive Groups
+Delhi,"Dwarka-Sector 8, Delhi - DPCC ",2025-07-06T12:25:26.652777,1,122.52853393554688,Unhealthy for Sensitive Groups
+Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",2025-07-06T12:25:26.816882,1,123.48401641845703,Unhealthy for Sensitive Groups
+Delhi,"ITO, Delhi - CPCB",2025-07-06T12:25:26.999910,1,122.96331024169922,Unhealthy for Sensitive Groups
+Delhi,"Jahangirpuri, Delhi - DPCC",2025-07-06T12:25:27.178390,1,119.38232421875,Unhealthy for Sensitive Groups
+Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",2025-07-06T12:25:27.360450,1,122.22866821289062,Unhealthy for Sensitive Groups
+Delhi,"Lodhi Road, Delhi - IMD",2025-07-06T12:25:27.534411,1,124.02173614501953,Unhealthy for Sensitive Groups
+Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",2025-07-06T12:25:27.698127,1,123.15738677978516,Unhealthy for Sensitive Groups
+Delhi,"Mandir Marg, Delhi - DPCC",2025-07-06T12:25:27.877658,1,122.74252319335938,Unhealthy for Sensitive Groups
+Delhi,"Mundka, Delhi - DPCC",2025-07-06T12:25:28.043789,1,120.66014862060547,Unhealthy for Sensitive Groups
+Delhi,"NSIT Dwarka, Delhi - CPCB",2025-07-06T12:25:28.212822,1,123.66798400878906,Unhealthy for Sensitive Groups
+Delhi,"Najafgarh, Delhi - DPCC",2025-07-06T12:25:28.380298,1,119.44864654541016,Unhealthy for Sensitive Groups
+Delhi,"Narela, Delhi - DPCC",2025-07-06T12:25:28.552923,1,123.20819091796875,Unhealthy for Sensitive Groups
+Delhi,"Nehru Nagar, Delhi - DPCC",2025-07-06T12:25:28.734289,1,121.03636932373047,Unhealthy for Sensitive Groups
+Delhi,"North Campus, DU, Delhi - IMD",2025-07-06T12:25:28.903826,1,123.10842895507812,Unhealthy for Sensitive Groups
+Delhi,"Patparganj, Delhi - DPCC",2025-07-06T01:13:35.737179,1,124.5540542602539,Unhealthy for Sensitive Groups
+Delhi,"Punjabi Bagh, Delhi - DPCC",2025-07-06T12:25:29.291084,1,121.21974182128906,Unhealthy for Sensitive Groups
+Delhi,"Pusa, Delhi - DPCC",2025-07-06T12:25:29.483073,1,121.22589874267578,Unhealthy for Sensitive Groups
+Delhi,"Pusa, Delhi - IMD",2025-07-06T12:25:29.656719,1,119.5385513305664,Unhealthy for Sensitive Groups
+Delhi,"R K Puram, Delhi - DPCC",2025-07-06T03:39:36.990638,1,122.81069946289062,Unhealthy for Sensitive Groups
+Delhi,"Rohini, Delhi - DPCC",2025-07-06T12:25:29.838311,1,123.45329284667969,Unhealthy for Sensitive Groups
+Delhi,"Shadipur, Delhi - CPCB",2025-07-06T12:25:30.011277,1,122.63079833984375,Unhealthy for Sensitive Groups
+Delhi,"Sirifort, Delhi - CPCB",2025-07-06T12:25:30.183268,1,118.79793548583984,Unhealthy for Sensitive Groups
+Delhi,"Sonia Vihar, Delhi - DPCC",2025-07-06T12:25:30.368986,1,123.58097076416016,Unhealthy for Sensitive Groups
+Delhi,"Sri Aurobindo Marg, Delhi - DPCC",2025-07-06T12:25:30.537263,1,122.52387237548828,Unhealthy for Sensitive Groups
+Delhi,"Vivek Vihar, Delhi - DPCC",2025-07-06T12:25:30.704080,1,122.22471618652344,Unhealthy for Sensitive Groups
+Delhi,"Wazirpur, Delhi - DPCC",2025-07-06T12:25:30.889883,1,122.4294662475586,Unhealthy for Sensitive Groups
+Dewas,"Bhopal Chauraha, Dewas - MPPCB",2025-07-06T12:25:39.779292,1,122.74319458007812,Unhealthy for Sensitive Groups
+Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",2025-07-06T12:25:33.765180,1,122.24665069580078,Unhealthy for Sensitive Groups
+Dharwad,"Kalabhavan, Dharwad - KSPCB",2025-07-06T12:25:36.060927,1,121.3243179321289,Unhealthy for Sensitive Groups
+Dhule,"Deopur, Dhule - MPCB",2025-07-06T12:25:44.659406,1,122.80341339111328,Unhealthy for Sensitive Groups
+Dindigul,"Mendonsa Colony, Dindigul - TNPCB",2025-07-06T12:26:03.259225,1,122.24768829345703,Unhealthy for Sensitive Groups
+Dungarpur,"Bhoiwada, Dungarpur - RSPCB",2025-07-06T12:25:59.098939,1,121.08324432373047,Unhealthy for Sensitive Groups
+Durgapur,"Mahishkapur Road_B-Zone, Durgapur - WBPCB",2025-07-06T01:13:43.243486,1,123.09982299804688,Unhealthy for Sensitive Groups
+Durgapur,"PCBL Residential Complex, Durgapur - WBPCB",2025-07-06T03:40:17.794952,1,122.84004974365234,Unhealthy for Sensitive Groups
+Durgapur,"Womens College_City Center, Durgapur - WBPCB (Formerly known as Sidhu Kanhu Indoor Stadium)",2025-07-06T12:26:18.372772,1,119.669921875,Unhealthy for Sensitive Groups
+Firozabad,"Nagla Bhau, Firozabad - UPPCB",2025-07-06T12:26:13.076049,1,122.28136444091797,Unhealthy for Sensitive Groups
+Gandhinagar,"GIFT City, Gandhinagar - IITM",2025-07-06T12:25:32.450115,1,120.93621063232422,Unhealthy for Sensitive Groups
+Gandhinagar,"IIPHG Lekawada, Gandhinagar - IITM",2025-07-06T12:25:32.626715,1,122.8574447631836,Unhealthy for Sensitive Groups
+Gandhinagar,"Sector-10, Gandhinagar - GPCB",2025-07-06T12:25:32.803481,1,123.47733306884766,Unhealthy for Sensitive Groups
+Gaya,"Kareemganj, Gaya - BSPCB",2025-07-06T12:25:19.115848,1,123.16117095947266,Unhealthy for Sensitive Groups
+Gaya,"SFTI Kusdihra, Gaya - BSPCB",2025-07-06T12:25:19.272167,1,121.35746002197266,Unhealthy for Sensitive Groups
+Ghaziabad,"Indirapuram, Ghaziabad - UPPCB",2025-07-06T12:26:13.324798,1,122.63619232177734,Unhealthy for Sensitive Groups
+Ghaziabad,"Loni, Ghaziabad - UPPCB",2025-07-06T12:26:13.508014,1,120.36634826660156,Unhealthy for Sensitive Groups
+Ghaziabad,"Sanjay Nagar, Ghaziabad - UPPCB",2025-07-06T12:26:13.712940,1,122.39289093017578,Unhealthy for Sensitive Groups
+Gorakhpur,"Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB",2025-07-06T03:40:11.830853,1,118.95848846435547,Unhealthy for Sensitive Groups
+Greater Noida,"Knowledge Park - III, Greater Noida - UPPCB",2025-07-06T01:13:42.331776,1,122.36439514160156,Unhealthy for Sensitive Groups
+Gummidipoondi,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",2025-07-06T12:26:03.730910,1,122.41400146484375,Unhealthy for Sensitive Groups
+Guwahati,"IITG, Guwahati - PCBA",2025-07-06T12:25:16.863871,1,120.2507553100586,Unhealthy for Sensitive Groups
+Guwahati,"LGBI Airport, Guwahati - PCBA",2025-07-06T12:25:17.041321,1,122.79471588134766,Unhealthy for Sensitive Groups
+Guwahati,"Pan Bazaar, Guwahati - PCBA",2025-07-06T12:25:17.215717,1,120.5438232421875,Unhealthy for Sensitive Groups
+Guwahati,"Railway Colony, Guwahati - PCBA",2025-07-06T12:25:17.388562,1,119.3802490234375,Unhealthy for Sensitive Groups
+Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",2025-07-06T03:39:46.239992,1,122.14273834228516,Unhealthy for Sensitive Groups
+Gwalior,"Maharaj Bada, Gwalior - MPPCB",2025-07-06T12:25:40.142187,1,121.28111267089844,Unhealthy for Sensitive Groups
+Hajipur,"Industrial Area, Hajipur - BSPCB",2025-07-06T12:25:19.452422,1,123.13294982910156,Unhealthy for Sensitive Groups
+Haldia,"Priyambada Housing Estate, Haldia - WBPCB",2025-07-06T12:26:18.557273,1,122.86685180664062,Unhealthy for Sensitive Groups
+Hapur,"Anand Vihar, Hapur - UPPCB",2025-07-06T12:26:13.921942,1,121.9146728515625,Unhealthy for Sensitive Groups
+Hosur,"SIPCOT Phase-1, Hosur - TNPCB",2025-07-06T12:26:04.140156,1,120.91881561279297,Unhealthy for Sensitive Groups
+Howrah,"Belur Math, Howrah - WBPCB",2025-07-06T01:13:43.501527,1,120.06905364990234,Unhealthy for Sensitive Groups
+Howrah,"Botanical Garden, Howrah - WBPCB",2025-07-06T12:26:18.752783,1,121.7497787475586,Unhealthy for Sensitive Groups
+Howrah,"Dasnagar, Howrah - WBPCB",2025-07-06T12:26:18.937467,1,122.25453186035156,Unhealthy for Sensitive Groups
+Howrah,"Ghusuri, Howrah - WBPCB",2025-07-06T12:26:19.109685,1,120.17574310302734,Unhealthy for Sensitive Groups
+Hubballi,"Lingaraj Nagar, Hubballi - KSPCB",2025-07-06T12:25:36.222263,1,124.01091766357422,Unhealthy for Sensitive Groups
+Hyderabad,"Bollaram Industrial Area, Hyderabad - TSPCB",2025-07-06T12:26:10.035838,1,121.79484558105469,Unhealthy for Sensitive Groups
+Hyderabad,"IDA Pashamylaram, Hyderabad - TSPCB",2025-07-06T01:13:43.053147,1,120.86628723144531,Unhealthy for Sensitive Groups
+Hyderabad,"IITH Kandi, Hyderabad - TSPCB",2025-07-06T12:26:10.795179,1,122.44976806640625,Unhealthy for Sensitive Groups
+Hyderabad,"Kokapet, Hyderabad - TSPCB",2025-07-06T12:26:11.155484,1,124.10198211669922,Unhealthy for Sensitive Groups
+Hyderabad,"Kompally Municipal Office, Hyderabad - TSPCB",2025-07-06T03:40:10.587921,1,123.81155395507812,Unhealthy for Sensitive Groups
+Imphal,"DM College of Science, Imphal - Manipur PCB",2025-07-06T01:13:43.692139,1,122.73684692382812,Unhealthy for Sensitive Groups
+Indore,"Chhoti Gwaltoli, Indore - MPPCB",2025-07-06T12:25:40.336610,1,121.13533782958984,Unhealthy for Sensitive Groups
+Indore,"Maguda Nagar, Indore - IMC",2025-07-06T12:25:40.507030,1,120.91399383544922,Unhealthy for Sensitive Groups
+Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC",2025-07-06T12:25:40.685489,1,121.4286117553711,Unhealthy for Sensitive Groups
+Jabalpur,"Gupteshwar, Jabalpur - JMC",2025-07-06T12:25:40.867328,1,123.95087432861328,Unhealthy for Sensitive Groups
+Jabalpur,"Marhatal, Jabalpur - MPPCB",2025-07-06T12:25:41.029823,1,120.4863510131836,Unhealthy for Sensitive Groups
+Jaipur,"Mansarovar Sector-12, Jaipur - RSPCB",2025-07-06T03:40:05.386084,1,121.3296890258789,Unhealthy for Sensitive Groups
+Jaipur,"RIICO Sitapura, Jaipur - RSPCB",2025-07-06T12:25:59.438375,1,121.50352478027344,Unhealthy for Sensitive Groups
+Jaipur,"Sector-2 Murlipura, Jaipur - RSPCB",2025-07-06T03:40:05.692682,1,122.081298828125,Unhealthy for Sensitive Groups
+Jaipur,"Shastri Nagar, Jaipur - RSPCB",2025-07-06T12:25:59.611814,1,122.9607162475586,Unhealthy for Sensitive Groups
+Jaisalmer,"Sadar Bazar, Jaisalmer - RSPCB",2025-07-06T12:25:59.790397,1,122.32431030273438,Unhealthy for Sensitive Groups
+Jalgaon,"Prabhat Colony, Jalgaon - MPCB",2025-07-06T03:39:50.711229,1,123.22621154785156,Unhealthy for Sensitive Groups
+Jalna,"Old MIDC, Jalna - MPCB",2025-07-06T12:25:45.016687,1,122.3582992553711,Unhealthy for Sensitive Groups
+Jhalawar,"Rajlaxmi Nagar, Jhalawar - RSPCB",2025-07-06T12:25:59.966491,1,120.97441864013672,Unhealthy for Sensitive Groups
+Jhansi,"Shivaji Nagar, Jhansi - UPPCB",2025-07-06T12:26:14.118969,1,121.86949157714844,Unhealthy for Sensitive Groups
+Jodhpur,"Collectorate, Jodhpur - RSPCB",2025-07-06T01:13:40.073433,1,122.7408676147461,Unhealthy for Sensitive Groups
+Jodhpur,"Digari Kalan, Jodhpur - RSPCB",2025-07-06T12:26:00.158366,1,122.81787872314453,Unhealthy for Sensitive Groups
+Jodhpur,"Jhalamand, Jodhpur - RSPCB",2025-07-06T12:26:00.322143,1,119.94068145751953,Unhealthy for Sensitive Groups
+Kalaburagi,"Lal Bahadur Shastri Nagar, Kalaburagi - KSPCB",2025-07-06T12:25:36.405700,1,122.07554626464844,Unhealthy for Sensitive Groups
+Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",2025-07-06T12:25:36.597510,1,122.9476089477539,Unhealthy for Sensitive Groups
+Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",2025-07-06T12:25:45.192928,1,121.10850524902344,Unhealthy for Sensitive Groups
+Kanchipuram,"Kilambi, Kanchipuram - TNPCB",2025-07-06T12:26:04.936509,1,121.28573608398438,Unhealthy for Sensitive Groups
+Kannur,"Thavakkara, Kannur - Kerala PCB",2025-07-06T12:25:38.543782,1,121.47760009765625,Unhealthy for Sensitive Groups
+Kanpur,"FTI Kidwai Nagar, Kanpur - UPPCB",2025-07-06T12:26:14.308905,1,119.39920043945312,Unhealthy for Sensitive Groups
+Kanpur,"NSI Kalyanpur, Kanpur - UPPCB",2025-07-06T12:26:14.491695,1,122.98416900634766,Unhealthy for Sensitive Groups
+Kanpur,"Nehru Nagar, Kanpur - UPPCB",2025-07-06T03:40:12.780549,1,119.88370513916016,Unhealthy for Sensitive Groups
+Karauli,"Satyawati Vihar, Karauli - RSPCB",2025-07-06T03:40:06.376765,1,117.71052551269531,Unhealthy for Sensitive Groups
+Kashipur,"Govt. Girls Inter College, Kashipur - UKPCB",2025-07-06T12:26:17.218479,1,121.72982788085938,Unhealthy for Sensitive Groups
+Katihar,"Mirchaibari, Katihar - BSPCB",2025-07-06T12:25:19.618140,1,120.15579986572266,Unhealthy for Sensitive Groups
+Katni,"Gole Bazar, Katni - MPPCB",2025-07-06T12:25:41.207384,1,122.80024719238281,Unhealthy for Sensitive Groups
+Keonjhar,"Jagamohanpur, Keonjhar - OSPCB",2025-07-06T12:25:56.306553,1,120.01428985595703,Unhealthy for Sensitive Groups
+Khanna,"Kalal Majra, Khanna - PPCB",2025-07-06T12:25:57.181274,1,121.82233428955078,Unhealthy for Sensitive Groups
+Kishanganj,"SDM Office_Khagra, Kishanganj - BSPCB",2025-07-06T12:25:19.781079,1,123.04141235351562,Unhealthy for Sensitive Groups
+Kohima,"PWD Junction, Kohima - NPCB",2025-07-06T12:25:54.760374,1,120.96247100830078,Unhealthy for Sensitive Groups
+Kolhapur,"Shivaji University, Kolhapur - MPCB",2025-07-06T12:25:45.373378,1,122.3797836303711,Unhealthy for Sensitive Groups
+Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",2025-07-06T12:25:45.546840,1,123.109619140625,Unhealthy for Sensitive Groups
+Kolkata,"Ballygunge, Kolkata - WBPCB",2025-07-06T12:26:19.290079,1,123.11680603027344,Unhealthy for Sensitive Groups
+Kolkata,"Bidhannagar, Kolkata - WBPCB",2025-07-06T03:40:18.725082,1,119.08863830566406,Unhealthy for Sensitive Groups
+Kolkata,"Rabindra Bharati University, Kolkata - WBPCB",2025-07-06T12:26:19.647865,1,122.60707092285156,Unhealthy for Sensitive Groups
+Kolkata,"Rabindra Sarobar, Kolkata - WBPCB",2025-07-06T03:40:19.032158,1,122.62284851074219,Unhealthy for Sensitive Groups
+Kolkata,"Victoria, Kolkata - WBPCB",2025-07-06T01:13:43.537245,1,121.0801773071289,Unhealthy for Sensitive Groups
+Korba,"Rampur, Korba - CECB",2025-07-06T12:25:23.870822,1,120.25930786132812,Unhealthy for Sensitive Groups
+Korba,"Urja Nagar, Korba - CECB",2025-07-06T12:25:24.034557,1,121.5650634765625,Unhealthy for Sensitive Groups
+Kota,"Nayapura, Kota - RSPCB",2025-07-06T12:26:00.517819,1,122.7143783569336,Unhealthy for Sensitive Groups
+Kota,"Shrinath Puram, Kota - RSPCB",2025-07-06T01:13:40.131325,1,123.60569763183594,Unhealthy for Sensitive Groups
+Kunjemura,"OP Jindal School, Kunjemura - CECB",2025-07-06T12:25:24.201975,1,121.19666290283203,Unhealthy for Sensitive Groups
+Latur,"Sawe Wadi, Latur - MPCB",2025-07-06T12:25:45.715645,1,121.6187973022461,Unhealthy for Sensitive Groups
+Lucknow,"Gomti Nagar, Lucknow - UPPCB",2025-07-06T03:40:12.931363,1,119.19158935546875,Unhealthy for Sensitive Groups
+Lucknow,"Kendriya Vidyalaya, Lucknow - CPCB",2025-07-06T12:26:14.684312,1,123.13697052001953,Unhealthy for Sensitive Groups
+Lucknow,"Talkatora District Industries Center, Lucknow - CPCB",2025-07-06T12:26:14.864644,1,123.5153579711914,Unhealthy for Sensitive Groups
+Madikeri,"Stuart Hill, Madikeri - KSPCB",2025-07-06T03:39:43.941757,1,121.05329132080078,Unhealthy for Sensitive Groups
+Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",2025-07-06T12:25:45.885452,1,120.7951431274414,Unhealthy for Sensitive Groups
+Maihar,"Sahilara, Maihar - KJS Cements",2025-07-06T12:25:41.397670,1,120.03580474853516,Unhealthy for Sensitive Groups
+Malegaon,"Mahesh Nagar, Malegaon - MPCB",2025-07-06T12:25:46.058702,1,123.10704803466797,Unhealthy for Sensitive Groups
+Mandi Gobindgarh,"RIMT University, Mandi Gobindgarh - PPCB",2025-07-06T01:13:41.138565,1,122.48387908935547,Unhealthy for Sensitive Groups
+Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB",2025-07-06T12:25:41.569679,1,123.16097259521484,Unhealthy for Sensitive Groups
+Mangalore,"Kadri, Mangalore - KSPCB",2025-07-06T03:39:44.113942,1,121.90448760986328,Unhealthy for Sensitive Groups
+Manguraha,"Forest Rest House, Manguraha - BSPCB",2025-07-06T03:39:27.541828,1,122.63488006591797,Unhealthy for Sensitive Groups
+Meerut,"Jai Bhim Nagar, Meerut - UPPCB",2025-07-06T12:26:15.045057,1,122.7793960571289,Unhealthy for Sensitive Groups
+Meerut,"Pallavpuram Phase 2, Meerut - UPPCB",2025-07-06T03:40:13.584902,1,120.3795394897461,Unhealthy for Sensitive Groups
+Milupara,"Govt. Higher Secondary School, Milupara - CECB",2025-07-06T03:39:31.699612,1,121.5146484375,Unhealthy for Sensitive Groups
+Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB",2025-07-06T03:39:52.143246,1,123.58704376220703,Unhealthy for Sensitive Groups
+Moradabad,"Buddhi Vihar, Moradabad - UPPCB",2025-07-06T03:40:13.789206,1,122.29488372802734,Unhealthy for Sensitive Groups
+Moradabad,"Employment Office, Moradabad - UPPCB",2025-07-06T12:26:15.401345,1,122.06819152832031,Unhealthy for Sensitive Groups
+Moradabad,"Jigar Colony, Moradabad - UPPCB",2025-07-06T12:26:15.567036,1,120.65037536621094,Unhealthy for Sensitive Groups
+Moradabad,"Kashiram Nagar, Moradabad - UPPCB",2025-07-06T03:40:14.390678,1,118.89279174804688,Unhealthy for Sensitive Groups
+Moradabad,"Transport Nagar, Moradabad - UPPCB",2025-07-06T12:26:15.747299,1,119.33162689208984,Unhealthy for Sensitive Groups
+Motihari,"Gandak Colony, Motihari - BSPCB",2025-07-06T12:25:20.133159,1,122.67938232421875,Unhealthy for Sensitive Groups
+Mumbai,"Bandra Kurla Complex, Mumbai - IITM",2025-07-06T12:25:46.412541,1,122.66429901123047,Unhealthy for Sensitive Groups
+Mumbai,"Bandra Kurla Complex, Mumbai - MPCB",2025-07-06T12:25:46.587324,1,122.9864730834961,Unhealthy for Sensitive Groups
+Mumbai,"Borivali East, Mumbai - IITM",2025-07-06T12:25:46.758624,1,122.58677673339844,Unhealthy for Sensitive Groups
+Mumbai,"Byculla, Mumbai - BMC",2025-07-06T12:25:46.940315,1,122.68963623046875,Unhealthy for Sensitive Groups
+Mumbai,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",2025-07-06T12:25:47.121706,1,123.08480072021484,Unhealthy for Sensitive Groups
+Mumbai,"Colaba, Mumbai - MPCB",2025-07-06T12:25:47.295232,1,121.56436920166016,Unhealthy for Sensitive Groups
+Mumbai,"Deonar, Mumbai - IITM",2025-07-06T12:25:47.461321,1,122.33987426757812,Unhealthy for Sensitive Groups
+Mumbai,"Ghatkopar, Mumbai - BMC",2025-07-06T12:25:47.622128,1,122.46305084228516,Unhealthy for Sensitive Groups
+Mumbai,"Kandivali East, Mumbai - MPCB",2025-07-06T03:39:53.789833,1,122.41156768798828,Unhealthy for Sensitive Groups
+Mumbai,"Kherwadi_Bandra East, Mumbai - MPCB",2025-07-06T12:25:47.969768,1,120.28631591796875,Unhealthy for Sensitive Groups
+Mumbai,"Khindipada-Bhandup West, Mumbai - IITM",2025-07-06T12:25:48.148133,1,122.2733154296875,Unhealthy for Sensitive Groups
+Mumbai,"Kurla, Mumbai - MPCB",2025-07-06T12:25:48.316461,1,123.0528564453125,Unhealthy for Sensitive Groups
+Mumbai,"Malad West, Mumbai - IITM",2025-07-06T12:25:48.499149,1,122.60572814941406,Unhealthy for Sensitive Groups
+Mumbai,"Mazgaon, Mumbai - IITM",2025-07-06T12:25:48.669671,1,121.76846313476562,Unhealthy for Sensitive Groups
+Mumbai,"Mindspace-Malad West, Mumbai - MPCB",2025-07-06T12:25:48.844976,1,122.56158447265625,Unhealthy for Sensitive Groups
+Mumbai,"Navy Nagar-Colaba, Mumbai - IITM",2025-07-06T12:25:49.020526,1,122.90113830566406,Unhealthy for Sensitive Groups
+Mumbai,"Powai, Mumbai - MPCB",2025-07-06T12:25:49.197135,1,122.53131103515625,Unhealthy for Sensitive Groups
+Mumbai,"Sewri, Mumbai - BMC",2025-07-06T12:25:49.365582,1,122.86068725585938,Unhealthy for Sensitive Groups
+Mumbai,"Shivaji Nagar, Mumbai - BMC",2025-07-06T12:25:49.543478,1,121.47083282470703,Unhealthy for Sensitive Groups
+Mumbai,"Sion, Mumbai - MPCB",2025-07-06T12:25:49.716225,1,122.25968933105469,Unhealthy for Sensitive Groups
+Mumbai,"Vasai West, Mumbai - MPCB",2025-07-06T12:25:49.904264,1,123.5248031616211,Unhealthy for Sensitive Groups
+Munger,"Town Hall, Munger - BSPCB",2025-07-06T12:25:20.300852,1,121.4911880493164,Unhealthy for Sensitive Groups
+Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",2025-07-06T12:25:20.464131,1,121.15636444091797,Unhealthy for Sensitive Groups
+Muzaffarpur,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",2025-07-06T12:25:20.626996,1,123.86693572998047,Unhealthy for Sensitive Groups
+Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",2025-07-06T03:39:28.405093,1,119.18578338623047,Unhealthy for Sensitive Groups
+Mysuru,"Hebbal 1st Stage, Mysuru - KSPCB",2025-07-06T12:25:37.209113,1,122.70011901855469,Unhealthy for Sensitive Groups
+Nagaon,"Christianpatty, Nagaon - PCBA",2025-07-06T12:25:17.555091,1,121.6033935546875,Unhealthy for Sensitive Groups
+Nagaur,"Karni Colony, Nagaur - RSPCB",2025-07-06T01:13:40.397242,1,123.02275848388672,Unhealthy for Sensitive Groups
+Nagpur,"Mahal, Nagpur - MPCB",2025-07-06T12:25:50.071243,1,123.0647964477539,Unhealthy for Sensitive Groups
+Nagpur,"Opp GPO Civil Lines, Nagpur - MPCB",2025-07-06T12:25:50.259129,1,123.32787322998047,Unhealthy for Sensitive Groups
+Nagpur,"Ram Nagar, Nagpur - MPCB",2025-07-06T12:25:50.427163,1,122.2200927734375,Unhealthy for Sensitive Groups
+Nalbari,"Bata Chowk, Nalbari - PCBA",2025-07-06T12:25:17.722217,1,121.79521942138672,Unhealthy for Sensitive Groups
+Nanded,"Sneh Nagar, Nanded - MPCB",2025-07-06T12:25:50.613791,1,121.45994567871094,Unhealthy for Sensitive Groups
+Nandesari,"GIDC, Nandesari - Nandesari Ind. Association",2025-07-06T12:25:32.998890,1,118.47583770751953,Unhealthy for Sensitive Groups
+Nashik,"Gangapur Road, Nashik - MPCB",2025-07-06T12:25:50.800014,1,122.81761932373047,Unhealthy for Sensitive Groups
+Nashik,"Hirawadi, Nashik - MPCB",2025-07-06T12:25:50.971160,1,121.50102233886719,Unhealthy for Sensitive Groups
+Nashik,"Pandav Nagari, Nashik - MPCB",2025-07-06T12:25:51.137399,1,123.4981460571289,Unhealthy for Sensitive Groups
+Navi Mumbai,"Kopripada-Vashi, Navi Mumbai - MPCB",2025-07-06T12:25:51.313499,1,122.90230560302734,Unhealthy for Sensitive Groups
+Navi Mumbai,"Sanpada, Navi Mumbai - MPCB",2025-07-06T12:25:51.485310,1,121.21678161621094,Unhealthy for Sensitive Groups
+Navi Mumbai,"Sector-2E Kalamboli, Navi Mumbai - MPCB",2025-07-06T12:25:51.661165,1,123.63980865478516,Unhealthy for Sensitive Groups
+Navi Mumbai,"Tondare-Taloja, Navi Mumbai - MPCB",2025-07-06T12:25:51.846019,1,122.15335845947266,Unhealthy for Sensitive Groups
+Nayagarh,"Dabuna, Nayagarh - OSPCB",2025-07-06T12:25:56.474140,1,121.73346710205078,Unhealthy for Sensitive Groups
+Noida,"Sector - 125, Noida - UPPCB",2025-07-06T12:26:15.918435,1,123.39608764648438,Unhealthy for Sensitive Groups
+Noida,"Sector - 62, Noida - IMD",2025-07-06T01:13:42.821392,1,122.17242431640625,Unhealthy for Sensitive Groups
+Noida,"Sector-1, Noida - UPPCB",2025-07-06T12:26:16.121804,1,119.9018783569336,Unhealthy for Sensitive Groups
+Panchgaon,"Amity University, Panchgaon - IITM",2025-07-06T12:25:33.565196,1,121.6329345703125,Unhealthy for Sensitive Groups
+Patiala,"Model Town, Patiala - PPCB",2025-07-06T03:40:03.794612,1,120.44965362548828,Unhealthy for Sensitive Groups
+Patna,"DRM Office Danapur, Patna - BSPCB",2025-07-06T12:25:20.963837,1,123.7528305053711,Unhealthy for Sensitive Groups
+Patna,"Govt. High School Shikarpur, Patna - BSPCB",2025-07-06T12:25:21.131537,1,124.43195343017578,Unhealthy for Sensitive Groups
+Patna,"IGSC Planetarium Complex, Patna - BSPCB",2025-07-06T12:25:21.315365,1,122.95081329345703,Unhealthy for Sensitive Groups
+Patna,"Muradpur, Patna - BSPCB",2025-07-06T12:25:21.566001,1,122.19579315185547,Unhealthy for Sensitive Groups
+Patna,"Rajbansi Nagar, Patna - BSPCB",2025-07-06T12:25:21.730522,1,120.39542388916016,Unhealthy for Sensitive Groups
+Patna,"Samanpura, Patna - BSPCB",2025-07-06T12:25:21.895453,1,122.69823455810547,Unhealthy for Sensitive Groups
+Perundurai,"SIPCOT Industrial Park, Perundurai - TNPCB",2025-07-06T03:40:08.995597,1,123.17842102050781,Unhealthy for Sensitive Groups
+Pimpri-Chinchwad,"Gavalinagar, Pimpri Chinchwad - MPCB",2025-07-06T12:25:52.023047,1,122.66407775878906,Unhealthy for Sensitive Groups
+Pimpri-Chinchwad,"Park Street Wakad, Pimpri Chinchwad - MPCB",2025-07-06T12:25:52.201939,1,122.25438690185547,Unhealthy for Sensitive Groups
+Pimpri-Chinchwad,"Thergaon, Pimpri Chinchwad - MPCB",2025-07-06T12:25:52.380228,1,123.6935043334961,Unhealthy for Sensitive Groups
+Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",2025-07-06T12:25:41.752848,1,118.81571960449219,Unhealthy for Sensitive Groups
+Prayagraj,"Jhunsi, Prayagraj - UPPCB",2025-07-06T12:26:16.312765,1,123.06907653808594,Unhealthy for Sensitive Groups
+Prayagraj,"Motilal Nehru NIT, Prayagraj - UPPCB",2025-07-06T12:26:16.496574,1,119.64250946044922,Unhealthy for Sensitive Groups
+Prayagraj,"Nagar Nigam, Prayagraj - UPPCB",2025-07-06T12:26:16.661810,1,120.81040954589844,Unhealthy for Sensitive Groups
+Puducherry,"Jawahar Nagar, Puducherry - PPCC",2025-07-06T12:25:57.003309,1,122.52079772949219,Unhealthy for Sensitive Groups
+Pune,"Bhosari, Pune - IITM",2025-07-06T12:25:52.548850,1,123.21907043457031,Unhealthy for Sensitive Groups
+Pune,"Dhankawadi, Pune - IITM",2025-07-06T12:25:52.717507,1,122.13692474365234,Unhealthy for Sensitive Groups
+Pune,"Katraj Dairy, Pune - MPCB",2025-07-06T12:25:52.889713,1,122.58332061767578,Unhealthy for Sensitive Groups
+Pune,"Mhada Colony, Pune - IITM",2025-07-06T12:25:53.065369,1,122.45823669433594,Unhealthy for Sensitive Groups
+Pune,"Panchawati_Pashan, Pune - IITM",2025-07-06T12:25:53.230649,1,122.43938446044922,Unhealthy for Sensitive Groups
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",2025-07-06T12:25:53.394334,1,123.41401672363281,Unhealthy for Sensitive Groups
+Pune,"Savitribai Phule Pune University, Pune - MPCB",2025-07-06T12:25:53.556837,1,122.6795425415039,Unhealthy for Sensitive Groups
+Purnia,"Mariam Nagar, Purnia - BSPCB",2025-07-06T12:25:22.060914,1,122.04316711425781,Unhealthy for Sensitive Groups
+Raipur,"AIIMS, Raipur - CECB",2025-07-06T03:39:31.870905,1,122.39553833007812,Unhealthy for Sensitive Groups
+Raipur,"Bhatagaon New ISBT, Raipur - CECB",2025-07-06T01:13:35.204829,1,122.4123306274414,Unhealthy for Sensitive Groups
+Raipur,"Krishak Nagar, Raipur - CECB",2025-07-06T01:13:35.173276,1,122.40424346923828,Unhealthy for Sensitive Groups
+Raipur,"Siltara Phase-II, Raipur - CECB",2025-07-06T12:25:25.049410,1,122.59107971191406,Unhealthy for Sensitive Groups
+Rairangpur,"Divisional Forest Office, Rairangpur - OSPCB",2025-07-06T12:25:56.637240,1,123.47367858886719,Unhealthy for Sensitive Groups
+Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",2025-07-06T12:25:15.468899,1,121.16400146484375,Unhealthy for Sensitive Groups
+Rajgir,"Dangi Tola, Rajgir - BSPCB",2025-07-06T12:25:22.242959,1,122.0496597290039,Unhealthy for Sensitive Groups
+Ramanathapuram,"Chalai Bazaar, Ramanathapuram - TNPCB",2025-07-06T12:26:06.754572,1,123.52941131591797,Unhealthy for Sensitive Groups
+Ratlam,"Shasthri Nagar, Ratlam - IPCA Lab",2025-07-06T12:25:41.926202,1,119.71643829345703,Unhealthy for Sensitive Groups
+Rourkela,"Fertilizer Township, Rourkela - OSPCB",2025-07-06T03:40:02.489669,1,119.0698471069336,Unhealthy for Sensitive Groups
+Rourkela,"Raghunathpali, Rourkela - OSPCB",2025-07-06T03:40:02.670849,1,122.64714050292969,Unhealthy for Sensitive Groups
+Sagar,"Civil Lines, Sagar - MPPCB",2025-07-06T12:25:42.105162,1,123.19608306884766,Unhealthy for Sensitive Groups
+Samastipur,"DM Office_Kasipur, Samastipur - BSPCB",2025-07-06T12:25:22.433950,1,122.59478759765625,Unhealthy for Sensitive Groups
+Sasaram,"Dada Peer, Sasaram - BSPCB",2025-07-06T12:25:22.613499,1,119.54710388183594,Unhealthy for Sensitive Groups
+Sawai Madhopur,"Sahu Nagar, Sawai Madhopur - RSPCB",2025-07-06T12:26:00.860555,1,124.0764389038086,Unhealthy for Sensitive Groups
+Shillong,"Lumpyngngad, Shillong - Meghalaya PCB",2025-07-06T12:25:54.414650,1,120.56404876708984,Unhealthy for Sensitive Groups
+Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",2025-07-06T12:25:37.396439,1,122.54750061035156,Unhealthy for Sensitive Groups
+Sikar,"Radhakishan Pura, Sikar - RSPCB",2025-07-06T03:40:07.227326,1,121.89016723632812,Unhealthy for Sensitive Groups
+Silchar,"Tarapur, Silchar - PCBA",2025-07-06T12:25:17.888104,1,122.3097915649414,Unhealthy for Sensitive Groups
+Siliguri,"Ward-32 Bapupara, Siliguri - WBPCB",2025-07-06T03:40:19.206184,1,122.2912826538086,Unhealthy for Sensitive Groups
+Singrauli,"Suryakiran Bhawan NCL, Singrauli - MPPCB",2025-07-06T12:25:42.272423,1,122.78761291503906,Unhealthy for Sensitive Groups
+Sivasagar,"Girls College, Sivasagar - PCBA",2025-07-06T12:25:18.069448,1,122.1747817993164,Unhealthy for Sensitive Groups
+Siwan,"Chitragupta Nagar, Siwan - BSPCB",2025-07-06T12:25:22.789125,1,122.1221694946289,Unhealthy for Sensitive Groups
+Sri Ganganagar,"Old City, Sri Ganganagar - RSPCB",2025-07-06T12:26:01.257692,1,122.48384857177734,Unhealthy for Sensitive Groups
+Talcher,"Talcher Coalfields,Talcher - OSPCB",2025-07-06T03:40:02.858886,1,122.69770050048828,Unhealthy for Sensitive Groups
+Tensa,"Barsua Iron Ore Mines, Tensa - OSPCB",2025-07-06T12:25:56.826218,1,122.56024932861328,Unhealthy for Sensitive Groups
+Thane,"Kasarvadavali, Thane - MPCB",2025-07-06T12:25:53.726188,1,123.68034362792969,Unhealthy for Sensitive Groups
+Thanjavur,"Parisutham Nagar, Thanjavur - TNPCB",2025-07-06T12:26:07.321626,1,119.6824722290039,Unhealthy for Sensitive Groups
+Thiruvananthapuram,"Plammoodu, Thiruvananthapuram - Kerala PCB",2025-07-06T12:25:38.714186,1,123.3899154663086,Unhealthy for Sensitive Groups
+Thoothukudi,"Meelavittan, Thoothukudi - TNPCB",2025-07-06T12:26:08.581902,1,124.01889038085938,Unhealthy for Sensitive Groups
+Thrissur,"Corporation Ground, Thrissur - Kerala PCB",2025-07-06T03:39:45.166442,1,122.04197692871094,Unhealthy for Sensitive Groups
+Tirumala,"Toll Gate, Tirumala - APPCB",2025-07-06T12:25:15.641741,1,122.51545715332031,Unhealthy for Sensitive Groups
+Tirunelveli,"Municipal Corporation Office, Tirunelveli - TNPCB",2025-07-06T01:13:41.904309,1,122.35419464111328,Unhealthy for Sensitive Groups
+Tirupati,"Vaikuntapuram, Tirupati - APPCB",2025-07-06T01:13:34.663490,1,122.484619140625,Unhealthy for Sensitive Groups
+Tirupur,"Kumaran College, Tirupur - TNPCB",2025-07-06T12:26:08.967102,1,122.56804656982422,Unhealthy for Sensitive Groups
+Tonk,"Shastri Nagar, Tonk - RSPCB",2025-07-06T12:26:01.434140,1,119.12371826171875,Unhealthy for Sensitive Groups
+Tumakuru,"Thimmalapura, Tumakuru - KSPCB",2025-07-06T12:25:38.180668,1,122.4444351196289,Unhealthy for Sensitive Groups
+Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",2025-07-06T12:25:25.211845,1,120.14683532714844,Unhealthy for Sensitive Groups
+Ulhasnagar,"Sidhi Vinayak Nagar, Ulhasnagar - MPCB",2025-07-06T12:25:53.904035,1,121.9814453125,Unhealthy for Sensitive Groups
+Vapi,"Phase-1 GIDC, Vapi - GPCB",2025-07-06T12:25:33.174716,1,122.31986236572266,Unhealthy for Sensitive Groups
+Varanasi,"Ardhali Bazar, Varanasi - UPPCB",2025-07-06T03:40:16.687334,1,123.1124267578125,Unhealthy for Sensitive Groups
+Varanasi,"IESD Banaras Hindu University, Varanasi - UPPCB",2025-07-06T03:40:16.837444,1,121.21920776367188,Unhealthy for Sensitive Groups
+Varanasi,"Maldahiya, Varanasi - UPPCB",2025-07-06T01:13:42.785712,1,122.8258056640625,Unhealthy for Sensitive Groups
+Vatva,"Phase-4 GIDC, Vatva - GPCB",2025-07-06T12:25:33.385624,1,121.10377502441406,Unhealthy for Sensitive Groups
+Vellore,"Vasanthapuram, Vellore - TNPCB",2025-07-06T12:26:09.541436,1,122.18257141113281,Unhealthy for Sensitive Groups
+Vijayawada,"HB Colony, Vijayawada - APPCB",2025-07-06T12:25:15.990222,1,122.5307388305664,Unhealthy for Sensitive Groups
+Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",2025-07-06T12:25:16.161212,1,122.4076156616211,Unhealthy for Sensitive Groups
+Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",2025-07-06T12:25:16.333775,1,123.37220764160156,Unhealthy for Sensitive Groups
+Virar,"Bolinj, Virar - MPCB",2025-07-06T12:25:54.069373,1,122.49117279052734,Unhealthy for Sensitive Groups
+Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",2025-07-06T12:25:16.501652,1,122.39669799804688,Unhealthy for Sensitive Groups
+Yadgir,"Collector Office, Yadgir - KSPCB",2025-07-06T12:25:38.365325,1,122.39459991455078,Unhealthy for Sensitive Groups
