@@ -1,0 +1,165 @@
+How to Test the AQI Forecast App APIs
+====================================
+
+1. Prerequisites
+----------------
+- API Server Running: Ensure the FastAPI server is running (e.g., `python start_api_server.py` or via orchestrator).
+- API Key: Obtain a valid API key (see `generate_api_key.py` or your admin).
+- Base URL: Typically `http://localhost:8000` unless deployed elsewhere.
+- Tools:
+  - curl (command line)
+  - Postman (GUI)
+  - httpie (command line, more readable)
+  - Python scripts (using `requests`)
+  - Automated tests (pytest, see `/tests/`)
+
+2. Authentication
+-----------------
+All endpoints require an API key, usually passed as a header:
+
+    x-api-key: <YOUR_API_KEY>
+
+3. Manual Testing (curl/Postman/httpie)
+---------------------------------------
+A. Real-time AQI
+Endpoint: `/aqi/realtime?city=Delhi`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/aqi/realtime?city=Delhi"
+
+B. Historical AQI Data
+Endpoint: `/aqi/history?city=Delhi&start_date=2024-05-01&end_date=2024-05-10`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/aqi/history?city=Delhi&start_date=2024-05-01&end_date=2024-05-10"
+
+C. 3-Day AQI Forecast
+Endpoint: `/forecast/3day?city=Delhi`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/forecast/3day?city=Delhi"
+
+D. Incremental (Hourly) AQI Forecast
+Endpoint: `/forecast/incremental?city=Delhi`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/forecast/incremental?city=Delhi"
+
+E. Health Advisory
+Endpoint: `/advisory?aqi=180`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/advisory?aqi=180"
+
+F. Station/City Search
+Endpoint: `/stations/search?query=Delhi`  Method: GET
+curl:
+    curl -H "x-api-key: <YOUR_API_KEY>" "http://localhost:8000/stations/search?query=Delhi"
+
+G. API Key Management
+Endpoint: `/auth/generate`  Method: POST
+curl:
+    curl -X POST -H "x-api-key: <ADMIN_API_KEY>" "http://localhost:8000/auth/generate"
+
+H. Hyperlocal AQI Estimation (Spatial + Weather ML)
+Endpoint: /estimate/aqi_at_location  Method: POST
+curl:
+    curl -X POST -H "x-api-key: <YOUR_API_KEY>" -H "Content-Type: application/json" \
+         -d '{"lat":28.6139,"lon":77.2090,"k":4}' \
+         "http://localhost:8000/estimate/aqi_at_location"
+Python:
+    import requests
+    headers = {"X-API-KEY": "<YOUR_API_KEY>"}
+    data = {"lat": 28.6139, "lon": 77.2090, "k": 4}
+    resp = requests.post("http://localhost:8000/estimate/aqi_at_location", json=data, headers=headers)
+    print(resp.json())
+Sample response:
+    {
+      "predicted_aqi": 142.7,
+      "neighbors": [...],
+      "weather": {"temp": 32.1, "humidity": 65, "wind_speed": 2.3},
+      "method": "IDW+WeatherRegression"
+    }
+
+# Example: Estimate AQI at any latitude/longitude (rural/interpolated)
+
+POST /estimate/aqi_at_location
+Content-Type: application/json
+X-API-KEY: <your_api_key>
+{
+  "lat": 28.6139,
+  "lon": 77.2090,
+  "k": 4
+}
+
+Sample response:
+{
+  "predicted_aqi": 142.7,
+  "neighbors": [
+    {"id": "Delhi_ITO_Delhi_CPCB", "lat": 28.6289, "lon": 77.2426, "aqi": 150, "distance_km": 3.8},
+    {"id": "Delhi_US_Embassy", "lat": 28.5934, "lon": 77.1836, "aqi": 135, "distance_km": 3.5},
+    {"id": "Delhi_AshokVihar", "lat": 28.6846, "lon": 77.1910, "aqi": 160, "distance_km": 8.2},
+    {"id": "Delhi_RK_Puram", "lat": 28.5647, "lon": 77.1855, "aqi": 140, "distance_km": 6.0}
+  ],
+  "weather": {
+    "temp": 32.1,
+    "humidity": 65,
+    "wind_speed": 2.3
+  },
+  "method": "IDW+WeatherRegression"
+}
+
+4. Automated Testing
+--------------------
+A. Using Pytest
+- Tests are in the `/tests/` directory (e.g., `tests/test_api/test_api.py`).
+- To run all tests:
+      pytest
+- To run only API tests:
+      pytest tests/test_api/
+
+B. Writing Your Own Tests
+Example using Python's `requests`:
+
+    import requests
+    API_KEY = "<YOUR_API_KEY>"
+    BASE_URL = "http://localhost:8000"
+    headers = {"x-api-key": API_KEY}
+    params = {"city": "Delhi"}
+    response = requests.get(f"{BASE_URL}/aqi/realtime", headers=headers, params=params)
+    print(response.status_code, response.json())
+
+5. Validation Checklist
+----------------------
+- Status Codes:
+  - 200 for success
+  - 401 for unauthorized (invalid/missing API key)
+  - 404 for not found
+  - 422 for validation errors
+- Response Format:
+  - JSON, with expected fields (see `api_endpoints_for_frontend.txt` for schemas)
+- Edge Cases:
+  - Invalid city names
+  - Out-of-range dates
+  - Missing parameters
+  - Invalid API key
+- Performance:
+  - Response time should be reasonable (<2s for most endpoints)
+
+6. Best Practices
+-----------------
+- Always use a valid API key.
+- Test with both valid and invalid inputs.
+- Check logs (`logs/` directory) for errors if something fails.
+- Use automated tests for regression and CI.
+- Document any new endpoints or changes in `api_endpoints_for_frontend.txt`.
+
+7. Troubleshooting
+------------------
+- 401 Unauthorized: Check API key and header name.
+- 500 Internal Server Error: Check backend logs for stack traces.
+- Timeouts: Ensure the server is running and accessible.
+- Validation Errors: Check required parameters and their formats.
+
+8. References
+-------------
+- See `api_endpoints_for_frontend.txt` for detailed endpoint specs.
+- See `/tests/` for example test cases.
+- See `README.md` for setup and usage instructions.
+
+By following this guide, you can thoroughly test all API endpoints, ensure reliability, and catch issues before demo or production deployment. 

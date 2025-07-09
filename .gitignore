@@ -9,7 +9,7 @@ env/
 
 # Data, models, logs, secrets
 logs/
-data/
+# data/
 models/trained/
 api_key.txt
 

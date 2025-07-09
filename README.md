@@ -23,8 +23,11 @@ This project is designed for a hackathon challenge: **Developing an Algorithm fo
 2. **Model Training:** Train ensemble ML models on historical data.
 3. **Forecast Generation:** Predict AQI for the next 3 days for all stations.
 4. **Incremental Forecasting:** Update 1-hour-ahead AQI forecasts for all stations every hour.
-5. **API Serving:** Serve real-time, historical, and forecast AQI via FastAPI.
-6. **Automation:** Orchestrator script automates all steps and logs job status.
+5. **Hyperlocal AQI Estimation:**
+   - For any latitude/longitude (urban or rural), estimate AQI using spatial interpolation (IDW) and weather-driven ML regression.
+   - Available via the `/estimate/aqi_at_location` API endpoint.
+6. **API Serving:** Serve real-time, historical, forecast, and hyperlocal AQI via FastAPI.
+7. **Automation:** Orchestrator script automates all steps and logs job status.
 
 ---
 
@@ -131,6 +134,7 @@ python run_backend_orchestrator.py
 | GET    | `/alerts/check/{station_id}`         | Check if AQI exceeds threshold |
 | GET    | `/cities`                            | List all cities with stations |
 | GET    | `/categories`                        | AQI categories and breakpoints |
+| POST   | `/estimate/aqi_at_location`             | Estimate AQI at any lat/lon (rural/interpolated, uses weather+regression if available) |
 
 ---
 
@@ -141,6 +145,39 @@ headers = {"X-API-KEY": "your_api_key"}
 resp = requests.get("http://localhost:8000/forecast/Delhi_ITO_Delhi_CPCB", headers=headers)
 print(resp.json())
 ```
+
+---
+
+### **Example: Estimate AQI at Rural Location**
+```python
+import requests
+headers = {"X-API-KEY": "your_api_key"}
+data = {"lat": 28.6139, "lon": 77.2090, "k": 4}
+resp = requests.post("http://localhost:8000/estimate/aqi_at_location", json=data, headers=headers)
+print(resp.json())
+# Sample response:
+# {
+#   "predicted_aqi": 142.7,
+#   "neighbors": [...],
+#   "weather": {"temp": 32.1, "humidity": 65, "wind_speed": 2.3},
+#   "method": "IDW+WeatherRegression"
+# }
+```
+
+---
+
+## 🌍 Hyperlocal AQI Estimation (Spatial + Weather ML)
+
+The backend provides hyperlocal AQI estimation for any latitude/longitude (urban or rural) using:
+- **Spatial Interpolation (IDW):** Uses nearest station AQI values
+- **Weather-driven ML Regression:** Refines the estimate using local weather features
+
+**API Endpoint:**
+- `POST /estimate/aqi_at_location`
+- Body: `{ "lat": <float>, "lon": <float>, "k": <int, optional> }`
+- Returns: `{ "predicted_aqi": <float>, "neighbors": [...], "weather": {...}, "method": "IDW+WeatherRegression" }`
+
+This endpoint is always available when the backend is running (including via orchestrator). It is suitable for map pinning, rural/urban queries, and frontend integration.
 
 ---
 

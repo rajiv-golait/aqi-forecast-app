@@ -21,6 +21,11 @@ from src.data.station_service import station_service
 from src.ml.forecast_service import forecast_service
 from src.storage.supabase_client import SupabaseManager
 from src.utils.helpers import clean_json_response
+from fastapi import APIRouter, Request
+from pydantic import BaseModel
+from src.data.interpolation import idw_interpolate
+from src.ml.forecaster import load_regression_model
+from src.data.interpolation import get_weather_features
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -46,6 +51,12 @@ app.add_middleware(
 
 # Initialize services
 supabase = SupabaseManager()
+
+# Load regression model at startup (global)
+try:
+    AQI_REGRESSION_MODEL = load_regression_model()
+except Exception:
+    AQI_REGRESSION_MODEL = None
 
 @app.get("/", response_model=dict)
 async def root():
@@ -485,6 +496,77 @@ async def get_aqi_categories():
         ]
     }
 # --- END NEW ---
+
+# Helper to load station metadata and latest AQI
+STATION_COORDS_PATH = "data/merged_coords.csv"
+LATEST_AQI_PATH = "data/latest_aqi_weather.csv"
+
+def get_station_list():
+    coords_df = pd.read_csv(STATION_COORDS_PATH)
+    aqi_df = pd.read_csv(LATEST_AQI_PATH)
+    merged = pd.merge(coords_df, aqi_df, left_on="StationName", right_on="station")
+    stations = []
+    for _, row in merged.iterrows():
+        try:
+            aqi_val = float(row["aqi"])
+        except Exception:
+            continue
+        stations.append({
+            "id": row["StationName"],
+            "lat": float(row["Latitude"]),
+            "lon": float(row["Longitude"]),
+            "aqi": aqi_val
+        })
+    return stations
+
+class AQIEstimateRequest(BaseModel):
+    lat: float
+    lon: float
+    k: int = 4
+
+class AQIEstimateResponse(BaseModel):
+    predicted_aqi: float
+    neighbors: list
+    weather: dict
+    method: str = "IDW"
+
+from fastapi import APIRouter
+router = APIRouter()
+
+@router.post("/estimate/aqi_at_location", response_model=AQIEstimateResponse)
+def estimate_aqi_at_location(req: AQIEstimateRequest):
+    stations = get_station_list()
+    aqi_est, neighbors, dists = idw_interpolate(req.lat, req.lon, stations, k=req.k)
+    weather = get_weather_features(req.lat, req.lon)
+    predicted_aqi = None
+    method = "IDW"
+    # Prepare features for regression model if available
+    if AQI_REGRESSION_MODEL is not None and all(v is not None for v in weather.values()):
+        # Example: model expects [idw_aqi, temp, humidity, wind_speed]
+        features = np.array([[aqi_est, weather["temp"], weather["humidity"], weather["wind_speed"]]])
+        try:
+            predicted_aqi = float(AQI_REGRESSION_MODEL.predict(features)[0])
+            method = "IDW+WeatherRegression"
+        except Exception:
+            predicted_aqi = None
+    # Fallback to IDW if regression fails
+    if predicted_aqi is None:
+        predicted_aqi = aqi_est
+    return {
+        "predicted_aqi": predicted_aqi,
+        "neighbors": [
+            {"id": n["id"], "lat": n["lat"], "lon": n["lon"], "aqi": n["aqi"], "distance_km": float(d)}
+            for n, d in zip(neighbors, dists)
+        ],
+        "weather": weather,
+        "method": method
+    }
+
+# Register the router if not already
+try:
+    app.include_router(router)
+except Exception:
+    pass
 
 if __name__ == "__main__":
     import uvicorn

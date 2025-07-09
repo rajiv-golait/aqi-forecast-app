@@ -8,6 +8,7 @@ import pandas as pd
 from typing import List, Dict, Optional
 from tensorflow.keras.models import load_model
 from config.config import settings
+import pickle
 
 logger = logging.getLogger(__name__)
 
@@ -107,4 +108,11 @@ class AQIForecaster:
         os.makedirs(output_dir, exist_ok=True)
         file_path = os.path.join(output_dir, f"{city}_forecast.csv")
         forecast_df.to_csv(file_path, index=False)
-        logger.info(f"Saved forecast for {city} to {file_path}") 
+        logger.info(f"Saved forecast for {city} to {file_path}")
+
+def load_regression_model(model_path=None):
+    if model_path is None:
+        model_path = os.path.join("models", "trained", "aqi_regressor.pkl")
+    with open(model_path, "rb") as f:
+        model = pickle.load(f)
+    return model 

@@ -31,3 +31,14 @@ def test_history_endpoint():
     first = data["history"][0]
     assert "datetime" in first
     assert "aqi" in first 
+
+def test_hyperlocal_aqi_estimation():
+    client = TestClient(app)
+    payload = {"lat": 28.6139, "lon": 77.2090, "k": 4}
+    response = client.post("/estimate/aqi_at_location", json=payload, headers={"X-API-KEY": API_KEY})
+    assert response.status_code == 200
+    data = response.json()
+    assert "predicted_aqi" in data
+    assert "neighbors" in data and isinstance(data["neighbors"], list)
+    assert "weather" in data and isinstance(data["weather"], dict)
+    assert "method" in data 
